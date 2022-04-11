@@ -5,9 +5,9 @@
 - inventory JSON
     - http://inventory.fabcloud.io/data/inv.json
 - show full inventory
-    - http://inventory.fabcloud.io/data/inv.html
+    - http://inventory.fabcloud.io/data/
 - show a topic
-    - http://inventory.fabcloud.io/data/inv.html?topic=Output%20Devices
+    - http://inventory.fabcloud.io/data/?topic=Output%20Devices
 - show a source
-    - http://inventory.fabcloud.io/data/inv.html?source=Digi-Key
+    - http://inventory.fabcloud.io/data/?source=Digi-Key
 
