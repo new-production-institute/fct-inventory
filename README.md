@@ -1,13 +1,13 @@
 - inventory TOML
-    - https://gitlab.fabcloud.org/pub/inventory/data/-/blob/main/public/inv.toml
+    - https://gitlab.fabcloud.org/inventory/data/-/blob/main/public/inv.toml
 - TOML-JSON
-    - https://gitlab.fabcloud.org/pub/inventory/data/-/blob/main/public/TOML-JSON.py
+    - https://gitlab.fabcloud.org/inventory/data/-/blob/main/public/TOML-JSON.py
 - inventory JSON
-    - http://pub.fabcloud.io/inventory/data/inv.json
+    - http://inventory.fabcloud.io/data/inv.json
 - show full inventory
-    - http://pub.fabcloud.io/inventory/data/inv.html
+    - http://inventory.fabcloud.io/data/inv.html
 - show a topic
-    - http://pub.fabcloud.io/inventory/data/inv.html?topic=Output%20Devices
+    - http://inventory.fabcloud.io/data/inv.html?topic=Output%20Devices
 - show a source
-    - http://pub.fabcloud.io/inventory/data/inv.html?source=Digi-Key
+    - http://inventory.fabcloud.io/data/inv.html?source=Digi-Key
 
