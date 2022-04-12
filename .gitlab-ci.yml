@@ -4,7 +4,7 @@ pages:
   stage: deploy
   script:
     - cd public
-    - TOML-JSON.py
+    - ./TOML-JSON.py
   artifacts:
     paths:
     - public
