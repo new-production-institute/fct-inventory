@@ -64,6 +64,100 @@ quantity = 10
 [topics."Molding and Casting"]
 comment = "########################################################"
 
+[topics."Molding and Casting".sources.ShopBot]
+comment = "========================================================"
+URL = "https://www.shopbottools.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.ShopBot.categories."medium-format machining option"]]
+comment = "--------------------------------------------------------"
+description = "Desktop with 1hp spindle"
+item = "D2418"
+URL = "https://www.shopbottools.com/products/desktop"
+price = 8550
+quantity = 0
+
+[topics."Molding and Casting".sources.Amazon]
+comment = "========================================================"
+URL = "https://www.amazon.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.Amazon.categories."medium-format machining option"]]
+comment = "--------------------------------------------------------"
+description = "Genmitsu CNC Router Machine, Working Area 400 x 300 x 110mm"
+item = "PROVerXL 4030"
+URL = "https://www.amazon.com/Genmitsu-Machine-PROVerXL-Controlled-Engraving/dp/B08L6314MW"
+price = 999
+quantity = 1
+
+[topics."Molding and Casting".sources.Smooth-On]
+comment = "========================================================"
+URL = "https://www.smooth-on.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+comment = "--------------------------------------------------------"
+description = "tin cure silicone rubber"
+item = "OOMOO 25 Trial Unit"
+URL = "https://shop.smooth-on.com/oomoo-25"
+price = 27.25
+quantity = 10
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "food safe translucent silicone rubber"
+item = "SORTA-Clear 37 Trial Unit"
+URL = "https://shop.smooth-on.com/sorta-clear-37"
+price = 37.30
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "urethane rubber"
+item = "PMC-121 30/DRY Trial Unit"
+URL = "https://shop.smooth-on.com/pmc-121-30-dry"
+price = 36.60
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "ultra-low viscosity bright white liquid plastic"
+item = "Smooth-Cast 305 Trial Unit"
+URL = "https://shop.smooth-on.com/smooth-cast-305"
+price = 30.56
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "fast-cast plastic for color pigments and fillers"
+item = "Smooth-Cast 326 Trial Unit"
+URL = "https://shop.smooth-on.com/smooth-cast-326"
+price = 34.99
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "liquid urethane colorants"
+item = "SO-Strong 9 Pack"
+URL = "https://shop.smooth-on.com/so-strongtm-colorants"
+price = 33.46
+quantity = 1
+
+[topics."Molding and Casting".sources.USG]
+comment = "========================================================"
+URL = "https://plaster.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.USG.categories."casting media"]]
+comment = "--------------------------------------------------------"
+description = "hard, high compressive strength"
+item = "Hydro-Stone 50 lbs"
+URL = "https://plaster.com/product/usg-hydrostone"
+price = 34
+quantity = 2
+
+[[topics."Molding and Casting".sources.USG.categories."casting media"]]
+description = "white, no drying"
+item = "Drystone 50 lbs"
+URL = "https://plaster.com/product/usg-drystone"
+price = 37
+quantity = 2
+
 [topics."Output Devices"]
 comment = "########################################################"
 
