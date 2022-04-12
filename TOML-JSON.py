@@ -2,7 +2,7 @@
 
 import toml,json
 
-data = toml.load("inv.toml")
-f = open("inv.json","w")
+data = toml.load("public/inv.toml")
+f = open("public/inv.json","w")
 json.dump(data,f)
 f.close()
