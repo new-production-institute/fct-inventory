@@ -48,6 +48,7 @@ function show_inventory(data) {
    // show all the topics if no parameters
    //
    else {
+      document.write("<b><a href=https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/edit?usp=sharing>Original Inventory</a></b><br>")
       for (topic_key in data.topics) {
          show_topic(topic_key,data)
          }
@@ -75,7 +76,7 @@ function show_topic(topic_key,data) {
    document.write("<th>quantity</th>")
    document.write("<th>item</th>")
    document.write("<th>description</th>")
-   document.write("<th>list unit price</th>")
+   document.write("<th>unit price</th>")
    document.write("<th>extended price</th>")
    document.write("</tr>")
    var topic_total = 0

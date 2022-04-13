@@ -1,3 +1,89 @@
+[topics."Embedded Programming"]
+comment = "########################################################"
+
+[topics."Embedded Programming".sources.Digi-Key]
+comment = "========================================================"
+URL = "https://www.digikey.com"
+currency = "USD"
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+comment = "--------------------------------------------------------"
+description="IC MCU 32BIT 16KB FLASH 14SOIC"
+item="ATSAMD11C14A-SSUTD"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD11C14A-SSUT/5226470"
+price=1.29
+quantity=200
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 32BIT 16KB FLASH 20SOIC"
+item="ATSAMD11D14A-SSUT"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD11D14A-SSUT/5226474"
+price=1.41
+quantity=100
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 32BIT 256KB FLASH 32TQFP"
+item="ATSAMD21E18A-AUT"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD21E18A-AUT/4878871"
+price=3.66
+quantity=50
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 8BIT 4KB FLASH 8SOIC"
+item="ATTINY412-SSFR"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATTINY412-SSFR/9554947"
+price=0.48
+quantity=200
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 8BIT 16KB FLASH 14SOIC"
+item="150-ATTINY1624-SSFR"
+URL="https://www.digikey.com/en/products/detail/ATTINY1624-SSFR/150-ATTINY1624-SSFRCT-ND/12153587"
+price=0.76
+quantity=100
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="20MHZ, 32KB, SOIC20, IND 85C, GR"
+item="ATTINY3226-SU"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATTINY3226-SU/15520405"
+price=1.29
+quantity=100
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 8BIT 128KB FLASH 32TQFP"
+item="150-AVR128DB32-I/PT"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/AVR128DB32-I-PT/12807334"
+price=1.90
+quantity=50
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.programmer]]
+comment = "--------------------------------------------------------"
+description="EMU FOR SAM AND AVR MCU BASIC"
+item="ATATMEL-ICE-BASIC"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATATMEL-ICE-BASIC/4753381"
+price=117.29
+quantity=2
+
+[topics."Embedded Programming".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Embedded Programming".sources.Amazon.categories."logic analyzers"]]
+comment = "--------------------------------------------------------"
+description="SainSmart Handheld 4-Channel Logic Analyzer"
+item="LA104"
+URL="https://www.amazon.com/SainSmart-Handheld-4-Channel-Analyzer-Programmable/dp/B07FXDWMKN"
+price=119.99
+quantity=1
+
+[[topics."Embedded Programming".sources.Amazon.categories."logic analyzers"]]
+description="USB Logic Analyzer Saleae - 8 Channel 100 MS/s Digital and 10 MS/s Analog Sampling Rate"
+item="Logic 8"
+URL="https://www.amazon.com/Logic-Analyzer-Saleae-Black-Easy/dp/B09GDVFTK2"
+price=399
+quantity=1
+
 [topics."Input Devices"]
 comment = "########################################################"
 
@@ -175,14 +261,6 @@ price = 2.552
 quantity = 25
 
 [[topics."Output Devices".sources.Digi-Key.categories."motor drivers"]]
-attribute = "alternate"
-description = "50V/3A BRUSHED MOTOR DRIVER"
-item = "TB67H451FNG,EL"
-URL = "https://www.digikey.com/en/products/detail/TB67H451FNG%2cEL/264-TB67H451FNGELCT-ND/11568783"
-price = 1.0971
-quantity = 25
-
-[[topics."Output Devices".sources.Digi-Key.categories."motor drivers"]]
 description = "35V, 1A BIPOLAR STEPPER MOTOR DR"
 item = "DRV8428PWPR"
 URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV8428PWPR/13563046"
@@ -202,6 +280,15 @@ item = "DRV11873PWPR"
 URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV11873PWPR/3903327"
 price = 1.8392
 quantity = 25
+
+[[topics."Output Devices".sources.Digi-Key.categories."alternate motor drivers"]]
+comment = "--------------------------------------------------------"
+attribute = "alternate"
+description = "50V/3A BRUSHED MOTOR DRIVER"
+item = "TB67H451FNG,EL"
+URL = "https://www.digikey.com/en/products/detail/TB67H451FNG%2cEL/264-TB67H451FNGELCT-ND/11568783"
+price = 1.0971
+quantity = 0
 
 [topics."Output Devices".sources.Amazon]
 comment = "========================================================"
