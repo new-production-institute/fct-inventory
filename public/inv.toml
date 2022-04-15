@@ -350,11 +350,17 @@ quantity = 25
 
 [[topics."Output Devices".sources.Digi-Key.categories."alternate motor drivers"]]
 comment = "--------------------------------------------------------"
-attribute = "alternate"
 description = "50V/3A BRUSHED MOTOR DRIVER"
 item = "TB67H451FNG,EL"
 URL = "https://www.digikey.com/en/products/detail/TB67H451FNG%2cEL/264-TB67H451FNGELCT-ND/11568783"
 price = 1.0971
+quantity = 0
+
+[[topics."Output Devices".sources.Digi-Key.categories."alternate motor drivers"]]
+description = "35V, 1A BIPOLAR STEPPER OR DUAL"
+item = "DRV8428PPWPR"
+URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV8428PPWPR/13562999"
+price = 2.67600
 quantity = 0
 
 [topics."Output Devices".sources.Amazon]
