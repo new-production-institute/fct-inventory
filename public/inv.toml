@@ -1,3 +1,151 @@
+[topics."Computer-Controlled Machining"]
+comment = "########################################################"
+
+[topics."Computer-Controlled Machining".sources.ShopBot]
+comment = "========================================================"
+URL="https://www.shopbottools.com"
+currency="USD"
+
+[[topics."Computer-Controlled Machining".sources.ShopBot.categories."large-format machining option"]]
+comment = "--------------------------------------------------------"
+description="4'x8' cutting area, 8'' vertical travel, 220V 2.2hp single phase spindle, 1.5hp 60Hz dust collector"
+item="PRSalpha 96-4-8"
+URL="https://www.shopbottools.com/products/alpha"
+price=26592
+quantity=1
+
+[topics."Computer-Controlled Machining".sources.Onsrud]
+comment = "========================================================"
+URL="https://www.onsrud.com"
+currency="USD"
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+comment = "--------------------------------------------------------"
+description='1/8" ER25 Collet'
+item="34-152"
+URL="https://www.onsrud.com/Products/34152.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" ER25 Collet'
+item="34-156"
+URL="https://www.onsrud.com/Products/34156.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" ER25 Collet'
+item="34-164"
+URL="https://www.onsrud.com/Products/34164.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='5/8" ER25 Collet'
+item="34-168"
+URL="https://www.onsrud.com/Products/34168.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/16" Solid Carbide router, 1 flute, downcut O flute'
+item="64-000"
+URL="https://www.onsrud.com/Products/64000.asp"
+price=46.70
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 1 flute, downcut O flute'
+item="64-012"
+URL="https://www.onsrud.com/Products/64012.asp"
+price=53.05
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 1 flute, upcut O flute'
+item="65-012"
+URL="https://www.onsrud.com/Products/65012.asp"
+price=50.30
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 2 flute, upcut'
+item="52-240"
+URL="https://www.onsrud.com/Products/52240.asp"
+price=32.40
+quantity=5
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 2 flute, downcut'
+item="57-240"
+URL="https://www.onsrud.com/Products/57240.asp"
+price=32.40
+quantity=5
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 2 flute, straight V flute'
+item="56-041"
+URL="https://www.onsrud.com/Products/56041.asp"
+price=35.95
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, upcut'
+item="52-280"
+URL="https://www.onsrud.com/Products/52280.asp"
+price=36.70
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, downcut'
+item="57-287"
+URL="https://www.onsrud.com/Products/57287.asp"
+price=42.15
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, straight V flute'
+item="56-082"
+URL="https://www.onsrud.com/Products/56082.asp"
+price=39.60
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, ballnose, upcut'
+item="52-280BL"
+URL="https://www.onsrud.com/Products/52280BL.asp"
+price=85.90
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Solid Carbide router, 2 flute, downcut'
+item="57-367"
+URL="https://www.onsrud.com/Products/57367.asp"
+price=115.15
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Carbide Tipped router, 2 flute, V Bottom'
+item="37-61"
+URL="https://www.onsrud.com/Products/3761.asp"
+price=24.65
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Solid Carbide router, 2 flute, ballnose, upcut'
+item="52-244BL"
+URL="https://www.onsrud.com/Products/52244BL.asp"
+price=76.10
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Solid Carbide router, 2 flute, ballnose, upcut'
+item="52-360BL"
+URL="https://www.onsrud.com/Products/52360BL.asp"
+price=176.55
+quantity=1
+
 [topics."Embedded Programming"]
 comment = "########################################################"
 
