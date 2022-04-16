@@ -1,3 +1,26 @@
+[topics."Computer-Aided Design, Project Management"]
+comment = "########################################################"
+
+[topics."Computer-Aided Design, Project Management".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Computer-Aided Design, Project Management".sources.Amazon.categories.videoconference]]
+comment = "--------------------------------------------------------"
+description="Logitech HD Pro Webcam, Full HD 1080p/30fps"
+item="C920x"
+URL="https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1/"
+price=56.99
+quantity=3
+
+[[topics."Computer-Aided Design, Project Management".sources.Amazon.categories.videoconference]]
+description="Jabra Wireless Bluetooth Speaker for Softphone and Mobile Phone"
+item="Speak 510"
+URL="https://www.amazon.com/Jabra-Speak510-Wireless-Bluetooth-Softphone/dp/B00AQUO5RI"
+price=149.00
+quantity=1
+
 [topics."Computer-Controlled Machining"]
 comment = "########################################################"
 
