@@ -1,3 +1,60 @@
+[topics."3D Scanning and Printing"]
+comment = "########################################################"
+
+[topics."3D Scanning and Printing".sources.Prusa]
+comment = "========================================================"
+URL="https://www.prusa3d.com"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources.Prusa.categories."3D printer option"]]
+comment = "--------------------------------------------------------"
+description="FDM 3D printer"
+item="i3 MK3S+"
+URL="https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/"
+price=999
+quantity=0
+
+[topics."3D Scanning and Printing".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources.Amazon.categories."3D printer option"]]
+comment = "--------------------------------------------------------"
+description="FDM 3D printer"
+item="3DWOX 1"
+URL="https://www.amazon.com/Sindoh-3DWOX-Printer-New-Model/dp/B07C79C9RB/"
+price=1288
+quantity=0
+
+[[topics."3D Scanning and Printing".sources.Amazon.categories."3D printer option"]]
+description="FDM 3D Printer"
+item="Ender 3 V2"
+URL="https://www.amazon.com/Integrated-Structure-Motherboard-Carborundum-8-66x8-66x9-84in/dp/B07FFTHMMN"
+price=279
+quantity=3
+
+[[topics."3D Scanning and Printing".sources.Amazon.categories."laser scanning"]]
+comment = "--------------------------------------------------------"
+description="AnyBeam Pico Mini Portable Pocket Projector, Focus-Free, Laser Scanning"
+item="Pico Mini"
+URL="https://www.amazon.com/AnyBeam-Projector-Focus-Free-Lightweight-Compatible/dp/B088BG59QR/"
+price=229.99
+quantity=1
+
+[topics."3D Scanning and Printing".sources.Revopoint]
+comment = "========================================================"
+URL="https://shop.revopoint3d.com"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources.Revopoint.categories."laser scanning"]]
+comment="--------------------------------------------------------"
+description = "3D High-Precision Scanner Premium Package"
+item="POP 2"
+URL="https://shop.revopoint3d.com/collections/3d-scanners/products/pop2-3d-scanner?variant=42240758546667"
+price=799
+quantity=1
+
 [topics."Computer-Aided Design, Project Management"]
 comment = "########################################################"
 
@@ -560,4 +617,3 @@ item = "MakerFocus"
 URL = "https://www.amazon.com/MakerFocus-Display-1-3inch-Interface-Routines/dp/B07P9X3L7M"
 price = 11.99
 quantity = 10
-

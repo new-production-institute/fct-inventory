@@ -32,6 +32,7 @@ function show_inventory(data) {
    // show the topic if in URL parameter
    //
    if (params.has('topic')) {
+      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
       document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a></b><br>")
       var topic_key = params.get('topic')
       show_topic(topic_key,data)
@@ -40,6 +41,7 @@ function show_inventory(data) {
    // show the source if in URL parameter
    //
    else if (params.has('source')) {
+      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
       document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a></b><br>")
       var source_key = params.get('source')
       show_source(source_key,data)
@@ -48,6 +50,7 @@ function show_inventory(data) {
    // show all the topics if no parameters
    //
    else {
+      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
       document.write("<b><a href=https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/edit?usp=sharing>Original Inventory</a></b><br>")
       for (topic_key in data.topics) {
          show_topic(topic_key,data)
