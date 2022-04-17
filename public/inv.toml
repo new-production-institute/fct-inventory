@@ -133,6 +133,157 @@ URL="https://www.amazon.com/Jabra-Speak510-Wireless-Bluetooth-Softphone/dp/B00AQ
 price=149.00
 quantity=1
 
+[topics."Computer-Controlled Cutting"]
+comment = "########################################################"
+
+[topics."Computer-Controlled Cutting".sources.Trotec]
+comment = "========================================================"
+URL="https://www.troteclaser.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Trotec.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+price=0
+quantity=0
+
+[topics."Computer-Controlled Cutting".sources.Epilog]
+comment = "========================================================"
+URL="https://www.epiloglaser.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Epilog.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+price=0
+quantity=0
+
+[topics."Computer-Controlled Cutting".sources.GCC]
+comment = "========================================================"
+URL="https://www.gccworld.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.GCC.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+price=0
+quantity=0
+
+[topics."Computer-Controlled Cutting".sources.Fabulaser]
+comment = "========================================================"
+URL="http://fabulaser.net/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+price=0
+quantity=0
+
+[topics."Computer-Controlled Cutting".sources.ULINE]
+comment = "========================================================"
+URL="https://www.uline.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.ULINE.categories."laser cutter cardboard"]]
+comment = "--------------------------------------------------------"
+description='30 x 40" 275 lb Corrugated Pads'
+item="S-12647"
+URL="https://www.uline.com/Product/Detail/S-12647/Corrugated-Pads/30-x-40-275-lb-Corrugated-Pads"
+price=2.21
+quantity=50
+
+[topics."Computer-Controlled Cutting".sources.Roland]
+comment = "========================================================"
+URL="https://www.rolanddga.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Roland.categories."vinyl cutter option"]]
+comment = "--------------------------------------------------------"
+URL="https://www.rolanddga.com/products/vinyl-cutters/camm-1-gs-24-desktop-vinyl-cutter"
+description="desktop cutter"
+item="CAMM-1 GS-23"
+price=1995
+quantity=1
+
+[topics."Computer-Controlled Cutting".sources."Budnick Converting"]
+comment = "========================================================"
+URL="https://www.budnick.com"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+comment = "--------------------------------------------------------"
+description='epoxy film on liner 6"x100 yds'
+item="3M #1"
+URL="https://www.3m.com/3M/en_US/p/d/b00035183/"
+price=220.87
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+description='copper tape with conductive adhesive 6"x36 yds'
+item="3M #1126"
+URL="https://www.3m.com/3M/en_US/p/d/b00041302/"
+price=246.04
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+description='masking tape 6"x60 yds'
+item="3M #214"
+URL="https://www.3m.com/3M/en_US/p/d/b40067085/"
+price=211.22
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+description='transfer adhesive 6"x60 yds'
+item="Permacel #595B"
+URL="https://www.budnick.com/Datasheets/PermacelNittoDenkoAmerica/595B"
+price=53.75
+quantity=1
+
+[topics."Computer-Controlled Cutting".sources."Beacon Graphics"]
+comment = "========================================================"
+URL="https://beacongraphics.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+comment = "--------------------------------------------------------"
+description='PC500 WHITE 15X50 YDS'
+item="A4001-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4001%2DO%2DF&eq=&Tp="
+price=59.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 CLEAR 15X50 YDS'
+item="A4003-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4003%2DO%2DF&eq=&Tp="
+price=59.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 BLACK 15X50 YDS'
+item="A4090-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4090%2DO%2DF&eq=&Tp="
+price=59.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 CARDINAL RED 15X50 YDS'
+item="A4330-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4330%2DO%2DF&eq=&Tp="
+price=65.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 MOUNTAIN GREEN 15X50 YDS'
+item="A4674-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4674%2DO%2DF&eq=&Tp="
+price=65.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 ROYAL BLUE 15X50 YDS'
+item="A4583-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4583%2DO%2DF&eq=&Tp="
+price=65.25
+quantity=1
+
 [topics."Computer-Controlled Machining"]
 comment = "########################################################"
 
@@ -849,6 +1000,92 @@ item = "Drystone 50 lbs"
 URL = "https://plaster.com/product/usg-drystone"
 price = 37
 quantity = 2
+
+[topics."Networking and Communications"]
+comment = "########################################################"
+
+[topics."Networking and Communications".sources.Digi-Key]
+comment = "========================================================"
+URL = "https://www.digikey.com"
+currency = "USD"
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+comment = "--------------------------------------------------------"
+description="RX TXRX MOD BLUETOOTH CHIP SMD"
+item="RN4871-V/RM118"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/RN4871-V-RM118/6130476"
+price=7.71
+quantity=10
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+description="LoRa Transceiver Module 868MHz"
+item="109990166"
+URL="https://www.digikey.com/product-detail/en/seeed-technology-co-ltd/109990166/1597-1488-ND"
+price=7.90
+quantity=10
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+description="ESP-01S ESP8266 WI-FI IOT MODULE"
+item="26209"
+URL="https://www.digikey.com/en/products/detail/canaduino/26209/14319860"
+price=3.56
+quantity=25
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+description="ESP32-WROOM-32E (4MB)"
+item="1965-ESP32-WROOM-32E(4MB)"
+URL="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-4MB/11613125"
+price=3.00
+quantity=50
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."Micro SD"]]
+comment = "--------------------------------------------------------"
+description="CONN MICRO SD CARD PUSH-PULL R/A"
+item="114-00841-68"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-commercial-products/114-00841-68/2187086"
+price=1.2078
+quantity=50
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."Micro SD"]]
+description="MEM CARD MICROSD 32GB CLASS 10"
+item="112990066"
+URL="https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294"
+price=7.00
+quantity=10
+
+[topics."Networking and Communications".sources.Amazon]
+comment = "========================================================"
+URL = "https://www.amazon.com/"
+currency = "USD"
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+comment = "--------------------------------------------------------"
+description="10pcs NRF24L01+ 2.4GHz Wireless RF Transceiver Module"
+item="Makerfire"
+URL="https://www.amazon.com/Arduino-NRF24L01-2-4GHz-Wireless-Transceiver/dp/B00O9O868G"
+price=12.99
+quantity=5
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+description="NRF905 Wireless Transceiver Module PTR8000+ 433/486/915MHz with Antenna NF905SE"
+item="HiLetgo"
+URL="https://www.amazon.com/HiLetgo-Wireless-Transceiver-PTR8000-Antenna/dp/B00RJISY5Y"
+price=5.59
+quantity=10
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+description="3pcs RFID Kit - Mifare RC522 RF IC Card Sensor Module + S50 Blank Card + Key Ring"
+item="HiLetgo"
+URL="https://www.amazon.com/HiLetgo-3pcs-RFID-Kit-Raspberry/dp/B07VLDSYRW/"
+price=9.99
+quantity=10
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+description="2Pcs SIM800L GPRS GSM Phone Module Card Board Quad-Band Onboard + Antenna"
+item="Comimark"
+URL="https://www.amazon.com/Comimark-Smallest-SIM800L-Quad-Band-Onboard/dp/B07V3PYYJP"
+price=8.99
+quantity=5
 
 [topics."Output Devices"]
 comment = "########################################################"
