@@ -432,6 +432,386 @@ URL="https://www.onsrud.com/Products/52360BL.asp"
 price=176.55
 quantity=1
 
+[topics."Electronics Design"]
+comment = "########################################################"
+
+[topics."Electronics Design".sources.Digi-Key]
+comment = "========================================================"
+URL="https://www.digikey.com/"
+currency="USD"
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "--------------------------------------------------------"
+description="RES 0 OHM JUMPER 1/4W 1206"
+item="RC1206FR-070RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-070RL/5698945"
+price=0.01055
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 1 OHM 1% 1/4W 1206"
+item="RC1206FR-071RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071RL/728386"
+price=0.02242
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 10 OHM 1% 1/4W 1206"
+item="RC1206FR-0710RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482"
+price=0.02242
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 100 OHM 1% 1/4W 1206"
+item="RC1206FR-07100RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100RL/728491"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 499 OHM 1% 1/4W 1206"
+item="RC1206FR-07499RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07499RL/728944"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 1K OHM 1% 1/4W 1206"
+item="RC1206FR-071KL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 4.99K OHM 1% 1/4W 1206"
+item="RC1206FR-074K99L"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K99L/728896"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 10K OHM 1% 1/4W 1206"
+item="RC1206FR-0710KL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710KL/728483"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 100K OHM 1% 1/4W 1206"
+item="RC1206FR-07100KL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/728492"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 1M OHM 1% 1/4W 1206"
+item="RC1206FR-071ML"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 10M OHM 1% 1/4W 1206"
+item="RC1206FR-0710ML"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "--------------------------------------------------------"
+description="CAP CER 0.1UF 100V X7R 1206"
+item="C3216X7R2A104K160AA"
+URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R2A104K160AA/513967"
+price=0.07128
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+description="CAP CER 1UF 50V X7R 1206"
+item="C3216X7R1H105K160AB"
+URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R1H105K160AB/569049"
+price=0.07444
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+description="CAP CER 10UF 25V X7R 1206"
+item="C3216X7R1E106K160AB"
+URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R1E106K160AB/2733140"
+price=0.29700
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+description="CAP ALUM 100UF 20% 25V SMD"
+item="EEE-FN1E101UL"
+URL="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UL/12459663"
+price=0.28150
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+description="CAP HYBRID 10F 3.8V T/H"
+item="TPLC-3R8/10MR8X14"
+URL="https://www.digikey.com/en/products/detail/tecate-group/TPLC-3R8-10MR8X14/12417602"
+price=1.7248
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "--------------------------------------------------------"
+description="DIODE SCHOTTKY 100V 150MA SOD123"
+item="BAT46ZFILM"
+URL="https://www.digikey.com/en/products/detail/stmicroelectronics/BAT46ZFILM/1207026"
+price=0.17690
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+description="DIODE SCHOTTKY 100V 1A MINISMA"
+item="CDBM1100-G"
+URL="https://www.digikey.com/en/products/detail/comchip-technology/CDBM1100-G/2021250"
+price=0.24960
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
+comment = "--------------------------------------------------------"
+description="MOSFET N-CH 30V 5.2A SOT23-3"
+item="SI2336DS-T1-GE3"
+URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SI2336DS-T1-GE3/3748946"
+price=0.33880
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
+description="MOSFET P-CH 20V 3.2A SOT23-3"
+item="SQ2351ES-T1_BE3"
+URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SQ2351ES-T1-BE3/12396602"
+price=0.36590
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
+description="MOSFET N-CH 30V 90A TO252"
+item="SUD50N03-06AP-E3"
+URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SUD50N03-06AP-E3/2623051"
+price=1.45800
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+comment = "--------------------------------------------------------"
+description="MOSFET N-CH 30V 1.7A SUPERSOT3"
+item="NDS355AN"
+URL="https://www.digikey.com/en/products/detail/onsemi/NDS355AN/458899"
+price=0.28180
+quantity=0
+
+[[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+description="MOSFET P-CH 30V 1.1A SUPERSOT3"
+item="NDS356AP"
+URL="https://www.digikey.com/en/products/detail//NDS356AP/458900"
+price=0.31940
+quantity=0
+
+[[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+description="MOSFET N-CH 50V 16A TO252AA"
+item="RFD16N05LSM9A"
+URL="https://www.digikey.com/en/products/detail/onsemi/RFD16N05LSM9A/965453"
+price=1.02800
+quantity=0
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "--------------------------------------------------------"
+description="LED RED CLEAR 2SMD"
+item="XZMDK60W"
+URL="https://www.digikey.com/en/products/detail/sunled/XZMDK60W/4902037"
+price=0.1692
+quantity=200
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+description="LED COOL WHITE 5000K 80CRI"
+item="MP-3014-1100-50-80"
+URL="https://www.digikey.com/en/products/detail/luminus-devices-inc/MP-3014-1100-50-80/6109331"
+price=0.05520
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+description="LED RGB 4PLCC SMD"
+item="CLV1A-FKB-CK1VW1DE1BB7C3C3"
+URL="https://www.digikey.com/product-detail/en/cree-inc/CLV1A-FKB-CK1VW1DE1BB7C3C3/CLV1A-FKB-CK1VW1DE1BB7C3C3CT-ND"
+price=0.36129
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+comment = "--------------------------------------------------------"
+description="IC REG LINEAR 3.3V 100MA SOT23-3"
+item="LM3480IM3-3.3/NOPB"
+URL="https://www.digikey.com/en/products/detail/texas-instruments/LM3480IM3-3-3-NOPB/270720"
+price=1.063
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+description="IC REG LINEAR 5V 100MA SOT23-3"
+item="LM3480IM3-5.0/NOPB"
+URL="https://www.digikey.com/en/products/detail/texas-instruments/LM3480IM3-5-0-NOPB/270721"
+price=1.063
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+description="IC REG LINEAR 3.3V 1A SOT223"
+item="ZLDO1117G33TA"
+URL="https://www.digikey.com/en/products/detail/diodes-incorporated/ZLDO1117G33TA/2095592"
+price=0.34
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+description="IC REG LINEAR 5V 1A SOT223"
+item="NCV1117ST50T3G"
+URL="IC REG LINEAR 5V 1A SOT223"
+price=0.4146
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+comment = "--------------------------------------------------------"
+description="Slide Switch SPDT Surface Mount, Right Angle"
+item="AYZ0102AGRLC"
+URL="https://www.digikey.com/en/products/detail/c-k/AYZ0102AGRLC/1640108"
+price=0.916
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+description="Slide Switch SPDT Surface Mount"
+item="JS102011JCQN"
+URL="https://www.digikey.com/en/products/detail/c-k/JS102011JCQN/6137628"
+price=0.68
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+description="Tactile Switch SPST-NO Top Actuated Surface Mount"
+item="B3SN-3112P"
+URL="https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3SN-3112P/27856"
+price=0.9176
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+description="Tactile Switch SPST-NO Top Actuated Surface Mount"
+item="PTS636 SM25F SMTR LFS"
+URL="https://www.digikey.com/en/products/detail/c-k/PTS636-SM25F-SMTR-LFS/10071742"
+price=0.1384
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 1 row horizontal header"]]
+comment = "--------------------------------------------------------"
+description="CONN HEADER SMD R/A 36POS 2.54MM"
+item="GBC36SGSN-M89"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/GBC36SGSN-M89/862355"
+price=3.787
+quantity=10
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 2 row vertical header"]]
+comment = "--------------------------------------------------------"
+description="CONN HEADER SMD 4POS 1.27MM"
+item="S9012E-02-ND"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/GRPB022VWQS-RC/1786411"
+price=0.33
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 2 row vertical header"]]
+description="CONN HEADER SMD 10POS 1.27MM"
+item="609-6529-ND"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-fci/20021121-00010T1LF/4243614"
+price=0.61
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 2 row vertical header"]]
+description="CONN HEADER SMD 4POS 2.54MM"
+item="95278-101-04LF"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-fci/95278-101-04LF/1534787"
+price=0.3214
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row horizontal header"]]
+comment = "--------------------------------------------------------"
+description="6W, 2.54MM PTH SOCKET, SIL, SMT"
+item="2073-BG300-06-A-L-ACT-ND"
+URL="https://www.digikey.com/en/products/detail/gct/BG300-06-A-L-A/9859597"
+price=0.73
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+comment = "--------------------------------------------------------"
+description="CONN HDR 2POS 0.1 TIN SMD"
+item="NPTC021KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC021KFXC-RC/776052"
+price=0.505
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+description="CONN HDR 3POS 0.1 TIN SMD"
+item="NPTC031KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC031KFXC-RC/776053"
+price=0.605
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+description="CONN HDR 4POS 0.1 TIN SMD"
+item="NPTC041KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC041KFXC-RC/776054"
+price=0.564
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+description="CONN HDR 5POS 0.1 TIN SMD"
+item="NPTC051KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC051KFXC-RC/776055"
+price=0.73
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."IDC female 2 row plug"]]
+comment = "--------------------------------------------------------"
+description="CONN RCPT 4POS IDC 28-30AWG GOLD"
+item="71600-104LF"
+URL="https://www.digikey.com/product-detail/en/amphenol-icc-fci/71600-104LF/609-4958-ND/"
+price=0.6096
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+comment = "--------------------------------------------------------"
+description="CONN RCPT USB2.0 MICRO B SMD R/A"
+item="609-4618-1-ND"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-fci/10118194-0001LF/2785389"
+price=0.30
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+description="AC/DC WALL MOUNT ADAPTER 5V 5W"
+item="VEL05US050-US-BB"
+URL="https://www.digikey.com/en/products/detail/xp-power/VEL05US050-US-BB/5023710"
+price=4.50
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+description="CBL USB2.0 A PLG-MCR B PLG 0.98'"
+item="AK67421-0.3-VM"
+URL="https://www.digikey.com/en/products/detail/assmann-wsw-components/AK67421-0-3-VM/5428793"
+price=2.2536
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+description="CABLE A RCPT TO A PLUG 3'"
+item="CA-USB3-AM-AF-3FT"
+URL="https://www.digikey.com/en/products/detail/adam-tech/CA-USB3-AM-AF-3FT/9830217"
+price=5.1104
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories."ribbon cable"]]
+comment = "--------------------------------------------------------"
+description="CBL RIBN 10COND 0.05 MULTI 50'"
+item="3302/10 300SF"
+URL="https://www.digikey.com/en/products/detail/3m/3302-10-300SF/145483"
+price=34.43
+quantity=1
+
+[[topics."Electronics Design".sources.Digi-Key.categories."ribbon cable"]]
+description="CBL RIBN 10COND 0.025 GRAY 50'"
+item="3756/10 100"
+URL="https://www.digikey.com/en/products/detail/3m/3756-10-100/5308216"
+price=26.18
+quantity=1
+
 [topics."Electronics Production"]
 comment = "########################################################"
 
@@ -837,52 +1217,15 @@ URL = "https://www.digikey.com/en/products/detail/pololu-corporation/2738/104511
 price = 26.61
 quantity = 10
 
-[topics."Mechanical and Machine Design"]
+[topics."Machine Design"]
 comment = "########################################################"
 
-[topics."Mechanical and Machine Design".sources.Amazon]
+[topics."Machine Design".sources.Amazon]
 comment = "========================================================"
 URL="https://www.amazon.com/"
 currency = "USD"
 
-[[topics."Mechanical and Machine Design".sources.Amazon.categories.bearings]]
-comment = "--------------------------------------------------------"
-description="XiKe 20 Pcs 608ZZ Double Metal Seal Bearings 8x22x7mm"
-item="608ZZ"
-URL="https://www.amazon.com/XiKe-Pre-Lubricated-Performance-Effective-Bearings/dp/B07SFDVJHM/"
-price=12.99
-quantity=5
-
-[[topics."Mechanical and Machine Design".sources.Amazon.categories.bearings]]
-description="XiKe 10 Pcs 625ZZ Double Metal Seal Bearings 5x16x5mm"
-item="625ZZ"
-URL="https://www.amazon.com/XiKe-625ZZ-Pre-Lubricated-Performance-Cost-Effective/dp/B07JHKKGKT/"
-price=9.99
-quantity=5
-
-[[topics."Mechanical and Machine Design".sources.Amazon.categories.bearings]]
-description="SIMAX3D [13pcs/Pack] Black POM Polycarbonate Roller 625zz"
-item="POM003"
-URL="https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp/B08B4JDB67"
-price=13.99
-quantity=5
-
-[[topics."Mechanical and Machine Design".sources.Amazon.categories.bearings]]
-description="SIMAX3D [13pcs/Pack] V Slot Wheel POM Polycarbonate Roller 625zz"
-item="POM005"
-URL="https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp/B08QVQTRZP"
-price=13.99
-quantity=5
-
-[[topics."Mechanical and Machine Design".sources.Amazon.categories.transmission]]
-comment = "--------------------------------------------------------"
-description="Calamus Bastion Braided Fishing Line -Abrasion Resisting Braided Lines - Thin Diameter Superline - Zero Stretch - 4 Strand MultiTuf Fiber Braid Line"
-item="80 LB-600 Yds"
-URL="https://www.amazon.com/Calamus-Bastion-Braided-Fishing-Strands/dp/B08QYNLQ9D"
-price=21.99
-quantity=2
-
-[[topics."Mechanical and Machine Design".sources.Amazon.categories."USB power and control"]]
+[[topics."Machine Design".sources.Amazon.categories."USB power and control"]]
 comment = "--------------------------------------------------------"
 description="Sabrent 60W 10-Port USB 3.0 Hub Includes 3 Smart Charging Ports with Individual Power Switches and LEDs + 60W 12V/5A Power Adapter"
 item="HB-B7C3"
@@ -890,19 +1233,64 @@ URL="https://www.amazon.com/Sabrent-Charging-Individual-Switches-HB-B7C3/dp/B079
 price=39.98
 quantity=3
 
-[[topics."Mechanical and Machine Design".sources.Amazon.categories."USB power and control"]]
+[[topics."Machine Design".sources.Amazon.categories."USB power and control"]]
 description="2 Pack 3.3FT + 6.6FT USB 3.0 Extension Cable, USB A Male to Female Extension Cord"
 item="NIMASO"
 URL="https://www.amazon.com/Extension-NIMASO-Material-Compatible-Playstation/dp/B088GSJLWX?th=1"
 price=9.99
 quantity=5
 
-[[topics."Mechanical and Machine Design".sources.Amazon.categories."USB power and control"]]
+[[topics."Machine Design".sources.Amazon.categories."USB power and control"]]
 description="USB Extension Cable 10FT Type A Male to Female USB 3.0 Extension Cord"
 item="AINOPE"
 URL="https://www.amazon.com/Extension-AINOPE-Material-Transfer-Compatible/dp/B07ZV6FHWF/"
 price=7.95
 quantity=10
+
+[topics."Mechanical Design"]
+comment = "########################################################"
+
+[topics."Mechanical Design".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency = "USD"
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+comment = "--------------------------------------------------------"
+description="XiKe 20 Pcs 608ZZ Double Metal Seal Bearings 8x22x7mm"
+item="608ZZ"
+URL="https://www.amazon.com/XiKe-Pre-Lubricated-Performance-Effective-Bearings/dp/B07SFDVJHM/"
+price=12.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+description="XiKe 10 Pcs 625ZZ Double Metal Seal Bearings 5x16x5mm"
+item="625ZZ"
+URL="https://www.amazon.com/XiKe-625ZZ-Pre-Lubricated-Performance-Cost-Effective/dp/B07JHKKGKT/"
+price=9.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+description="SIMAX3D [13pcs/Pack] Black POM Polycarbonate Roller 625zz"
+item="POM003"
+URL="https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp/B08B4JDB67"
+price=13.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+description="SIMAX3D [13pcs/Pack] V Slot Wheel POM Polycarbonate Roller 625zz"
+item="POM005"
+URL="https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp/B08QVQTRZP"
+price=13.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.transmission]]
+comment = "--------------------------------------------------------"
+description="Calamus Bastion Braided Fishing Line -Abrasion Resisting Braided Lines - Thin Diameter Superline - Zero Stretch - 4 Strand MultiTuf Fiber Braid Line"
+item="80 LB-600 Yds"
+URL="https://www.amazon.com/Calamus-Bastion-Braided-Fishing-Strands/dp/B08QYNLQ9D"
+price=21.99
+quantity=2
 
 [topics."Molding and Casting"]
 comment = "########################################################"
