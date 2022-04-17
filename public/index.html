@@ -87,7 +87,7 @@ function show_index(data) {
       document.write('<div style="margin-left:5%"><i>')
       for (source_key in topic.sources) {
          source = topic.sources[source_key]
-         document.write(source_key+'<br>')
+         document.write("<i><a href=http://"+window.location.hostname+window.location.pathname+'?source='+encodeURI(source_key)+'>'+source_key+'</a></i><br>')
          }
       document.write('</i></div>')
       }
