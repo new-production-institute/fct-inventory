@@ -34,6 +34,61 @@ URL="https://www.amazon.com/Integrated-Structure-Motherboard-Carborundum-8-66x8-
 price=279
 quantity=3
 
+[topics."3D Scanning and Printing".sources."MatterHackers"]
+comment = "========================================================"
+URL="https://www.matterhackers.com"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+comment = "--------------------------------------------------------"
+URL = "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/MC2YDS13"
+description="Black PRO Series Tough PLA Filament - 1.75mm (1kg)"
+item="M-C2Y-DS13"
+price=57.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/MTRMSQKU"
+description="White PRO Series Tough PLA Filament - 1.75mm (1kg)"
+item="M-TRM-SQKU"
+price=57.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/MAR1Q8KG"
+description="Blue PRO Series Tough PLA Filament - 1.75mm (1kg)"
+item="M-AR1-Q8KG"
+price=57.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/ultimaker-pla-3d-printing-filament-285mm-075kg/sk/MX6CY6J2"
+description="Ultimaker Transparent PLA Filament - 2.85mm (0.75kg)"
+item="M-X6C-Y6J2"
+price=49.95
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/pro-series-flex-flexible-tpe-05kg/sk/M02G0U5K"
+description="Red PRO Series Flex - 1.75mm Flexible TPE (0.5kg)"
+item="M-02G-0U5K"
+price=60.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/timberfill-rosewood-filament-1.75mm/sk/MRAE4Y3Z"
+description="Fillamentum Timberfill Rosewood Filament - 1.75mm (0.75kg)"
+item="M-RAE-4Y3Z"
+price=51.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/fillamentum-timberfill-light-wood-tone-filament-175mm-075kg/sk/MYSUAUNL"
+description="Fillamentum Timberfill Light Wood Tone Filament - 1.75mm (0.75kg)"
+item="M-YSU-AUNL"
+price=51.00
+quantity=2
+
 [[topics."3D Scanning and Printing".sources.Amazon.categories."laser scanning"]]
 comment = "--------------------------------------------------------"
 description="AnyBeam Pico Mini Portable Pocket Projector, Focus-Free, Laser Scanning"
