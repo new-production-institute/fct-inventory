@@ -226,6 +226,262 @@ URL="https://www.onsrud.com/Products/52360BL.asp"
 price=176.55
 quantity=1
 
+[topics."Electronics Production"]
+comment = "########################################################"
+
+[topics."Electronics Production".sources.Roland]
+comment = "========================================================"
+URL="https://www.rolanddga.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources.Roland.categories."precision machining option"]]
+comment = "--------------------------------------------------------"
+description="Desktop milling machine"
+item="SRM-20"
+URL="https://www.rolanddga.com/products/3d/srm-20-small-milling-machine"
+price=3995
+quantity=0
+
+[topics."Electronics Production".sources."Bantam Tools"]
+comment = "========================================================"
+URL="https://www.bantamtools.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources."Bantam Tools".categories."precision machining option"]]
+comment = "--------------------------------------------------------"
+description='7"x9"x3.5", 28,000 RPM'
+item="Desktop CNC milling machine"
+URL="https://store.bantamtools.com/collections/machines/products/bantam-tools-desktop-cnc-milling-machine"
+price=4999
+quantity=0
+
+[topics."Electronics Production".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources.Amazon.categories."precision machining option"]]
+comment = "--------------------------------------------------------"
+description="SainSmart Genmitsu Desktop CNC Router Machine with GRBL Offline Control, Limit Switches & Emergency-Stop, XYZ Working Area 300 x 180 x 45mm"
+item="3018-PROVer"
+URL="https://www.amazon.com/SainSmart-Genmitsu-3018-PROVer-Switches-Emergency-Stop/dp/B07ZFD6SKP"
+price=349
+quantity=3
+
+[[topics."Electronics Production".sources.Amazon.categories."precision machining option"]]
+description="Genmitsu 2PCS T-Track Mini Hold Down Clamp Kit"
+item="101-63-MCP"
+URL="https://www.amazon.com/Genmitsu-Woodworking-Metalworking-Compatible-3018-PROVer/dp/B08V5CY416"
+price=19.99
+quantity=6
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+comment = "--------------------------------------------------------"
+description="Mini Hot Plate Soldering Preheating Station Preheater Multi Intelligent Modes with Built-in OLED Display 60W 30X30mm + Power Supply"
+item="MHP30M"
+URL="https://www.amazon.com/SainSmart-Soldering-Preheating-Preheater-Intelligent/dp/B08R6XFPKR"
+price=119.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+description="Soldering Station, Professional 2.9'' LED Digital Soldering Iron Station Kit with 356â„‰-896â„‰ Adjustable Temperature, Password Lock, ESD Safe, 5 Extra Tips, Solder Wire, Tweezers, Tip Cleaner"
+item="BK969S"
+URL="https://www.amazon.com/Soldering-Professional-356%E2%84%89-896%E2%84%89-Adjustable-Temperature/dp/B0983M3CBN/"
+price=39.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+description="Soldering Station, 2 in 1 Soldering Iron Hot Air Gun Rework Station Kit with LCD Display,Â°F /Â°C, Cool/Hot Air Conversion, Auto Standby & Sleep, Temperature Memory & Lock & Correction"
+item="DS882"
+URL="https://www.amazon.com/TOAUTO-Soldering-Conversion-Temperature-Correction/dp/B08L8YGYQZ"
+price=119.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+comment = "--------------------------------------------------------"
+description="SainSmart Mini Handheld Pocket-Sized Digital Storage Oscilloscope 4 Channels"
+item="DSO213"
+URL="https://www.amazon.com/dp/B07JQ3HRMX/"
+price=229.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="FOCHANC Digital Multimeter"
+item="DM003"
+URL="https://www.amazon.com/FOCHANC-Digital-Multimeter-Black-A-Black/dp/B08VJHM7NZ"
+price=21.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Technologies 200 MHz Digital Oscilloscope 2 Channels"
+item="SDS1202X-E"
+URL="https://www.amazon.com/Siglent-Technologies-SDS1202X-Oscilloscope-Channels/dp/B06XZML6RD"
+price=359
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Technologies 4-1/2 Digit Digital Multimeter"
+item="SDM3045X"
+URL="https://www.amazon.com/Siglent-Technologies-SDM3045X-Digital-Multimeter/dp/B01IXPKIV4"
+price=389
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Technologies Triple Output Power Supply"
+item="SPD3303X-E"
+URL="https://www.amazon.com/Siglent-Technologies-SPD3303X-Triple-Output/dp/B01410O424"
+price=389
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Programmable DC Power Supply 1 Channel"
+item="SPD1305X"
+URL="https://www.amazon.com/Siglent-SPD1305X-Programmable-Supply-Channel/dp/B07Q6FDZRF"
+price=279
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.inspection]]
+comment = "--------------------------------------------------------"
+description="2-in-1 Magnifying Glass with Light and Stand, 5X Real Glass Lens 3 Color Modes Stepless Dimmable, Adjustable LED Lighted Magnifier Desk Lamp with Clamp"
+item="LANCOSC"
+URL="https://www.amazon.com/LANCOSC-Magnifying-Stepless-5-Diopter-Magnifier/dp/B09BVTDHJQ"
+price=41.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.inspection]]
+description="LCD Digital USB Microscope 7 inch HD Screen 1200X Magnification"
+item="G1200"
+URL="https://www.amazon.com/dp/B07YB2TNM3"
+price=109.88
+quantity=1
+
+[topics."Electronics Production".sources.Digi-Key]
+comment = "========================================================"
+URL="https://www.digikey.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+comment = "--------------------------------------------------------"
+description="TWEEZER POINTED MICRO 4.50"
+item="EROP7SA"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/EROP7SA/114194"
+price=4.80
+quantity=10
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="CUTTER SIDE OVAL SEMI-FLUSH 4"
+item="MS54VN"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/MS54VN/6554"
+price=30.00
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="PLIERS ELEC NEEDLE NOSE 4"
+item="L4GN"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/L4GN/373402"
+price=29.50
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description='MAGNIFIER EYE LOUPE 10X 1" LENS'
+item="26034"
+URL="https://www.digikey.com/en/products/detail/aven-tools/26034/600975"
+price=3.15
+quantity=10
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="VISE 2.88'' GROOVED JAWS"
+item="201"
+URL="https://www.digikey.com/en/products/detail/panavise/201/166719"
+price=32.95
+quantity=3
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="SCREWDRIVER SET PHIL W/CASE 6PC"
+item="XP600"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/XP600/278953"
+price=38.00
+quantity=3
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="WIRE STRIPPER DATASHARK 30-20AWG"
+item="PA70057-ND"
+URL="https://www.digikey.com/en/products/detail/tempo-communications/PA70057/1850296"
+price=16.67
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
+comment = "--------------------------------------------------------"
+description="Lead Free No-Clean, Water Soluble Wire Solder Sn96.5Ag3Cu0.5 (96.5/3/0.5) 24 AWG, 25 SWG Spool, 4 oz (113.40g)"
+item="SMDSWLF.020 4OZ"
+URL="https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSWLF-020-4OZ/2177058"
+price=31.57
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
+description="Lead Free No-Clean Solder Paste Sn96.5Ag3Cu0.5 (96.5/3/0.5) - Syringe, 0.53 oz (15g), 5cc"
+item="TS391SNL"
+URL="https://www.digikey.com/en/products/detail/chip-quik-inc/TS391SNL/7802215"
+price=16.95
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."desolder"]]
+comment = "--------------------------------------------------------"
+description="Desolder Braid/Wick Rosin, Non Activated (R) Static Dissipative (SD) Gold 0.050 (1.27mm) 10' (3.048m)"
+item="Q-B-10AS"
+URL="https://www.digikey.com/en/products/detail/menda-easybraid/Q-B-10AS/350543"
+price=6.836
+quantity=10
+
+[[topics."Electronics Production".sources.Digi-Key.categories."antistatic"]]
+comment = "--------------------------------------------------------"
+description="Static Shielding Bag <25nJ Energy Shielding Silver 3'' (76.2mm) X 5'' (127mm)"
+item="13605"
+URL="https://www.digikey.com/en/products/detail/desco/13605/299792"
+price=0.12
+quantity=100
+
+[[topics."Electronics Production".sources.Digi-Key.categories."antistatic"]]
+description="Static Shielding Bag <25nJ Energy Shielding Silver 5'' (127mm) X 8'' (203.2mm)"
+item="13630"
+URL="https://www.digikey.com/en/products/detail/desco/13630/299794"
+price=0.19
+quantity=100
+
+[[topics."Electronics Production".sources.Digi-Key.categories."antistatic"]]
+description="Static Shielding Bag <25nJ Energy Shielding Silver 8'' (203.2mm) X 10'' (254mm)"
+item="13660"
+URL="https://www.digikey.com/en/products/detail/desco/13660/299796"
+price=0.30
+quantity=100
+
+[topics."Electronics Production".sources."Carbide Depot"]
+comment = "========================================================"
+URL="http://www.carbidedepot.com"
+currency="USD"
+
+[[topics."Electronics Production".sources."Carbide Depot".categories."tooling"]]
+comment = "--------------------------------------------------------"
+description="0.0100in DIA 2FL SE MICRO AlTiN"
+item="CU 222737"
+URL="http://www.carbidedepot.com/00100in-DIA-2FL-SE-MICRO-AlTiN-P183831.aspx"
+price=28.80
+quantity=10
+
+[[topics."Electronics Production".sources."Carbide Depot".categories."tooling"]]
+description="0.0156in DIA 2FL SE AlTiN 1/64"
+item="CU 129974"
+URL="http://www.carbidedepot.com/00156in-DIA-2FL-SE-AlTiN-164-P180142.aspx"
+price=17.96
+quantity=20
+
+[[topics."Electronics Production".sources."Carbide Depot".categories."tooling"]]
+description="0.0312in DIA 2FL SE AlTiN 1/32"
+item="CU 129985"
+URL="http://www.carbidedepot.com/00312in-DIA-2FL-SE-AlTiN-132-P180143.aspx"
+price=12.14
+quantity=20
+
 [topics."Embedded Programming"]
 comment = "########################################################"
 
