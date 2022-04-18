@@ -28,11 +28,11 @@ price=1288
 quantity=0
 
 [[topics."3D Scanning and Printing".sources.Amazon.categories."3D printer option"]]
-description="FDM 3D Printer"
-item="Ender 3 V2"
-URL="https://www.amazon.com/Integrated-Structure-Motherboard-Carborundum-8-66x8-66x9-84in/dp/B07FFTHMMN"
-price=279
-quantity=3
+URL="https://www.amazon.com/CREALITY-Ender-S1-3D-Professional/dp/B09KMYQNGJ/"
+description="FDM 3D Printer with CR Touch Auto Leveling, High Precision Z-axis Double Screw, Removable Build Plate"
+item="Ender 3 S1"
+price=429
+quantity=2
 
 [topics."3D Scanning and Printing".sources."MatterHackers"]
 comment = "========================================================"
