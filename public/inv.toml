@@ -1162,6 +1162,14 @@ comment = "========================================================"
 URL = "https://www.digikey.com"
 currency = "USD"
 
+[[topics."Input Devices".sources.Digi-Key.categories.switches]]
+comment = "--------------------------------------------------------"
+URL="https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3SN-3112P/27856"
+item="B3SN-3112P"
+description="SWITCH TACTILE SPST-NO 0.05A 24V"
+price=0.96360	
+quantity=50
+
 [[topics."Input Devices".sources.Digi-Key.categories.potentiometer]]
 comment = "--------------------------------------------------------"
 description = "TRIMMER 10K OHM 0.25W GW TOP ADJ"
