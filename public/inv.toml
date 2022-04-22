@@ -863,13 +863,6 @@ quantity=6
 
 [[topics."Electronics Production".sources.Amazon.categories.soldering]]
 comment = "--------------------------------------------------------"
-description="Mini Hot Plate Soldering Preheating Station Preheater Multi Intelligent Modes with Built-in OLED Display 60W 30X30mm + Power Supply"
-item="MHP30M"
-URL="https://www.amazon.com/SainSmart-Soldering-Preheating-Preheater-Intelligent/dp/B08R6XFPKR"
-price=119.99
-quantity=1
-
-[[topics."Electronics Production".sources.Amazon.categories.soldering]]
 description="Soldering Station, Professional 2.9'' LED Digital Soldering Iron Station Kit with 356â„‰-896â„‰ Adjustable Temperature, Password Lock, ESD Safe, 5 Extra Tips, Solder Wire, Tweezers, Tip Cleaner"
 item="BK969S"
 URL="https://www.amazon.com/Soldering-Professional-356%E2%84%89-896%E2%84%89-Adjustable-Temperature/dp/B0983M3CBN/"
@@ -881,6 +874,34 @@ description="Soldering Station, 2 in 1 Soldering Iron Hot Air Gun Rework Station
 item="DS882"
 URL="https://www.amazon.com/TOAUTO-Soldering-Conversion-Temperature-Correction/dp/B08L8YGYQZ"
 price=119.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+description="Mini Hot Plate Soldering Preheating Station Preheater Multi Intelligent Modes with Built-in OLED Display 60W 30X30mm + Power Supply"
+item="MHP30M"
+URL="https://www.amazon.com/SainSmart-Soldering-Preheating-Preheater-Intelligent/dp/B08R6XFPKR"
+price=119.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+URL = "https://www.amazon.com/Corning-6795-400D-PC-400D-Digital-Pyroceram/dp/B004DGID7Y"
+description = 'Corning 6795-400D Hot Plate, Digital Display, 5" x 7" Pyroceram Top'
+item="PC-400D "
+price=338.69
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+URL="https://www.amazon.com/ERICKHILL-Thermometer-58%C2%B0F-752%C2%B0F-50%C2%B0C-400%C2%B0C-Temperature/dp/B09K39S9J1/"
+description='ERICKHILL Infrared Thermometer, -58°F~752°F (-50°C~400°C) Temperature Gun Non-Contact Digital Laser Thermometer'
+item="400SP"
+price=17.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+URL="https://www.amazon.com/Jonard-SA-9-115-Benchtop-Absorber-Filter/dp/B006962NCM/"
+description="Jonard Benchtop Fume Absorber with Adjustable Stand, 115VAC, Includes 3 Filters"
+item="SA-9-115"
+price=111.95
 quantity=1
 
 [[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
