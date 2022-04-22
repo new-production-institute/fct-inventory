@@ -136,6 +136,47 @@ quantity=1
 [topics."Computer-Controlled Cutting"]
 comment = "########################################################"
 
+[topics."Computer-Controlled Cutting".sources.Fabulaser]
+comment = "========================================================"
+URL="https://www.inmachines.net"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Fabulaser Mini Kit, including chiller, radial fan and compressor"
+item="FBMK21"
+price=4400
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Small Air Filter (indoor, optional)"
+item="AFAX03"
+price=600
+quantity=0
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Large Air Filter (indoor, optional)"
+item="AFBFAD"
+price=1600
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Spare parts kit, including laser tube (optional)"
+item="FBMS21"
+price=500
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Remote workshop (3 days, recommended)"
+item="FBMW21"
+price=1500
+quantity=1
+
 [topics."Computer-Controlled Cutting".sources.Trotec]
 comment = "========================================================"
 URL="https://www.troteclaser.com/"
@@ -162,16 +203,6 @@ URL="https://www.gccworld.com/"
 currency="USD"
 
 [[topics."Computer-Controlled Cutting".sources.GCC.categories."laser cutter option"]]
-comment = "--------------------------------------------------------"
-price=0
-quantity=0
-
-[topics."Computer-Controlled Cutting".sources.Fabulaser]
-comment = "========================================================"
-URL="http://fabulaser.net/"
-currency="USD"
-
-[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
 comment = "--------------------------------------------------------"
 price=0
 quantity=0
