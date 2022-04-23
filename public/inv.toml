@@ -1613,3 +1613,19 @@ item = "MakerFocus"
 URL = "https://www.amazon.com/MakerFocus-Display-1-3inch-Interface-Routines/dp/B07P9X3L7M"
 price = 11.99
 quantity = 10
+
+[topics."Wildcard Week"]
+comment = "########################################################"
+
+[topics."Wildcard Week".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Wildcard Week".sources.Amazon.categories."embroidery"]]
+comment = "--------------------------------------------------------"
+URL="https://www.amazon.com/Brother-Computerized-Embroidery-SE1900-Combination/dp/B07C9RQP1D"
+description='Brother Sewing and Embroidery Machine, 138 Designs, 240 Built-in Stitches, Computerized, 5" x 7" Hoop Area, 3.2" LCD Touchscreen Display, 8 Included Feet'
+item="SE1900"
+price=999.99
+quantity=1
