@@ -1056,6 +1056,13 @@ quantity=5
 
 [[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
 comment = "--------------------------------------------------------"
+description="Lead Free No-Clean Solder Paste Sn96.5Ag3Cu0.5 (96.5/3/0.5) - Syringe, 0.53 oz (15g), 5cc"
+item="TS391SNL"
+URL="https://www.digikey.com/en/products/detail/chip-quik-inc/TS391SNL/7802215"
+price=16.95
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
 description="Lead Free No-Clean, Water Soluble Wire Solder Sn96.5Ag3Cu0.5 (96.5/3/0.5) 24 AWG, 25 SWG Spool, 4 oz (113.40g)"
 item="SMDSWLF.020 4OZ"
 URL="https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSWLF-020-4OZ/2177058"
@@ -1063,11 +1070,11 @@ price=31.57
 quantity=5
 
 [[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
-description="Lead Free No-Clean Solder Paste Sn96.5Ag3Cu0.5 (96.5/3/0.5) - Syringe, 0.53 oz (15g), 5cc"
-item="TS391SNL"
-URL="https://www.digikey.com/en/products/detail/chip-quik-inc/TS391SNL/7802215"
-price=16.95
-quantity=5
+URL="https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSW-020-4OZ/2177060"
+description="Leaded No-Clean, Water Soluble Wire Solder Sn63Pb37 (63/37) 24 AWG, 25 SWG Spool, 4 oz (113.40g)"
+item="SMDSW.020 4OZ"
+price=17.02000
+quantity=2
 
 [[topics."Electronics Production".sources.Digi-Key.categories."desolder"]]
 comment = "--------------------------------------------------------"
