@@ -672,6 +672,13 @@ URL="https://www.digikey.com/product-detail/en/cree-inc/CLV1A-FKB-CK1VW1DE1BB7C3
 price=0.36129
 quantity=100
 
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+URL="https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-11821/6163706"
+description="Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 5.00mm L x 5.00mm W"
+item="COM-11821"
+price=0.5
+quantity=50
+
 [[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
 comment = "--------------------------------------------------------"
 description="IC REG LINEAR 3.3V 100MA SOT23-3"
