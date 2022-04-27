@@ -555,6 +555,13 @@ URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484"
 price=0.01353
 quantity=1000
 
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 0.25 OHM 1% 1W 2010"
+item="CSRN2010FKR250"
+URL="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR250/1788103"
+price=0.20800
+quantity=100
+
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
 comment = "--------------------------------------------------------"
 description="CAP CER 0.1UF 100V X7R 1206"
@@ -1239,7 +1246,7 @@ comment = "--------------------------------------------------------"
 URL="https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3SN-3112P/27856"
 item="B3SN-3112P"
 description="SWITCH TACTILE SPST-NO 0.05A 24V"
-price=0.96360	
+price=0.96360
 quantity=50
 
 [[topics."Input Devices".sources.Digi-Key.categories.potentiometer]]
