@@ -14,4 +14,3 @@
     - https://gitlab.fabcloud.org/inventory/data/-/blob/main/public/TOML-JSON.py
 - inventory JSON
     - http://inventory.fabcloud.io/data/inv.json
-
