@@ -503,6 +503,15 @@ price = 0.54100
 quantity = 50
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "250 mOhms ±1% 1W Chip Resistor 2010 (5025 Metric) Current Sense Thick Film"
+description = "RES 0.25 OHM 1% 1W 2010"
+manufacturer = "Stackpole Electronics Inc"
+item = "CSRN2010FKR250"
+URL = "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR250/1788103"
+price = 0.20800
+quantity = 100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 1 OHM 1% 1/4W 1206"
 item="RC1206FR-071RL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071RL/728386"
@@ -616,13 +625,6 @@ item="RC1206FR-0710ML"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484"
 price=0.01353
 quantity=1000
-
-[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
-description="RES 0.25 OHM 1% 1W 2010"
-item="CSRN2010FKR250"
-URL="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR250/1788103"
-price=0.20800
-quantity=100
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
 comment = "--------------------------------------------------------"
