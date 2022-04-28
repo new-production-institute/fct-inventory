@@ -602,6 +602,15 @@ price=0.01353
 quantity=1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "4.99 MOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+description = "RES 4.99M OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-074M99L"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-074M99L/728897"
+price = 0.01353
+quantity = 1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 10M OHM 1% 1/4W 1206"
 item="RC1206FR-0710ML"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484"
