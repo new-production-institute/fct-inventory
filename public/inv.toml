@@ -486,6 +486,14 @@ price=0.01055
 quantity=1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "100 mOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film"
+description = "RES 0.1 OHM 1% 1/4W 1206"
+item = "PT1206FR-070R1L"
+URL = "https://www.digikey.com/en/products/detail/yageo/PT1206FR-070R1L/2178335"
+price = 0.12692
+quantity = 250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 1 OHM 1% 1/4W 1206"
 item="RC1206FR-071RL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071RL/728386"
