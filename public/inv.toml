@@ -494,6 +494,15 @@ price = 0.12692
 quantity = 250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "100 mOhms ±5% 1W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense Thick Film"
+description = "RES 0.1 OHM 5% 1W 1206"
+manufacturer = "Panasonic Electronic Components"
+item = "ERJ-8BWJR100V"
+URL = "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-8BWJR100V/1711681"
+price = 0.54100
+quantity = 50
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 1 OHM 1% 1/4W 1206"
 item="RC1206FR-071RL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071RL/728386"
