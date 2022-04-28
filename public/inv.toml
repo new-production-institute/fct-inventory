@@ -478,16 +478,18 @@ URL="https://www.digikey.com/"
 currency="USD"
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
-comment = "--------------------------------------------------------"
-description="RES 0 OHM JUMPER 1/4W 1206"
-item="RC1206FR-070RL"
-URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-070RL/5698945"
-price=0.01055
-quantity=1000
+comment = "0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thick Film"
+description = "RES 0 OHM JUMPER 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-070RL"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-070RL/5698945"
+price = 0.01055
+quantity = 1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 comment = "100 mOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film"
 description = "RES 0.1 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item = "PT1206FR-070R1L"
 URL = "https://www.digikey.com/en/products/detail/yageo/PT1206FR-070R1L/2178335"
 price = 0.12692
@@ -513,6 +515,7 @@ quantity = 100
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 1 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-071RL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071RL/728386"
 price=0.02242
@@ -529,6 +532,7 @@ quantity = 1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 10 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-0710RL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482"
 price=0.02242
@@ -545,6 +549,7 @@ quantity = 1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 100 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-07100RL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100RL/728491"
 price=0.01353
@@ -552,6 +557,7 @@ quantity=1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 499 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-07499RL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07499RL/728944"
 price=0.01353
@@ -559,6 +565,7 @@ quantity=1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 1K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-071KL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"
 price=0.01353
@@ -566,6 +573,7 @@ quantity=1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 4.99K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-074K99L"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K99L/728896"
 price=0.01353
@@ -573,6 +581,7 @@ quantity=1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 10K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-0710KL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710KL/728483"
 price=0.01353
@@ -589,6 +598,7 @@ quantity = 1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 100K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-07100KL"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/728492"
 price=0.01353
@@ -605,6 +615,7 @@ quantity = 1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 1M OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-071ML"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388"
 price=0.01353
@@ -621,6 +632,7 @@ quantity = 1000
 
 [[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
 description="RES 10M OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
 item="RC1206FR-0710ML"
 URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484"
 price=0.01353
