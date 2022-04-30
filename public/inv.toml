@@ -711,7 +711,9 @@ price=0.21830
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "100 µF 25 V Aluminum Electrolytic Capacitors Radial, Can - SMD 360mOhm @ 100kHz 2000 Hrs @ 105°C"
 description="CAP ALUM 100UF 20% 25V SMD"
+manufacturer = "Panasonic Electronic Components"
 item="EEE-FN1E101UL"
 URL="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UL/12459663"
 price=0.28150
