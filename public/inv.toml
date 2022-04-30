@@ -774,7 +774,9 @@ price=0.19430
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "Diode Schottky 100 V 1A Surface Mount Mini SMA/SOD-123"
 description="DIODE SCHOTTKY 100V 1A MINISMA"
+manufacturer = "Comchip Technology"
 item="CDBM1100-G"
 URL="https://www.digikey.com/en/products/detail/comchip-technology/CDBM1100-G/2021250"
 price=0.24960
