@@ -755,6 +755,15 @@ URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T101KR/276331
 price=0.18450
 quantity=100
 
+[[topics."Electronics Design".sources.Digi-Key.categories.inductors]]
+comment = "1 mH Unshielded Wirewound Inductor 100 mA 13Ohm 1210 (3225 Metric)"
+description="FIXED IND 1MH 100MA 13 OHM SMD"
+manufacturer = "Taiyo Yuden"
+item="CBC3225T102KR"
+URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T102KR/3195011"
+price=0.18450
+quantity=100
+
 [[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
 comment = "--------------------------------------------------------"
 description="DIODE SCHOTTKY 100V 150MA SOD123"
