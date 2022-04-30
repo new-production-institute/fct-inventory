@@ -737,6 +737,15 @@ URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T1R0MR/958011
 price=0.18450
 quantity=100
 
+[[topics."Electronics Design".sources.Digi-Key.categories.inductors]]
+comment = "10 µH Unshielded Wirewound Inductor 900 mA 172.9mOhm Max 1210 (3225 Metric)"
+description="FIXED IND 10UH 900MA 172.9 MOHM"
+manufacturer = "Taiyo Yuden"
+item="CBC3225T100KR"
+URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T100KR/2763316"
+price=0.18450
+quantity=100
+
 [[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
 comment = "--------------------------------------------------------"
 description="DIODE SCHOTTKY 100V 150MA SOD123"
