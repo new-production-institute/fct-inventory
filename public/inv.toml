@@ -720,10 +720,12 @@ price=0.28150
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "10 F (EDLC) Supercapacitor 3.8 V Radial, Can 500mOhm @ 1kHz 1000 Hrs @ 70°C"
 description="CAP HYBRID 10F 3.8V T/H"
+manufacturer = "Tecate Group"
 item="TPLC-3R8/10MR8X14"
 URL="https://www.digikey.com/en/products/detail/tecate-group/TPLC-3R8-10MR8X14/12417602"
-price=1.7248
+price=1.67260
 quantity=50
 
 [[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
