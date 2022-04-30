@@ -728,6 +728,15 @@ URL="https://www.digikey.com/en/products/detail/tecate-group/TPLC-3R8-10MR8X14/1
 price=1.67260
 quantity=50
 
+[[topics."Electronics Design".sources.Digi-Key.categories.inductors]]
+comment = "1 µH Unshielded Wirewound Inductor 1.44 A 71.5mOhm Max 1210 (3225 Metric)"
+description="FIXED IND 1UH 1.44A 71.5MOHM SMD"
+manufacturer = "Taiyo Yuden"
+item="CBC3225T1R0MR"
+URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T1R0MR/958011"
+price=0.18450
+quantity=100
+
 [[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
 comment = "--------------------------------------------------------"
 description="DIODE SCHOTTKY 100V 150MA SOD123"
