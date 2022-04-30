@@ -684,8 +684,9 @@ price=0.05474
 quantity=500
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
-comment = "--------------------------------------------------------"
+comment = "0.1 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
 description="CAP CER 0.1UF 100V X7R 1206"
+manufacturer = "TDK Corporation"
 item="C3216X7R2A104K160AA"
 URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R2A104K160AA/513967"
 price=0.07128
