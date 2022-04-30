@@ -648,6 +648,15 @@ price=0.07038
 quantity=500
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "10 pF ±5% 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
+description="CAP CER 10PF 50V C0G/NPO 1206"
+manufacturer = "YAGEO"
+item="CC1206JRNPO9BN100"
+URL="https://www.digikey.com/en/products/detail/yageo/CC1206JRNPO9BN100/302884"
+price=0.06258
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
 comment = "--------------------------------------------------------"
 description="CAP CER 0.1UF 100V X7R 1206"
 item="C3216X7R2A104K160AA"
