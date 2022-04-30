@@ -765,11 +765,12 @@ price=0.18450
 quantity=100
 
 [[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
-comment = "--------------------------------------------------------"
+comment = "Diode Schottky 100 V 150mA (DC) Surface Mount SOD-123"
 description="DIODE SCHOTTKY 100V 150MA SOD123"
+manufacturer = "STMicroelectronics"
 item="BAT46ZFILM"
 URL="https://www.digikey.com/en/products/detail/stmicroelectronics/BAT46ZFILM/1207026"
-price=0.17690
+price=0.19430
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
