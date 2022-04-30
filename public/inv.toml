@@ -791,6 +791,15 @@ URL="https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C3V3-7-
 price=0.07114
 quantity=500
 
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "Zener Diode 4.7 V 500 mW ±6% Surface Mount SOD-123"
+description="DIODE ZENER 4.7V 500MW SOD123"
+manufacturer = "Diodes Incorporated"
+item="BZT52C4V7-13-F"
+URL="https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C4V7-13-F/819471"
+price=0.06518
+quantity=500
+
 [[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
 comment = "--------------------------------------------------------"
 description="MOSFET N-CH 30V 5.2A SOT23-3"
