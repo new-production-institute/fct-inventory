@@ -1326,11 +1326,12 @@ price=0.96360
 quantity=50
 
 [[topics."Input Devices".sources.Digi-Key.categories.potentiometer]]
-comment = "--------------------------------------------------------"
+comment = "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment"
 description = "TRIMMER 10K OHM 0.25W GW TOP ADJ"
-item = "ST4ETB103CT-ND"
+manufacturer = "Nidec Copal Electronics"
+item = "ST4ETB103"
 URL = "https://www.digikey.com/en/products/detail/nidec-copal-electronics/ST4ETB103/738213"
-price = 0.95
+price = 0.96400
 quantity = 25
 
 [[topics."Input Devices".sources.Digi-Key.categories.color]]
