@@ -693,7 +693,9 @@ price=0.07128
 quantity=500
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "1 µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
 description="CAP CER 1UF 50V X7R 1206"
+manufacturer = "TDK Corporation"
 item="C3216X7R1H105K160AB"
 URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R1H105K160AB/569049"
 price=0.07444
