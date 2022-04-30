@@ -702,10 +702,12 @@ price=0.07444
 quantity=500
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
-description="CAP CER 10UF 25V X7R 1206"
-item="C3216X7R1E106K160AB"
-URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R1E106K160AB/2733140"
-price=0.29700
+comment = "10 µF ±20% 35V Ceramic Capacitor X6S 1206 (3216 Metric)"
+description="CAP CER 10UF 35V X6S 1206"
+manufacturer = "Murata Electronics"
+item="GRT31CC8YA106ME01L"
+URL="https://www.digikey.com/en/products/detail/murata-electronics/GRT31CC8YA106ME01L/5416847"
+price=0.21830
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
