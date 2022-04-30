@@ -782,6 +782,15 @@ URL="https://www.digikey.com/en/products/detail/comchip-technology/CDBM1100-G/20
 price=0.24960
 quantity=250
 
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "Zener Diode 3.3 V 500 mW ±6% Surface Mount SOD-123"
+description="DIODE ZENER 3.3V 500MW SOD123"
+manufacturer = "Diodes Incorporated"
+item="BZT52C3V3-7-F"
+URL="https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C3V3-7-F/717734"
+price=0.07114
+quantity=500
+
 [[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
 comment = "--------------------------------------------------------"
 description="MOSFET N-CH 30V 5.2A SOT23-3"
