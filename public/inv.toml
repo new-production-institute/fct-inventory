@@ -666,6 +666,15 @@ price=0.06258
 quantity=500
 
 [[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 1206 (3216 Metric)"
+description="CAP CER 1000PF 1KV X7R 1206"
+manufacturer = "YAGEO"
+item="CC1206KKX7RCBB102"
+URL="https://www.digikey.com/en/products/detail/yageo/CC1206KKX7RCBB102/302878"
+price=0.11360
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
 comment = "--------------------------------------------------------"
 description="CAP CER 0.1UF 100V X7R 1206"
 item="C3216X7R2A104K160AA"
