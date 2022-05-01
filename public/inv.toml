@@ -855,12 +855,12 @@ price=1.15000
 quantity=0
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
-comment = "Red 630nm LED Indication - Discrete 1.95V 1206 (3016 Metric)"
-description="LED RED CLEAR 2SMD"
-manufacturer = "SunLED"
-item="XZMDK60W"
-URL="https://www.digikey.com/en/products/detail/sunled/XZMDK60W/4902037"
-price=0.1692
+comment = "Red - LED Indication - Discrete 2V 1206 (3216 Metric)"
+description="LED RED CLEAR 1206 SMD"
+manufacturer = "Lumex Opto/Components Inc."
+item="SML-LX1206IC-TR"
+URL="https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SML-LX1206IC-TR/229140"
+price=0.14130
 quantity=200
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
