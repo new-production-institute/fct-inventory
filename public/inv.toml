@@ -1507,6 +1507,15 @@ URL = "https://www.digikey.com/en/products/detail/nidec-copal-electronics/ST4ETB
 price = 0.96400
 quantity = 25
 
+[[topics."Input Devices".sources.Digi-Key.categories.light]]
+comment = "Phototransistors 940nm Top View 1206 (3216 Metric) Infrared"
+description = "SENSOR PHOTO 940NM TOP VIEW 1206 IR"
+manufacturer = "Everlight Electronics Co Ltd"
+item = "PT15-21B/TR8"
+URL = "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/PT15-21B-TR8/2675870"
+price = 0.09860
+quantity = 100
+
 [[topics."Input Devices".sources.Digi-Key.categories.color]]
 comment = "--------------------------------------------------------"
 description = "RGBW COLOR SENSOR I2C INTERFACE"
