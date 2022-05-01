@@ -873,6 +873,15 @@ price=0.16920
 quantity=200
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Orange 605nm LED Indication - Discrete 2V 1206 (3216 Metric)"
+description="LED ORANGE CLEAR 1206 SMD"
+manufacturer = "Dialight"
+item="5988230107F"
+URL="https://www.digikey.com/en/products/detail/dialight/5988230107F/1291283"
+price=0.20600
+quantity=200
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 description="LED COOL WHITE 5000K 80CRI"
 item="MP-3014-1100-50-80"
 URL="https://www.digikey.com/en/products/detail/luminus-devices-inc/MP-3014-1100-50-80/6109331"
