@@ -1516,6 +1516,15 @@ URL = "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/P
 price = 0.09860
 quantity = 100
 
+[[topics."Input Devices".sources.Digi-Key.categories.light]]
+comment = "Phototransistors 940nm Top View 1206 (3216 Metric) Visible light"
+description = "SENSOR PHOTO 940NM TOP VIEW 1206 VISIBLE"
+manufacturer = "Everlight Electronics Co Ltd"
+item = "PT15-21C/TR8"
+URL = "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/PT15-21C-TR8/2675871"
+price = 0.09860
+quantity = 100
+
 [[topics."Input Devices".sources.Digi-Key.categories.color]]
 comment = "--------------------------------------------------------"
 description = "RGBW COLOR SENSOR I2C INTERFACE"
