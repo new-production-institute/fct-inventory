@@ -1535,11 +1535,12 @@ price = 1.80040
 quantity = 25
 
 [[topics."Input Devices".sources.Digi-Key.categories.distance]]
-comment = "--------------------------------------------------------"
+comment = "VL53L1X series Light, 3D Time-of-Flight (ToF) Sensor Evaluation Board"
 description = "VL53L1X TOF DISTANCE SNSR W/VREG"
-item = "2183-3415-ND"
+manufacturer = "Pololu Corporation"
+item = "3415"
 URL = "https://www.digikey.com/en/products/detail/pololu-corporation/3415/10451121"
-price = 11.95
+price = 16.95000
 quantity = 10
 
 [[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
