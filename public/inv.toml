@@ -891,6 +891,15 @@ price=0.17700
 quantity=200
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "White - LED Indication - Discrete 3.3V 1206 (3216 Metric)"
+description="LED WHITE DIFFUSED 1206 SMD"
+manufacturer = "QT Brightek (QTB)"
+item="QBLP650-IW"
+URL="https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP650-IW/5017758"
+price=0.20230
+quantity=200
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 description="LED COOL WHITE 5000K 80CRI"
 item="MP-3014-1100-50-80"
 URL="https://www.digikey.com/en/products/detail/luminus-devices-inc/MP-3014-1100-50-80/6109331"
