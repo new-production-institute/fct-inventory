@@ -801,8 +801,9 @@ price=0.06518
 quantity=500
 
 [[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
-comment = "--------------------------------------------------------"
+comment = "N-Channel 30 V 5.2A (Tc) 1.25W (Ta), 1.8W (Tc) Surface Mount SOT-23-3 (TO-236)"
 description="MOSFET N-CH 30V 5.2A SOT23-3"
+manufacturer = "Vishay Siliconix"
 item="SI2336DS-T1-GE3"
 URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SI2336DS-T1-GE3/3748946"
 price=0.33880
