@@ -1852,14 +1852,14 @@ description='Plastic Small-Parts Cabinet with 16 Drawers, 8-1/2" High x 10-1/2" 
 item='9619T61'
 URL='https://www.mcmaster.com/9619T61/'
 price=23.23
-quantity=1
+quantity=10
 
 [[topics."Mechanical Design".sources."McMaster-Carr".categories.storage]]
 description='Divider for 1.5" High x 2" Wide x 5.25" Deep Drawer in Plastic Small-Parts Cabinet, packs of 16'
 item='9619T92'
 URL='https://www.mcmaster.com/9619T92/'
 price=6.49
-quantity=1
+quantity=10
 
 [topics."Molding and Casting"]
 comment = "########################################################"
