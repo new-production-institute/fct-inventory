@@ -1658,6 +1658,208 @@ URL="https://www.amazon.com/Calamus-Bastion-Braided-Fishing-Strands/dp/B08QYNLQ9
 price=21.99
 quantity=2
 
+[topics."Mechanical Design".sources."McMaster-Carr"]
+comment = "========================================================"
+URL="https://www.mcmaster.com/"
+currency = "USD"
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+comment = "--------------------------------------------------------"
+description='M3 x 0.5 mm Thread, 5 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 100'
+item='91292A110'
+URL='https://www.mcmaster.com/91292A110/'
+price=5.19
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 10 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 100'
+item='91292A113'
+URL='https://www.mcmaster.com/91292A113/'
+price=5.19
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 20 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 100'
+item='91292A123'
+URL='https://www.mcmaster.com/91292A123/'
+price=7.08
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 30 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 50'
+item='91292A022'
+URL='https://www.mcmaster.com/91292A022/'
+price=4.48
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 40 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 25'
+item='91292A024'
+URL='https://www.mcmaster.com/91292A024/'
+price=3.42
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 50 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 25'
+item='91292A026'
+URL='https://www.mcmaster.com/91292A026/'
+price=4.13
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 60 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 50'
+item='91292A267'
+URL='https://www.mcmaster.com/91292A267/'
+price=13.24
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.50 mm Thread, 70 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 25'
+item='91292A316'
+URL='https://www.mcmaster.com/91292A316/'
+price=10.89
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Cup-Point Set Screw, M3 x 0.5 mm Thread, 5 mm Long, pack of 50'
+item='92015A103'
+URL='https://www.mcmaster.com/92015A103/'
+price=8.68
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Cup-Point Set Screw, M3 x 0.5 mm Thread, 10 mm Long, pack of 50'
+item='92015A106'
+URL='https://www.mcmaster.com/92015A106/'
+price=10.16
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Plastic-Head Thumb Screws, Knurled, M3 x 0.5 mm Thread, 10 mm Long, Black Head, pack of 10'
+item='96016A553'
+URL='https://www.mcmaster.com/96016A553/'
+price=5.25
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Plastic-Head Thumb Screws, Knurled, M3 x 0.5mm Thread Size, 20mm Long, pack of 10'
+item='96016A556'
+URL='https://www.mcmaster.com/96016A556/'
+price=5.50
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Hex Nut, M3 x 0.5 mm Thread, pack of 100'
+item='91828A211'
+URL='https://www.mcmaster.com/91828A211/'
+price=5.45
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Nylon-Insert Locknut, M3 x 0.5 mm Thread, 5.5 mm Wide, 4 mm High, pack of 100'
+item='93625A100'
+URL='https://www.mcmaster.com/93625A100/'
+price=5.31
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Slotted Unthreaded Spacers, Zinc-Plated Low-Carbon Steel, 4.5mm OD, 3.15mm ID, 4mm Long, pack of 25'
+item='93441A487'
+URL='https://www.mcmaster.com/93441A487/'
+price=6.30
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Split Lock Washer for M3 Socket Head Screws, 3.4 mm ID, 5.6 mm OD, pack of 100'
+item='91111A118'
+URL='https://www.mcmaster.com/91111A118/'
+price=2.10
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Nylon Plastic Washer, for M3 Screw Size, 3.2 mm ID, 8 mm OD, Off-White, pack of 100'
+item='95610A130'
+URL='https://www.mcmaster.com/95610A130/'
+price=3.81
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Washer for M3 Screw Size, 3.200 mm ID, 6 mm OD, pack of 100'
+price=2.71
+item='98689A112'
+URL='https://www.mcmaster.com/98689A112/'
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Washer for M3 Screw Size, 3.2 mm ID, 7 mm OD, pack of 100'
+item='93475A210'
+URL='https://www.mcmaster.com/93475A210/'
+price=1.62
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Electrical-Insulating Nylon 6/6 Sleeve Washer for M3 Screw Size, 5 mm Overall Height, pack of 100'
+item='91145A318'
+URL='https://www.mcmaster.com/91145A318/'
+price=6.80
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Tapered Heat-Set Inserts for Plastic, M3 x 0.5 mm Thread Size, 3.43 mm Installed Length, pack of 25'
+item='97163A149'
+URL='https://www.mcmaster.com/97163A149/'
+price=9.02
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Tapered Heat-Set Inserts for Plastic, M3 x 0.5 mm Thread Size, 6.35 mm Installed Length, packs of 10'
+item='97163A161'
+URL='https://www.mcmaster.com/97163A161/'
+price=5.31
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 1.5 mm Size, 3-1/16"'
+item='5503A36'
+URL='https://www.mcmaster.com/5503A36/'
+price=0.80
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 1.5 mm Size, 3-9/16"'
+item='57185A34'
+URL='https://www.mcmaster.com/57185A34/'
+price=0.76
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 2.5 mm Size, 3-5/8"'
+item='5503A38'
+URL='https://www.mcmaster.com/5503A38/'
+price=0.84
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 2.5 mm Size, 4-9/16"'
+item='57185A22'
+URL='https://www.mcmaster.com/57185A22/'
+price=0.87
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Plastic Small-Parts Cabinet with 16 Drawers, 8-1/2" High x 10-1/2" Wide x 6-1/2" Deep Overall'
+item='9619T61'
+URL='https://www.mcmaster.com/9619T61/'
+price=23.23
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Divider for 1.5" High x 2" Wide x 5.25" Deep Drawer in Plastic Small-Parts Cabinet, packs of 16'
+item='9619T92'
+URL='https://www.mcmaster.com/9619T92/'
+price=6.49
+quantity=1
+
 [topics."Molding and Casting"]
 comment = "########################################################"
 
