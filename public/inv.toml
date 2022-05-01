@@ -828,11 +828,12 @@ price=1.45800
 quantity=50
 
 [[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
-comment = "--------------------------------------------------------"
+comment = "N-Channel 30 V 1.7A (Ta) 500mW (Ta) Surface Mount SOT-23-3"
 description="MOSFET N-CH 30V 1.7A SUPERSOT3"
+manufacturer = "onsemi"
 item="NDS355AN"
 URL="https://www.digikey.com/en/products/detail/onsemi/NDS355AN/458899"
-price=0.28180
+price=0.48000
 quantity=0
 
 [[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
