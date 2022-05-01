@@ -1535,6 +1535,15 @@ price = 1.80040
 quantity = 25
 
 [[topics."Input Devices".sources.Digi-Key.categories.distance]]
+comment = "Optical Sensor 157.480in (4m) I²C Output"
+description = "SENSOR OPTICAL 4M I2C"
+manufacturer = "STMicroelectronics"
+item = "VL53L1CXV0FY/1"
+URL = "https://www.digikey.com/en/products/detail/stmicroelectronics/VL53L1CXV0FY-1/8258055"
+price = 6.38600
+quantity = 10
+
+[[topics."Input Devices".sources.Digi-Key.categories.distance]]
 comment = "VL53L1X series Light, 3D Time-of-Flight (ToF) Sensor Evaluation Board"
 description = "VL53L1X TOF DISTANCE SNSR W/VREG"
 manufacturer = "Pololu Corporation"
