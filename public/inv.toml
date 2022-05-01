@@ -837,10 +837,12 @@ price=0.48000
 quantity=0
 
 [[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+comment = "P-Channel 30 V 1.1A (Ta) 500mW (Ta) Surface Mount SOT-23-3"
 description="MOSFET P-CH 30V 1.1A SUPERSOT3"
+manufacturer = "onsemi"
 item="NDS356AP"
 URL="https://www.digikey.com/en/products/detail//NDS356AP/458900"
-price=0.31940
+price=0.45000
 quantity=0
 
 [[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
