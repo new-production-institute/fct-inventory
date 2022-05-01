@@ -909,10 +909,12 @@ price=0.05520
 quantity=500
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Red, Green, Blue (RGB) 622nm Red, 528nm Green, 468nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 4-PLCC"
 description="LED RGB 4PLCC SMD"
+manufacturer = "CreeLED, Inc."
 item="CLV1A-FKB-CK1VW1DE1BB7C3C3"
 URL="https://www.digikey.com/product-detail/en/cree-inc/CLV1A-FKB-CK1VW1DE1BB7C3C3/CLV1A-FKB-CK1VW1DE1BB7C3C3CT-ND"
-price=0.36129
+price=0.36120
 quantity=100
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
