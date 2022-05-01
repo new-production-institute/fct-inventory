@@ -861,7 +861,7 @@ manufacturer = "Lumex Opto/Components Inc."
 item="SML-LX1206IC-TR"
 URL="https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SML-LX1206IC-TR/229140"
 price=0.14130
-quantity=200
+quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 comment = "Green - LED Indication - Discrete 2.2V 1206 (3216 Metric)"
@@ -870,7 +870,7 @@ manufacturer = "Lumex Opto/Components Inc."
 item="SML-LX1206GC-TR"
 URL="https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SML-LX1206GC-TR/229139"
 price=0.16920
-quantity=200
+quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 comment = "Orange 605nm LED Indication - Discrete 2V 1206 (3216 Metric)"
@@ -879,7 +879,7 @@ manufacturer = "Dialight"
 item="5988230107F"
 URL="https://www.digikey.com/en/products/detail/dialight/5988230107F/1291283"
 price=0.20600
-quantity=200
+quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 comment = "Blue 470nm LED Indication - Discrete 3.2V 1206 (3216 Metric)"
@@ -888,7 +888,7 @@ manufacturer = "Würth Elektronik"
 item="150120BS75000"
 URL="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150120BS75000/4489933"
 price=0.17700
-quantity=200
+quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 comment = "White - LED Indication - Discrete 3.3V 1206 (3216 Metric)"
@@ -897,7 +897,7 @@ manufacturer = "QT Brightek (QTB)"
 item="QBLP650-IW"
 URL="https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP650-IW/5017758"
 price=0.20230
-quantity=200
+quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 description="LED COOL WHITE 5000K 80CRI"
