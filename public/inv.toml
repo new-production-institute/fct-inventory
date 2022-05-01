@@ -900,7 +900,9 @@ price=0.20230
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "LED Lighting series White, Cool 5000K 2.85V 60mA 110° 1206 (3014 Metric)"
 description="LED COOL WHITE 5000K 80CRI"
+manufacturer = "Luminus Devices Inc."
 item="MP-3014-1100-50-80"
 URL="https://www.digikey.com/en/products/detail/luminus-devices-inc/MP-3014-1100-50-80/6109331"
 price=0.05520
