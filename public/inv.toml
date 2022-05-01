@@ -927,8 +927,10 @@ price=0.36120
 quantity=100
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 5.00mm L x 5.00mm W"
 URL="https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-11821/6163706"
-description="Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 5.00mm L x 5.00mm W"
+description = "ADDRESS LED DISCRETE SERIAL RGB"
+manufacturer = "SparkFun Electronics"
 item="COM-11821"
 price=0.5
 quantity=50
