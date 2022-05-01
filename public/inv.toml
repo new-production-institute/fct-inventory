@@ -882,6 +882,15 @@ price=0.20600
 quantity=200
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Blue 470nm LED Indication - Discrete 3.2V 1206 (3216 Metric)"
+description="LED BLUE CLEAR 1206 SMD"
+manufacturer = "Würth Elektronik"
+item="150120BS75000"
+URL="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150120BS75000/4489933"
+price=0.17700
+quantity=200
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 description="LED COOL WHITE 5000K 80CRI"
 item="MP-3014-1100-50-80"
 URL="https://www.digikey.com/en/products/detail/luminus-devices-inc/MP-3014-1100-50-80/6109331"
