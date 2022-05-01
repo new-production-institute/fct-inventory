@@ -846,10 +846,12 @@ price=0.45000
 quantity=0
 
 [[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+comment = "N-Channel 50 V 16A (Tc) 60W (Tc) Surface Mount TO-252AA"
 description="MOSFET N-CH 50V 16A TO252AA"
 item="RFD16N05LSM9A"
+manufacturer = "onsemi"
 URL="https://www.digikey.com/en/products/detail/onsemi/RFD16N05LSM9A/965453"
-price=1.02800
+price=1.15000
 quantity=0
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
