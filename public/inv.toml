@@ -819,7 +819,9 @@ price=0.40260
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
+comment = "N-Channel 30 V 90A (Tc) 10W (Ta), 83W (Tc) Surface Mount TO-252AA"
 description="MOSFET N-CH 30V 90A TO252"
+manufacturer = "Vishay Siliconix"
 item="SUD50N03-06AP-E3"
 URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SUD50N03-06AP-E3/2623051"
 price=1.45800
