@@ -1526,11 +1526,12 @@ price = 0.09860
 quantity = 100
 
 [[topics."Input Devices".sources.Digi-Key.categories.color]]
-comment = "--------------------------------------------------------"
+comment = "Color Sensor 16 b Low Power Consumption 4-TFLGA"
 description = "RGBW COLOR SENSOR I2C INTERFACE"
-item = "VEML6040A3OGCT-ND"
+manufacturer = "Vishay Semiconductor Opto Division"
+item = "VEML6040A3OG"
 URL = "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VEML6040A3OG/5168308"
-price = 1.80
+price = 1.80040
 quantity = 25
 
 [[topics."Input Devices".sources.Digi-Key.categories.distance]]
