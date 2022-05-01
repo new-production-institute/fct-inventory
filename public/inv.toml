@@ -900,6 +900,15 @@ price=0.20230
 quantity=250
 
 [[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Infrared (IR) Emitter 850nm 1.45V 65mA 1mW/sr @ 20mA 75° 1206 (3016 Metric)"
+description="EMITTER IR 850NM 65MA 1206"
+manufacturer = "Everlight Electronics Co Ltd"
+item="HIR11-21C/L11/TR8"
+URL="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/HIR11-21C-L11-TR8/2675837"
+price=0.26210
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
 comment = "LED Lighting series White, Cool 5000K 2.85V 60mA 110° 1206 (3014 Metric)"
 description="LED COOL WHITE 5000K 80CRI"
 manufacturer = "Luminus Devices Inc."
