@@ -964,6 +964,15 @@ URL="IC REG LINEAR 5V 1A SOT223"
 price=0.4146
 quantity=100
 
+[[topics."Electronics Design".sources.Digi-Key.categories.amplifiers]]
+comment = "General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
+description="IC OPAMP GP 1 CIRCUIT SOT23-5"
+manufacturer = "Analog Devices Inc."
+item="AD8605ARTZ-REEL7"
+URL="https://www.digikey.com/en/products/detail/analog-devices-inc/AD8605ARTZ-REEL7/654064"
+price=1.80620
+quantity=100
+
 [[topics."Electronics Design".sources.Digi-Key.categories.switches]]
 comment = "--------------------------------------------------------"
 description="Slide Switch SPDT Surface Mount, Right Angle"
