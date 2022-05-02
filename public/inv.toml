@@ -1589,11 +1589,12 @@ price = 1.90780
 quantity = 50
 
 [[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
-comment = "--------------------------------------------------------"
-description = "Hall Effect Sensor X, Y, Z Axis PG-TSOP6-6-8"
-item = "TLE493DA2B6HTSA1CT-ND"
+comment = "Hall Effect Sensor X, Y, Z Axis PG-TSOP6-6-8"
+description = "SENSOR HALL EFFECT I2C"
+manufacturer = "Infineon Technologies"
+item = "TLE493DA2B6HTSA1"
 URL = "https://www.digikey.com/en/products/detail/infineon-technologies/TLE493DA2B6HTSA1/9808570"
-price = 1.99
+price = 1.96080
 quantity = 25
 
 [[topics."Input Devices".sources.Digi-Key.categories.magnets]]
