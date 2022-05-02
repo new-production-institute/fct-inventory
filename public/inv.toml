@@ -1639,6 +1639,15 @@ URL = "https://www.digikey.com/en/products/detail/pololu-corporation/2736/104511
 price = 17.01000
 quantity = 10
 
+[[topics."Input Devices".sources.Digi-Key.categories.IMU]]
+comment = "BNO085 series Accelerometer, Gyroscope, Magnetometer, 3 Axis Sensor Evaluation Board"
+description = "ADAFRUIT 9-DOF ORIENTATION IMU F"
+manufacturer = "Adafruit Industries LLC"
+item = "4754"
+URL = "https://www.digikey.com/en/products/detail/adafruit-industries-llc/4754/13426653"
+price = 24.95000
+quantity = 10
+
 [topics."Machine Design"]
 comment = "########################################################"
 
