@@ -1588,6 +1588,15 @@ URL = "https://www.digikey.com/en/products/detail/cui-devices/CMM-4030D-261-I2S-
 price = 1.90780
 quantity = 50
 
+[[topics."Input Devices".sources.Digi-Key.categories.pressure]]
+comment = "Pressure Sensor 4.35PSI ~ 17.4PSI (30kPa ~ 120kPa) Vented Gauge - 24 b 8-VFLGA"
+description = "SENSOR PRESSURE CAPACITIVE"
+manufacturer = "Infineon Technologies"
+item = "DPS310XTSA1"
+URL = "https://www.digikey.com/en/products/detail/infineon-technologies/DPS310XTSA1/6099978"
+price = 2.75500
+quantity = 10
+
 [[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
 comment = "Hall Effect Sensor X, Y, Z Axis PG-TSOP6-6-8"
 description = "SENSOR HALL EFFECT I2C"
