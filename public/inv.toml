@@ -2114,6 +2114,24 @@ URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV8428PPWPR
 price = 2.67600
 quantity = 0
 
+[[topics."Output Devices".sources.Digi-Key.categories.speakers]]
+comment = "8 Ohms General Purpose Speaker 250 mW 900 Hz ~ 6.5 kHz Top Round"
+description = "SPEAKER 8OHM 250MW TOP PORT 81DB"
+manufacturer = "Mallory Sonalert Products Inc."
+item = "PSR-23F08S-JQ"
+URL = "https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PSR-23F08S-JQ/2071440"
+price = 0.62580
+quantity = 50
+
+[[topics."Output Devices".sources.Digi-Key.categories.speakers]]
+comment = "8 Ohms General Purpose Speaker 500 mW 600 Hz ~ 4 kHz Top Round"
+description = "SPEAKER 8OHM 500MW TOP PORT 92DB"
+manufacturer = "Mallory Sonalert Products Inc."
+item = "PSR-57N08A01-AQ"
+URL = "https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PSR-57N08A01-AQ/2071452"
+price = 2.18720
+quantity = 25
+
 [topics."Output Devices".sources.Amazon]
 comment = "========================================================"
 URL = "https://www.amazon.com"
