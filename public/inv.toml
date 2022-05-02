@@ -1630,6 +1630,15 @@ URL = "https://www.digikey.com/en/products/detail/pololu-corporation/2738/104511
 price = 31.95000
 quantity = 10
 
+[[topics."Input Devices".sources.Digi-Key.categories.IMU]]
+comment = "LSM6DS33 series Accelerometer, Gyroscope, 6 Axis Sensor Evaluation Board"
+description = "LSM6DS33 3D ACCEL & GYRO W/VREG"
+manufacturer = "Pololu Corporation"
+item = "2736"
+URL = "https://www.digikey.com/en/products/detail/pololu-corporation/2736/10451119"
+price = 17.01000
+quantity = 10
+
 [topics."Machine Design"]
 comment = "########################################################"
 
