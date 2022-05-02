@@ -1534,6 +1534,24 @@ URL = "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-divi
 price = 1.80040
 quantity = 25
 
+[[topics."Input Devices".sources.Digi-Key.categories.temperature]]
+comment = "NTC Thermistor 10k 1206 (3216 Metric)"
+description = "THERMISTOR NTC 10KOHM 3750K 1206"
+manufacturer = "Amphenol Thermometrics"
+item = "NHQ103B375T10"
+URL = "https://www.digikey.com/en/products/detail/amphenol-thermometrics/NHQ103B375T10/374815"
+price = 1.88560
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories.temperature]]
+comment = "1 kOhms RTD Platinum (Pt) ±0.3K 3850ppm/°C 1206 (3216 Metric)"
+description = "SENSOR RTD 1KOHM 0.3K 1206"
+manufacturer = "Vishay Beyschlag/Draloric/BC Components"
+item = "PTS1206M1B1K00P100"
+URL = "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/PTS1206M1B1K00P100/5218662"
+price = 3.29440
+quantity = 25
+
 [[topics."Input Devices".sources.Digi-Key.categories.distance]]
 comment = "Optical Sensor 157.480in (4m) I²C Output"
 description = "SENSOR OPTICAL 4M I2C"
