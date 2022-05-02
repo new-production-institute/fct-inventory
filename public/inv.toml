@@ -1597,6 +1597,15 @@ URL = "https://www.digikey.com/en/products/detail/infineon-technologies/TLE493DA
 price = 1.96080
 quantity = 25
 
+[[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
+comment = "Hall Effect Sensor Single Axis SOT-23W"
+description = "SENSOR HALL EFFECT ANALOG SOT23W"
+manufacturer = "Allegro MicroSystems"
+item = "A1324LLHLT-T"
+URL = "https://www.digikey.com/en/products/detail/allegro-microsystems/A1324LLHLT-T/2639989"
+price = 1.42560
+quantity = 25
+
 [[topics."Input Devices".sources.Digi-Key.categories.magnets]]
 comment = "--------------------------------------------------------"
 description = 'MAGNET 0.5"DIA X 0.125"H CYL'
