@@ -1552,6 +1552,24 @@ URL = "https://www.digikey.com/en/products/detail/pololu-corporation/3415/104511
 price = 16.95000
 quantity = 10
 
+[[topics."Input Devices".sources.Digi-Key.categories.microphones]]
+comment = "100 Hz ~ 10 kHz Analog Microphone MEMS (Silicon) 1.5 V ~ 3.6 V Omnidirectional (-42dB ±3dB @ 94dB SPL) Solder Pads"
+description = "MICROPHONE MEMS ANLG OMNI IOT"
+manufacturer = "Knowles"
+item = "SPU0410HR5H-PB"
+URL = "https://www.digikey.com/en/products/detail/knowles/SPU0410HR5H-PB/2242378"
+price = 0.71160
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories.microphones]]
+comment = "100 Hz ~ 10 kHz Digital, I²S Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB) Solder Pads"
+description = "MICROPHONE, 4MM X 3MM X1.25MM DE"
+manufacturer = "CUI Devices"
+item = "CMM-4030D-261-I2S-TR"
+URL = "https://www.digikey.com/en/products/detail/cui-devices/CMM-4030D-261-I2S-TR/13164051"
+price = 1.90780
+quantity = 50
+
 [[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
 comment = "--------------------------------------------------------"
 description = "Hall Effect Sensor X, Y, Z Axis PG-TSOP6-6-8"
