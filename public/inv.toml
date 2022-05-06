@@ -2197,6 +2197,15 @@ URL = "https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/
 price = 2.18720
 quantity = 25
 
+[[topics."Output Devices".sources.Digi-Key.categories.amplifiers]]
+comment = "Amplifier IC 1-Channel (Mono) Class AB 8-SOIC"
+description = "IC AMP CLASS AB MONO 3W 8SOIC"
+manufacturer = "Texas Instruments"
+item = "LM4871M"
+URL = "https://www.digikey.com/en/products/detail/texas-instruments/LM4871M/3701369"
+price = 1.90280
+quantity = 25
+
 [topics."Output Devices".sources.Amazon]
 comment = "========================================================"
 URL = "https://www.amazon.com"
