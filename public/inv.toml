@@ -1333,11 +1333,11 @@ price=31.57
 quantity=5
 
 [[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
-URL="https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSW-020-4OZ/2177060"
-description="Leaded No-Clean, Water Soluble Wire Solder Sn63Pb37 (63/37) 24 AWG, 25 SWG Spool, 4 oz (113.40g)"
-item="SMDSW.020 4OZ"
-price=17.02000
-quantity=2
+URL='https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSWLT-040-10G/9836741'
+description='Lead Free No-Clean, Rosin Activated (RA) Wire Solder Bi57Sn42Ag1 (57/42/1) 18 AWG, 19 SWG Spool, 0.35 oz (10g)'
+item='SMDSWLT.040 10G'
+price=19.95
+quantity=3
 
 [[topics."Electronics Production".sources.Digi-Key.categories."desolder"]]
 comment = "--------------------------------------------------------"
