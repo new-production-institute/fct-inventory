@@ -1732,6 +1732,21 @@ URL="https://www.amazon.com/Calamus-Bastion-Braided-Fishing-Strands/dp/B08QYNLQ9
 price=21.99
 quantity=2
 
+[[topics."Mechanical Design".sources."Amazon".categories.cleaning]]
+comment = "--------------------------------------------------------"
+URL='https://www.amazon.com/Tork-192125A-Pop-Up-Length-Towels/dp/B01LX67H64'
+description='Tork Basic Paper Wiper White, Pop-up Box, 18 x 110 Sheets'
+item='192125A'
+price=47.95
+quantity=1
+
+[[topics."Mechanical Design".sources."Amazon".categories.cleaning]]
+URL='https://www.amazon.com/Simple-Green-All-Purpose-Cleaner-Original/dp/B0845ZB6GX/'
+description='Simple Green AllPurpose Cleaner, 32 Fl Oz (Pack of 3), Original, 96 Fl Oz'
+item='2770700100003'
+price=11.91
+quantity=3
+
 [topics."Mechanical Design".sources."McMaster-Carr"]
 comment = "========================================================"
 URL="https://www.mcmaster.com/"
@@ -1919,6 +1934,21 @@ item='57185A22'
 URL='https://www.mcmaster.com/57185A22/'
 price=0.87
 quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.transmission]]
+comment = "--------------------------------------------------------"
+URL='https://www.mcmaster.com/8800K44/'
+description='Kevlar thread, 0.025" Diameter, 60 lbs., 300 ft.'
+item='8800K44'
+price=36.25
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.transmission]]
+URL='https://www.mcmaster.com/8800K43/'
+description='Kevlar thread, 0.038" Diameter, 130 lbs., 200 ft.'
+item='8800K43'
+price=34.46
+quantity=2
 
 [[topics."Mechanical Design".sources."McMaster-Carr".categories.storage]]
 comment = "--------------------------------------------------------"
