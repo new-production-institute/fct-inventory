@@ -960,8 +960,8 @@ quantity=100
 [[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
 description="IC REG LINEAR 5V 1A SOT223"
 item="NCV1117ST50T3G"
-URL="IC REG LINEAR 5V 1A SOT223"
-price=0.4146
+URL="https://www.digikey.com/en/products/detail/onsemi/NCV1117ST50T3G/1792666"
+price=0.48060
 quantity=100
 
 [[topics."Electronics Design".sources.Digi-Key.categories.switches]]
