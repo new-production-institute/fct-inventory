@@ -1069,6 +1069,15 @@ price=0.6096
 quantity=50
 
 [[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+comment = "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+description="CONN RCP USB2.0 TYP C 24P SMD RA"
+item="2171790001"
+manufacturer="Molex"
+URL="https://www.digikey.com/en/products/detail/molex/2171790001/13913749"
+price=0.58720
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
 comment = "--------------------------------------------------------"
 description="CONN RCPT USB2.0 MICRO B SMD R/A"
 item="609-4618-1-ND"
