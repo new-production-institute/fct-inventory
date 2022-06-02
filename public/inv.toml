@@ -1624,6 +1624,15 @@ URL = "https://www.digikey.com/en/products/detail/allegro-microsystems/A1324LLHL
 price = 1.42560
 quantity = 25
 
+[[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
+comment = "Hall Effect Sensor Single Axis SOT-23-3"
+description = "SENSOR HALL ANALOG SOT23-3"
+manufacturer = "Diodes Incorporated"
+item = "AH49ENTR-G1"
+URL = "https://www.digikey.com/en/products/detail/diodes-incorporated/AH49ENTR-G1/4470722"
+price = 0.77600
+quantity = 0
+
 [[topics."Input Devices".sources.Digi-Key.categories.magnets]]
 comment = "--------------------------------------------------------"
 description = 'MAGNET 0.5"DIA X 0.125"H CYL'
