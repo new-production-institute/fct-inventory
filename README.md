@@ -2,8 +2,8 @@
     - http://inventory.fabcloud.io/data/
 - show inventory index
     - http://inventory.fabcloud.io/data/?index
-- show a topic
-    - http://inventory.fabcloud.io/data/?topic=Output%20Devices
+- show a purpose
+    - http://inventory.fabcloud.io/data/?purpose=Output%20Devices
 - show a source
     - http://inventory.fabcloud.io/data/?source=Digi-Key
 - inventory TOML
