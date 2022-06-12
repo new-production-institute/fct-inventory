@@ -15,6 +15,7 @@ var sources
 var purposes
 var source_total
 var purpose_total
+var inventory_total
 //
 // get the inventory
 //
@@ -199,7 +200,7 @@ function show_inventory(data) {
       //
       source_total = 0
       purpose_total = 0
-      all_total = 0
+      inventory_total = 0
       for (index in data.items) {
          item = data.items[index]
          if (item.purpose[0] !== purpose) {
@@ -249,7 +250,7 @@ function show_inventory(data) {
       var symbol = sources[source].currency_symbol
       document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
       document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
-      document.write("<tr align=right><td><td><td><td><b>Inventory total</b><td>"+symbol+all_total.toFixed(2)+"</td></tr>")
+      document.write("<tr align=right><td><td><td><td><b>Inventory total</b><td>"+symbol+inventory_total.toFixed(2)+"</td></tr>")
       document.write("</table>")
       document.write("<br>")
       }
@@ -295,7 +296,7 @@ function show_item(item) {
    document.write("<td align='right'>"+symbol+extended_price.toFixed(2)+"</td>")
    source_total += extended_price
    purpose_total += extended_price
-   all_total += extended_price
+   inventory_total += extended_price
    document.write("</tr>")
    }
 </script>
