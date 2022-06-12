@@ -27,7 +27,7 @@ fetch("inv.json")
 function show_inventory(data) {
    items = data.items
    sources = data.sources
-   purposes = data.sources
+   purposes = data.purposes
    document.write('<font face="bitstream vera sans,arial,helvetica,sans-serif">')
    //
    // get URL parameters
@@ -257,7 +257,7 @@ function show_inventory(data) {
 //
 function show_purpose(purpose) {
    document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>")
-   document.write("<tr align='center'><td style='border:none'><td style='border:none'><td style='border:none'><font size=+1><b><a href=''>"+purpose+"</a></b></td></tr>")
+   document.write("<tr align='center'><td style='border:none'><td style='border:none'><td style='border:none'><font size=+1><b><a href='"+purposes[purpose].URL+"'>"+purpose+"</a></b></td></tr>")
    document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>")
       document.write("<tr>")
       document.write("<th>quantity</th>")
