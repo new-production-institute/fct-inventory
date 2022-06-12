@@ -184,7 +184,7 @@ function show_inventory(data) {
       document.write("<br>")
       }
    //
-   // show all the topics if no parameters
+   // show all the purposes if no parameters
    //
    else {
       document.write("<center>")
@@ -199,6 +199,7 @@ function show_inventory(data) {
       //
       source_total = 0
       purpose_total = 0
+      all_total = 0
       for (index in data.items) {
          item = data.items[index]
          if (item.purpose[0] !== purpose) {
@@ -248,6 +249,7 @@ function show_inventory(data) {
       var symbol = sources[source].currency_symbol
       document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
       document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
+      document.write("<tr align=right><td><td><td><td><b>Inventory total</b><td>"+symbol+all_total.toFixed(2)+"</td></tr>")
       document.write("</table>")
       document.write("<br>")
       }
@@ -293,6 +295,7 @@ function show_item(item) {
    document.write("<td align='right'>"+symbol+extended_price.toFixed(2)+"</td>")
    source_total += extended_price
    purpose_total += extended_price
+   all_total += extended_price
    document.write("</tr>")
    }
 
