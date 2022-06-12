@@ -10,8 +10,11 @@
 //
 // global variables
 //
-inventory_total = 0
-currency_symbol = '?'
+var items
+var sources
+var purposes
+var source_total
+var purpose_total
 //
 // get the inventory
 //
@@ -22,6 +25,9 @@ fetch("inv.json")
 // show the inventory
 //
 function show_inventory(data) {
+   items = data.items
+   sources = data.sources
+   purposes = data.sources
    document.write('<font face="bitstream vera sans,arial,helvetica,sans-serif">')
    //
    // get URL parameters
@@ -31,31 +37,151 @@ function show_inventory(data) {
    // show the index if in URL parameter
    //
    if (params.has('index')) {
-      document.write('<center>')
-      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
-      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a></b><br><br>")
-      document.write('</center>')
-      show_index(data)
-      }
-   //
-   // show a topic if in URL parameter
-   //
-   else if (params.has('topic')) {
       document.write("<center>")
       document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
-      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a></b><br><br>")
-      var topic_key = params.get('topic')
-      show_topic(topic_key,data)
+      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/data>Inventory Project</a></b><br><br>")
+      document.write("</center>")
+      document.write('<div style="margin-left:5%">')
+      document.write('<div style="margin-left:5%">')
+      var purpose = ''
+      var source = ''
+      //
+      // loop over items
+      //
+      for (index in data.items) {
+         item = data.items[index]
+         if (item.purpose[0] !== purpose) {
+            //
+            // new purpose?
+            //
+            document.write('</div></i>')
+            purpose = item.purpose[0].slice()
+            document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+'?purpose='+encodeURI(purpose)+'>'+purpose+'</a></b><br>')
+            document.write('<div style="margin-left:5%"><i>')
+            source = item.source[0].slice()
+            document.write("<i><a href=http://"+window.location.hostname+window.location.pathname+'?source='+encodeURI(source)+'>'+source+'</a></i><br>')
+            }
+         //
+         // new source?
+         //
+         else if (item.source[0] !== source) {
+            source = item.source[0].slice()
+            document.write("<i><a href=http://"+window.location.hostname+window.location.pathname+'?source='+encodeURI(source)+'>'+source+'</a></i><br>')
+            }
+         }
+      document.write("<br>")
+      }
+   //
+   // show a purpose if in URL parameter
+   //
+   else if (params.has('purpose')) {
+      var purpose = params.get('purpose')
+      document.write("<center>")
+      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
+      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/data>Inventory Project</a></b><br><br>")
+      var source = ''
+      var category = ''
+      document.write("<table border=1>")
+      show_purpose(purpose)
+      //
+      // loop over items
+      //
+      source_total = 0
+      purpose_total = 0
+      for (index in data.items) {
+         item = data.items[index]
+         //
+         // purpose matches?
+         //
+         if (item.purpose[0] !== purpose)
+            continue
+         //
+         // new source?
+         //
+         else if (item.source[0] !== source) {
+            if (!(source === '')) {
+               var symbol = sources[source].currency_symbol
+               document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
+               source_total = 0
+               }
+            source = item.source[0].slice()
+            show_source(source)
+            category = item.category[0].slice()
+            show_category(category)
+            }
+         //
+         // new category?
+         //
+         else if (item.category[0] !== category) {
+            if (category != '') {
+               document.write("<tr></tr>")
+               }
+            category = item.category[0].slice()
+            show_category(category)
+            }
+         show_item(item)
+         }
+      var symbol = sources[source].currency_symbol
+      document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
+      document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
+      document.write("</table>")
+      document.write("<br>")
       }
    //
    // show a source if in URL parameter
    //
    else if (params.has('source')) {
+      var source = params.get('source')
       document.write("<center>")
       document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
-      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a></b><br><br>")
-      var source_key = params.get('source')
-      show_source(source_key,data)
+      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/data>Inventory Project</a></b><br><br>")
+      var purpose = ''
+      var category = ''
+      document.write("<table border=1>")
+      //
+      // loop over items
+      //
+      source_total = 0
+      purpose_total = 0
+      for (index in data.items) {
+         item = data.items[index]
+         //
+         // source matches
+         //
+         if (item.source[0] !== source)
+            continue
+         if (item.purpose[0] !== purpose) {
+            //
+            // new purpose?
+            //
+            if (purpose != '') {
+               var symbol = sources[source].currency_symbol
+               document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
+               purpose_total = 0
+               }
+            purpose = item.purpose[0].slice()
+            show_purpose(purpose)
+            show_source(source)
+            category = item.category[0].slice()
+            show_category(category)
+            }
+         //
+         // new category?
+         //
+         else if (item.category[0] !== category) {
+            if (category != '') {
+               document.write("<tr></tr>")
+               }
+            category = item.category[0].slice()
+            show_category(category)
+            }
+         show_item(item)
+         }
+      var symbol = sources[source].currency_symbol
+      document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
+      document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
+      document.write("</table>")
+      document.write("<br>")
       }
    //
    // show all the topics if no parameters
@@ -64,12 +190,114 @@ function show_inventory(data) {
       document.write("<center>")
       document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
       document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/edit?usp=sharing>Original Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/data>Inventory Project</a></b><br><br>")
-      for (topic_key in data.topics) {
-         show_topic(topic_key,data)
+      var purpose = ''
+      var source = ''
+      var category = ''
+      document.write("<table border=1>")
+      //
+      // loop over items
+      //
+      source_total = 0
+      purpose_total = 0
+      for (index in data.items) {
+         item = data.items[index]
+         if (item.purpose[0] !== purpose) {
+            //
+            // new purpose?
+            //
+            if (purpose != '') {
+               var symbol = sources[source].currency_symbol
+               document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
+               document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
+               purpose_total = 0
+               source_total = 0
+               }
+            purpose = item.purpose[0].slice()
+            show_purpose(purpose)
+            source = item.source[0].slice()
+            show_source(source)
+            category = item.category[0].slice()
+            show_category(category)
+            }
+         //
+         // new source?
+         //
+         else if (item.source[0] !== source) {
+            if (!(source === '')) {
+               var symbol = sources[source].currency_symbol
+               document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
+               source_total = 0
+               }
+            source = item.source[0].slice()
+            show_source(source)
+            category = item.category[0].slice()
+            show_category(category)
+            }
+         //
+         // new category?
+         //
+         else if (item.category[0] !== category) {
+            if (category != '') {
+               document.write("<tr></tr>")
+               }
+            category = item.category[0].slice()
+            show_category(category)
+            }
+         show_item(item)
          }
-      show_total()
+      var symbol = sources[source].currency_symbol
+      document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
+      document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
+      document.write("</table>")
+      document.write("<br>")
       }
    }
+//
+// show a purpose
+//
+function show_purpose(purpose) {
+   document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>")
+   document.write("<tr align='center'><td style='border:none'><td style='border:none'><td style='border:none'><font size=+1><b><a href=''>"+purpose+"</a></b></td></tr>")
+   document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>")
+      document.write("<tr>")
+      document.write("<th>quantity</th>")
+      document.write("<th>item</th>")
+      document.write("<th>description</th>")
+      document.write("<th>unit price</th>")
+      document.write("<th>extended price</th>")
+      document.write("</tr>")
+   }
+//
+// show a source
+//
+function show_source(source) {
+   document.write("<tr align='center'><td><b><a href=''>"+source+"</a></b></td></tr>")
+   }
+//
+// show a category
+//
+function show_category(category) {
+   document.write("<tr align='center'><td><td><i><b>"+category+"</b></i></td></tr>")
+   }
+//
+// show an item
+//
+function show_item(item) {
+   var symbol = sources[item.source].currency_symbol
+   document.write("<tr>")
+   document.write("<td>"+item.quantity+"</td>")
+   document.write("<td><a href="+item.URL+">"+item.item+"</a></td>")
+   document.write("<td>"+item.description+"</td>")
+   document.write("<td align='right'>"+symbol+parseFloat(item.price).toFixed(2)+"</td>")
+   var extended_price = parseFloat(item.quantity)*parseFloat(item.price)
+   document.write("<td align='right'>"+symbol+extended_price.toFixed(2)+"</td>")
+   source_total += extended_price
+   purpose_total += extended_price
+   document.write("</tr>")
+   }
+
+/*
+
 //
 // show inventory total price
 //
@@ -189,5 +417,6 @@ function show_source(source_key,data) {
    document.write("</table>")
    document.write("<br>")
    }
+*/
 </script>
 

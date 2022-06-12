@@ -1,0 +1,2298 @@
+[topics."3D Scanning and Printing"]
+comment = "########################################################"
+
+[topics."3D Scanning and Printing".sources.Prusa]
+comment = "========================================================"
+URL="https://www.prusa3d.com"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources.Prusa.categories."3D printer option"]]
+comment = "--------------------------------------------------------"
+description="FDM 3D printer"
+item="i3 MK3S+"
+URL="https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/"
+price=999
+quantity=0
+
+[topics."3D Scanning and Printing".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources.Amazon.categories."3D printer option"]]
+comment = "--------------------------------------------------------"
+description="FDM 3D printer"
+item="3DWOX 1"
+URL="https://www.amazon.com/Sindoh-3DWOX-Printer-New-Model/dp/B07C79C9RB/"
+price=1288
+quantity=0
+
+[[topics."3D Scanning and Printing".sources.Amazon.categories."3D printer option"]]
+URL="https://www.amazon.com/CREALITY-Ender-S1-3D-Professional/dp/B09KMYQNGJ/"
+description="FDM 3D Printer with CR Touch Auto Leveling, High Precision Z-axis Double Screw, Removable Build Plate"
+item="Ender 3 S1"
+price=429
+quantity=2
+
+[topics."3D Scanning and Printing".sources."MatterHackers"]
+comment = "========================================================"
+URL="https://www.matterhackers.com"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+comment = "--------------------------------------------------------"
+URL = "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/MC2YDS13"
+description="Black PRO Series Tough PLA Filament - 1.75mm (1kg)"
+item="M-C2Y-DS13"
+price=57.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/MTRMSQKU"
+description="White PRO Series Tough PLA Filament - 1.75mm (1kg)"
+item="M-TRM-SQKU"
+price=57.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/MAR1Q8KG"
+description="Blue PRO Series Tough PLA Filament - 1.75mm (1kg)"
+item="M-AR1-Q8KG"
+price=57.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/ultimaker-pla-3d-printing-filament-285mm-075kg/sk/MX6CY6J2"
+description="Ultimaker Transparent PLA Filament - 2.85mm (0.75kg)"
+item="M-X6C-Y6J2"
+price=49.95
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/pro-series-flex-flexible-tpe-05kg/sk/M02G0U5K"
+description="Red PRO Series Flex - 1.75mm Flexible TPE (0.5kg)"
+item="M-02G-0U5K"
+price=60.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/timberfill-rosewood-filament-1.75mm/sk/MRAE4Y3Z"
+description="Fillamentum Timberfill Rosewood Filament - 1.75mm (0.75kg)"
+item="M-RAE-4Y3Z"
+price=51.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources."MatterHackers".categories."3D printer filament"]]
+URL = "https://www.matterhackers.com/store/l/fillamentum-timberfill-light-wood-tone-filament-175mm-075kg/sk/MYSUAUNL"
+description="Fillamentum Timberfill Light Wood Tone Filament - 1.75mm (0.75kg)"
+item="M-YSU-AUNL"
+price=51.00
+quantity=2
+
+[[topics."3D Scanning and Printing".sources.Amazon.categories."laser scanning"]]
+comment = "--------------------------------------------------------"
+description="AnyBeam Pico Mini Portable Pocket Projector, Focus-Free, Laser Scanning"
+item="Pico Mini"
+URL="https://www.amazon.com/AnyBeam-Projector-Focus-Free-Lightweight-Compatible/dp/B088BG59QR/"
+price=229.99
+quantity=1
+
+[topics."3D Scanning and Printing".sources.Revopoint]
+comment = "========================================================"
+URL="https://shop.revopoint3d.com"
+currency="USD"
+
+[[topics."3D Scanning and Printing".sources.Revopoint.categories."laser scanning"]]
+comment="--------------------------------------------------------"
+description = "3D High-Precision Scanner Premium Package"
+item="POP 2"
+URL="https://shop.revopoint3d.com/collections/3d-scanners/products/pop2-3d-scanner?variant=42240758546667"
+price=799
+quantity=1
+
+[topics."Computer-Aided Design, Project Management"]
+comment = "########################################################"
+
+[topics."Computer-Aided Design, Project Management".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Computer-Aided Design, Project Management".sources.Amazon.categories.videoconference]]
+comment = "--------------------------------------------------------"
+description="Logitech HD Pro Webcam, Full HD 1080p/30fps"
+item="C920x"
+URL="https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1/"
+price=56.99
+quantity=3
+
+[[topics."Computer-Aided Design, Project Management".sources.Amazon.categories.videoconference]]
+description="Jabra Wireless Bluetooth Speaker for Softphone and Mobile Phone"
+item="Speak 510"
+URL="https://www.amazon.com/Jabra-Speak510-Wireless-Bluetooth-Softphone/dp/B00AQUO5RI"
+price=149.00
+quantity=1
+
+[topics."Computer-Controlled Cutting"]
+comment = "########################################################"
+
+[topics."Computer-Controlled Cutting".sources.Fabulaser]
+comment = "========================================================"
+URL="https://www.inmachines.net"
+currency="USD"
+
+
+
+
+
+
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Fabulaser Mini Kit, open source laser cutter, 40W CO2, 600x400mm, 0.05mm precision, max speed 400mm/s, linear rails, modular bed, inductive interlocks, key lockable, with chiller, exhaust fan and air assist compressor"
+item="FBMK21"
+price=4400
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Small Air Filter, 3 stage with pre-filter, HEPA H13, active carbon, adjustable power, on wheels, max 63dB, 10Kg, filter area about 2m2  (indoor, optional)"
+item="AFAX03"
+price=600
+quantity=0
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Large Air Filter, 3 stage with pre-filter, HEPA H13, active carbon, filter status, max 60dB, 40Kg, filter area about 6m2  (indoor, optional)"
+item="AFBFAD"
+price=1600
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Spare parts kit with: laser tube, laser lenses and mirrors, belts, water/air pipes, drivers, fuses, bearings etc (optional)"
+item="FBMS21"
+price=500
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources.Fabulaser.categories."laser cutter option"]]
+URL="https://github.com/fab-machines/Fabulaser-Mini"
+description="Remote assembly workshop with machine training (3 days, recommended)"
+item="FBMW21"
+price=1500
+quantity=1
+
+[topics."Computer-Controlled Cutting".sources.Trotec]
+comment = "========================================================"
+URL="https://www.troteclaser.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Trotec.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+price=0
+quantity=0
+
+[topics."Computer-Controlled Cutting".sources.Epilog]
+comment = "========================================================"
+URL="https://www.epiloglaser.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Epilog.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+price=0
+quantity=0
+
+[topics."Computer-Controlled Cutting".sources.GCC]
+comment = "========================================================"
+URL="https://www.gccworld.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.GCC.categories."laser cutter option"]]
+comment = "--------------------------------------------------------"
+price=0
+quantity=0
+
+[topics."Computer-Controlled Cutting".sources.ULINE]
+comment = "========================================================"
+URL="https://www.uline.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.ULINE.categories."laser cutter cardboard"]]
+comment = "--------------------------------------------------------"
+description='30 x 40" 275 lb Corrugated Pads'
+item="S-12647"
+URL="https://www.uline.com/Product/Detail/S-12647/Corrugated-Pads/30-x-40-275-lb-Corrugated-Pads"
+price=2.21
+quantity=50
+
+[topics."Computer-Controlled Cutting".sources.Roland]
+comment = "========================================================"
+URL="https://www.rolanddga.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources.Roland.categories."vinyl cutter option"]]
+comment = "--------------------------------------------------------"
+URL="https://www.rolanddga.com/products/vinyl-cutters/camm-1-gs-24-desktop-vinyl-cutter"
+description="desktop cutter"
+item="CAMM-1 GS-23"
+price=1995
+quantity=1
+
+[topics."Computer-Controlled Cutting".sources."Budnick Converting"]
+comment = "========================================================"
+URL="https://www.budnick.com"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+comment = "--------------------------------------------------------"
+description='epoxy film on liner 6"x100 yds'
+item="3M #1"
+URL="https://www.3m.com/3M/en_US/p/d/b00035183/"
+price=220.87
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+description='copper tape with conductive adhesive 6"x36 yds'
+item="3M #1126"
+URL="https://www.3m.com/3M/en_US/p/d/b00041302/"
+price=246.04
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+description='masking tape 6"x60 yds'
+item="3M #214"
+URL="https://www.3m.com/3M/en_US/p/d/b40067085/"
+price=211.22
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Budnick Converting".categories."vinyl cutter materials"]]
+description='transfer adhesive 6"x60 yds'
+item="Permacel #595B"
+URL="https://www.budnick.com/Datasheets/PermacelNittoDenkoAmerica/595B"
+price=53.75
+quantity=1
+
+[topics."Computer-Controlled Cutting".sources."Beacon Graphics"]
+comment = "========================================================"
+URL="https://beacongraphics.com/"
+currency="USD"
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+comment = "--------------------------------------------------------"
+description='PC500 WHITE 15X50 YDS'
+item="A4001-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4001%2DO%2DF&eq=&Tp="
+price=59.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 CLEAR 15X50 YDS'
+item="A4003-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4003%2DO%2DF&eq=&Tp="
+price=59.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 BLACK 15X50 YDS'
+item="A4090-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4090%2DO%2DF&eq=&Tp="
+price=59.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 CARDINAL RED 15X50 YDS'
+item="A4330-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4330%2DO%2DF&eq=&Tp="
+price=65.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 MOUNTAIN GREEN 15X50 YDS'
+item="A4674-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4674%2DO%2DF&eq=&Tp="
+price=65.25
+quantity=1
+
+[[topics."Computer-Controlled Cutting".sources."Beacon Graphics".categories."vinyl cutter films"]]
+description='PC500 ROYAL BLUE 15X50 YDS'
+item="A4583-O-F"
+URL="https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4583%2DO%2DF&eq=&Tp="
+price=65.25
+quantity=1
+
+[topics."Computer-Controlled Machining"]
+comment = "########################################################"
+
+[topics."Computer-Controlled Machining".sources.ShopBot]
+comment = "========================================================"
+URL="https://www.shopbottools.com"
+currency="USD"
+
+[[topics."Computer-Controlled Machining".sources.ShopBot.categories."large-format machining option"]]
+comment = "--------------------------------------------------------"
+description="4'x8' cutting area, 8'' vertical travel, 220V 2.2hp single phase spindle, 1.5hp 60Hz dust collector"
+item="PRSalpha 96-4-8"
+URL="https://www.shopbottools.com/products/alpha"
+price=26592
+quantity=1
+
+[topics."Computer-Controlled Machining".sources.Onsrud]
+comment = "========================================================"
+URL="https://www.onsrud.com"
+currency="USD"
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+comment = "--------------------------------------------------------"
+description='1/8" ER25 Collet'
+item="34-152"
+URL="https://www.onsrud.com/Products/34152.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" ER25 Collet'
+item="34-156"
+URL="https://www.onsrud.com/Products/34156.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" ER25 Collet'
+item="34-164"
+URL="https://www.onsrud.com/Products/34164.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='5/8" ER25 Collet'
+item="34-168"
+URL="https://www.onsrud.com/Products/34168.asp"
+price=48.45
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/16" Solid Carbide router, 1 flute, downcut O flute'
+item="64-000"
+URL="https://www.onsrud.com/Products/64000.asp"
+price=46.70
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 1 flute, downcut O flute'
+item="64-012"
+URL="https://www.onsrud.com/Products/64012.asp"
+price=53.05
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 1 flute, upcut O flute'
+item="65-012"
+URL="https://www.onsrud.com/Products/65012.asp"
+price=50.30
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 2 flute, upcut'
+item="52-240"
+URL="https://www.onsrud.com/Products/52240.asp"
+price=32.40
+quantity=5
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 2 flute, downcut'
+item="57-240"
+URL="https://www.onsrud.com/Products/57240.asp"
+price=32.40
+quantity=5
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/8" Solid Carbide router, 2 flute, straight V flute'
+item="56-041"
+URL="https://www.onsrud.com/Products/56041.asp"
+price=35.95
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, upcut'
+item="52-280"
+URL="https://www.onsrud.com/Products/52280.asp"
+price=36.70
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, downcut'
+item="57-287"
+URL="https://www.onsrud.com/Products/57287.asp"
+price=42.15
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, straight V flute'
+item="56-082"
+URL="https://www.onsrud.com/Products/56082.asp"
+price=39.60
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/4" Solid Carbide router, 2 flute, ballnose, upcut'
+item="52-280BL"
+URL="https://www.onsrud.com/Products/52280BL.asp"
+price=85.90
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Solid Carbide router, 2 flute, downcut'
+item="57-367"
+URL="https://www.onsrud.com/Products/57367.asp"
+price=115.15
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Carbide Tipped router, 2 flute, V Bottom'
+item="37-61"
+URL="https://www.onsrud.com/Products/3761.asp"
+price=24.65
+quantity=2
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Solid Carbide router, 2 flute, ballnose, upcut'
+item="52-244BL"
+URL="https://www.onsrud.com/Products/52244BL.asp"
+price=76.10
+quantity=1
+
+[[topics."Computer-Controlled Machining".sources.Onsrud.categories.tooling]]
+description='1/2" Solid Carbide router, 2 flute, ballnose, upcut'
+item="52-360BL"
+URL="https://www.onsrud.com/Products/52360BL.asp"
+price=176.55
+quantity=1
+
+[topics."Electronics Design"]
+comment = "########################################################"
+
+[topics."Electronics Design".sources.Digi-Key]
+comment = "========================================================"
+URL="https://www.digikey.com/"
+currency="USD"
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thick Film"
+description = "RES 0 OHM JUMPER 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-070RL"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-070RL/5698945"
+price = 0.01055
+quantity = 1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "100 mOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense, Moisture Resistant Thick Film"
+description = "RES 0.1 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item = "PT1206FR-070R1L"
+URL = "https://www.digikey.com/en/products/detail/yageo/PT1206FR-070R1L/2178335"
+price = 0.12692
+quantity = 250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "100 mOhms ±5% 1W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Current Sense Thick Film"
+description = "RES 0.1 OHM 5% 1W 1206"
+manufacturer = "Panasonic Electronic Components"
+item = "ERJ-8BWJR100V"
+URL = "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-8BWJR100V/1711681"
+price = 0.54100
+quantity = 50
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "250 mOhms ±1% 1W Chip Resistor 2010 (5025 Metric) Current Sense Thick Film"
+description = "RES 0.25 OHM 1% 1W 2010"
+manufacturer = "Stackpole Electronics Inc"
+item = "CSRN2010FKR250"
+URL = "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR250/1788103"
+price = 0.20800
+quantity = 100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 1 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-071RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071RL/728386"
+price=0.02242
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "4.99 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+description = "RES 4.99 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-074R99L"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-074R99L/728895"
+price = 0.02242
+quantity = 1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 10 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-0710RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482"
+price=0.02242
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "49.9 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+description = "RES 49.9 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-0749R9L"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0749R9L/728942"
+price = 0.01353
+quantity = 1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 100 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-07100RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100RL/728491"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 499 OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-07499RL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07499RL/728944"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 1K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-071KL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 4.99K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-074K99L"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K99L/728896"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 10K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-0710KL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710KL/728483"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "49.9 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+description = "RES 49.9K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-0749K9L"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0749K9L/728943"
+price = 0.01353
+quantity = 1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 100K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-07100KL"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/728492"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "499 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+description = "RES 499K OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-07499KL"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07499KL/728945"
+price = 0.01353
+quantity = 1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 1M OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-071ML"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+comment = "4.99 MOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+description = "RES 4.99M OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item = "RC1206FR-074M99L"
+URL = "https://www.digikey.com/en/products/detail/yageo/RC1206FR-074M99L/728897"
+price = 0.01353
+quantity = 1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.resistors]]
+description="RES 10M OHM 1% 1/4W 1206"
+manufacturer = "YAGEO"
+item="RC1206FR-0710ML"
+URL="https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484"
+price=0.01353
+quantity=1000
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "1 pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
+description="CAP CER 1PF 50V C0G/NPO 1206"
+manufacturer = "YAGEO"
+item="CC1206CRNPO9BN1R0"
+URL="https://www.digikey.com/en/products/detail/yageo/CC1206CRNPO9BN1R0/372885"
+price=0.07038
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "10 pF ±5% 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
+description="CAP CER 10PF 50V C0G/NPO 1206"
+manufacturer = "YAGEO"
+item="CC1206JRNPO9BN100"
+URL="https://www.digikey.com/en/products/detail/yageo/CC1206JRNPO9BN100/302884"
+price=0.06258
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)"
+description="CAP CER 100PF 50V C0G/NPO 1206"
+manufacturer = "YAGEO"
+item="CC1206JRNPO9BN101"
+URL="https://www.digikey.com/en/products/detail/yageo/CC1206JRNPO9BN101/302895"
+price=0.06258
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "1000 pF ±10% 1000V (1kV) Ceramic Capacitor X7R 1206 (3216 Metric)"
+description="CAP CER 1000PF 1KV X7R 1206"
+manufacturer = "YAGEO"
+item="CC1206KKX7RCBB102"
+URL="https://www.digikey.com/en/products/detail/yageo/CC1206KKX7RCBB102/302878"
+price=0.11360
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "10000 pF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
+description="CAP CER 10000PF 50V X7R 1206"
+manufacturer = "YAGEO"
+item="CC1206KRX7R9BB103"
+URL="https://www.digikey.com/en/products/detail/yageo/CC1206KRX7R9BB103/302908"
+price=0.05474
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "0.1 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)"
+description="CAP CER 0.1UF 100V X7R 1206"
+manufacturer = "TDK Corporation"
+item="C3216X7R2A104K160AA"
+URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R2A104K160AA/513967"
+price=0.07128
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "1 µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)"
+description="CAP CER 1UF 50V X7R 1206"
+manufacturer = "TDK Corporation"
+item="C3216X7R1H105K160AB"
+URL="https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R1H105K160AB/569049"
+price=0.07444
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "10 µF ±20% 35V Ceramic Capacitor X6S 1206 (3216 Metric)"
+description="CAP CER 10UF 35V X6S 1206"
+manufacturer = "Murata Electronics"
+item="GRT31CC8YA106ME01L"
+URL="https://www.digikey.com/en/products/detail/murata-electronics/GRT31CC8YA106ME01L/5416847"
+price=0.21830
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "100 µF 25 V Aluminum Electrolytic Capacitors Radial, Can - SMD 360mOhm @ 100kHz 2000 Hrs @ 105°C"
+description="CAP ALUM 100UF 20% 25V SMD"
+manufacturer = "Panasonic Electronic Components"
+item="EEE-FN1E101UL"
+URL="https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UL/12459663"
+price=0.28150
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.capacitors]]
+comment = "10 F (EDLC) Supercapacitor 3.8 V Radial, Can 500mOhm @ 1kHz 1000 Hrs @ 70°C"
+description="CAP HYBRID 10F 3.8V T/H"
+manufacturer = "Tecate Group"
+item="TPLC-3R8/10MR8X14"
+URL="https://www.digikey.com/en/products/detail/tecate-group/TPLC-3R8-10MR8X14/12417602"
+price=1.67260
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories.inductors]]
+comment = "1 µH Unshielded Wirewound Inductor 1.44 A 71.5mOhm Max 1210 (3225 Metric)"
+description="FIXED IND 1UH 1.44A 71.5MOHM SMD"
+manufacturer = "Taiyo Yuden"
+item="CBC3225T1R0MR"
+URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T1R0MR/958011"
+price=0.18450
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.inductors]]
+comment = "10 µH Unshielded Wirewound Inductor 900 mA 172.9mOhm Max 1210 (3225 Metric)"
+description="FIXED IND 10UH 900MA 172.9 MOHM"
+manufacturer = "Taiyo Yuden"
+item="CBC3225T100KR"
+URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T100KR/2763316"
+price=0.18450
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.inductors]]
+comment = "100 µH Unshielded Wirewound Inductor 340 mA 1.82Ohm Max 1210 (3225 Metric)"
+description="FIXED IND 100UH 340MA 1.82OHM SM"
+manufacturer = "Taiyo Yuden"
+item="CBC3225T101KR"
+URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T101KR/2763317"
+price=0.18450
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.inductors]]
+comment = "1 mH Unshielded Wirewound Inductor 100 mA 13Ohm 1210 (3225 Metric)"
+description="FIXED IND 1MH 100MA 13 OHM SMD"
+manufacturer = "Taiyo Yuden"
+item="CBC3225T102KR"
+URL="https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T102KR/3195011"
+price=0.18450
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "Diode Schottky 100 V 150mA (DC) Surface Mount SOD-123"
+description="DIODE SCHOTTKY 100V 150MA SOD123"
+manufacturer = "STMicroelectronics"
+item="BAT46ZFILM"
+URL="https://www.digikey.com/en/products/detail/stmicroelectronics/BAT46ZFILM/1207026"
+price=0.19430
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "Diode Schottky 100 V 1A Surface Mount Mini SMA/SOD-123"
+description="DIODE SCHOTTKY 100V 1A MINISMA"
+manufacturer = "Comchip Technology"
+item="CDBM1100-G"
+URL="https://www.digikey.com/en/products/detail/comchip-technology/CDBM1100-G/2021250"
+price=0.24960
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "Zener Diode 3.3 V 500 mW ±6% Surface Mount SOD-123"
+description="DIODE ZENER 3.3V 500MW SOD123"
+manufacturer = "Diodes Incorporated"
+item="BZT52C3V3-7-F"
+URL="https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C3V3-7-F/717734"
+price=0.07114
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.diodes]]
+comment = "Zener Diode 4.7 V 500 mW ±6% Surface Mount SOD-123"
+description="DIODE ZENER 4.7V 500MW SOD123"
+manufacturer = "Diodes Incorporated"
+item="BZT52C4V7-13-F"
+URL="https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C4V7-13-F/819471"
+price=0.06518
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
+comment = "N-Channel 30 V 5.2A (Tc) 1.25W (Ta), 1.8W (Tc) Surface Mount SOT-23-3 (TO-236)"
+description="MOSFET N-CH 30V 5.2A SOT23-3"
+manufacturer = "Vishay Siliconix"
+item="SI2336DS-T1-GE3"
+URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SI2336DS-T1-GE3/3748946"
+price=0.33880
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
+comment = "P-Channel 20 V 3.2A (Tc) 2W (Tc) Surface Mount SOT-23-3 (TO-236)"
+description="MOSFET P-CH 20V 3.2A SOT23-3"
+manufacturer = "Vishay Siliconix"
+item="SQ2351ES-T1_BE3"
+URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SQ2351ES-T1-BE3/12396602"
+price=0.40260
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.transistors]]
+comment = "N-Channel 30 V 90A (Tc) 10W (Ta), 83W (Tc) Surface Mount TO-252AA"
+description="MOSFET N-CH 30V 90A TO252"
+manufacturer = "Vishay Siliconix"
+item="SUD50N03-06AP-E3"
+URL="https://www.digikey.com/en/products/detail/vishay-siliconix/SUD50N03-06AP-E3/2623051"
+price=1.45800
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+comment = "N-Channel 30 V 1.7A (Ta) 500mW (Ta) Surface Mount SOT-23-3"
+description="MOSFET N-CH 30V 1.7A SUPERSOT3"
+manufacturer = "onsemi"
+item="NDS355AN"
+URL="https://www.digikey.com/en/products/detail/onsemi/NDS355AN/458899"
+price=0.48000
+quantity=0
+
+[[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+comment = "P-Channel 30 V 1.1A (Ta) 500mW (Ta) Surface Mount SOT-23-3"
+description="MOSFET P-CH 30V 1.1A SUPERSOT3"
+manufacturer = "onsemi"
+item="NDS356AP"
+URL="https://www.digikey.com/en/products/detail//NDS356AP/458900"
+price=0.45000
+quantity=0
+
+[[topics."Electronics Design".sources.Digi-Key.categories."previous transistors"]]
+comment = "N-Channel 50 V 16A (Tc) 60W (Tc) Surface Mount TO-252AA"
+description="MOSFET N-CH 50V 16A TO252AA"
+item="RFD16N05LSM9A"
+manufacturer = "onsemi"
+URL="https://www.digikey.com/en/products/detail/onsemi/RFD16N05LSM9A/965453"
+price=1.15000
+quantity=0
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Red - LED Indication - Discrete 2V 1206 (3216 Metric)"
+description="LED RED CLEAR 1206 SMD"
+manufacturer = "Lumex Opto/Components Inc."
+item="SML-LX1206IC-TR"
+URL="https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SML-LX1206IC-TR/229140"
+price=0.14130
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Green - LED Indication - Discrete 2.2V 1206 (3216 Metric)"
+description="LED GREEN CLEAR 1206 SMD"
+manufacturer = "Lumex Opto/Components Inc."
+item="SML-LX1206GC-TR"
+URL="https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SML-LX1206GC-TR/229139"
+price=0.16920
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Orange 605nm LED Indication - Discrete 2V 1206 (3216 Metric)"
+description="LED ORANGE CLEAR 1206 SMD"
+manufacturer = "Dialight"
+item="5988230107F"
+URL="https://www.digikey.com/en/products/detail/dialight/5988230107F/1291283"
+price=0.20600
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Blue 470nm LED Indication - Discrete 3.2V 1206 (3216 Metric)"
+description="LED BLUE CLEAR 1206 SMD"
+manufacturer = "Würth Elektronik"
+item="150120BS75000"
+URL="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150120BS75000/4489933"
+price=0.17700
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "White - LED Indication - Discrete 3.3V 1206 (3216 Metric)"
+description="LED WHITE DIFFUSED 1206 SMD"
+manufacturer = "QT Brightek (QTB)"
+item="QBLP650-IW"
+URL="https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP650-IW/5017758"
+price=0.20230
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Infrared (IR) Emitter 850nm 1.45V 65mA 1mW/sr @ 20mA 75° 1206 (3016 Metric)"
+description="EMITTER IR 850NM 65MA 1206"
+manufacturer = "Everlight Electronics Co Ltd"
+item="HIR11-21C/L11/TR8"
+URL="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/HIR11-21C-L11-TR8/2675837"
+price=0.26210
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "LED Lighting series White, Cool 5000K 2.85V 60mA 110° 1206 (3014 Metric)"
+description="LED COOL WHITE 5000K 80CRI"
+manufacturer = "Luminus Devices Inc."
+item="MP-3014-1100-50-80"
+URL="https://www.digikey.com/en/products/detail/luminus-devices-inc/MP-3014-1100-50-80/6109331"
+price=0.05520
+quantity=500
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Red, Green, Blue (RGB) 622nm Red, 528nm Green, 468nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 4-PLCC"
+description="LED RGB 4PLCC SMD"
+manufacturer = "CreeLED, Inc."
+item="CLV1A-FKB-CK1VW1DE1BB7C3C3"
+URL="https://www.digikey.com/product-detail/en/cree-inc/CLV1A-FKB-CK1VW1DE1BB7C3C3/CLV1A-FKB-CK1VW1DE1BB7C3C3CT-ND"
+price=0.36120
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.LEDs]]
+comment = "Addressable Lighting series 1 LED Discrete Serial (Shift Register) Red, Green, Blue (RGB) 5.00mm L x 5.00mm W"
+URL="https://www.digikey.com/en/products/detail/sparkfun-electronics/COM-11821/6163706"
+description = "ADDRESS LED DISCRETE SERIAL RGB"
+manufacturer = "SparkFun Electronics"
+item="COM-11821"
+price=0.5
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+comment = "--------------------------------------------------------"
+description="IC REG LINEAR 3.3V 100MA SOT23-3"
+item="LM3480IM3-3.3/NOPB"
+URL="https://www.digikey.com/en/products/detail/texas-instruments/LM3480IM3-3-3-NOPB/270720"
+price=1.063
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+description="IC REG LINEAR 5V 100MA SOT23-3"
+item="LM3480IM3-5.0/NOPB"
+URL="https://www.digikey.com/en/products/detail/texas-instruments/LM3480IM3-5-0-NOPB/270721"
+price=1.063
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+description="IC REG LINEAR 3.3V 1A SOT223"
+item="ZLDO1117G33TA"
+URL="https://www.digikey.com/en/products/detail/diodes-incorporated/ZLDO1117G33TA/2095592"
+price=0.34
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."voltage regulators"]]
+description="IC REG LINEAR 5V 1A SOT223"
+item="NCV1117ST50T3G"
+URL="https://www.digikey.com/en/products/detail/onsemi/NCV1117ST50T3G/1792666"
+price=0.48060
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+comment = "--------------------------------------------------------"
+description="Slide Switch SPDT Surface Mount, Right Angle"
+item="AYZ0102AGRLC"
+URL="https://www.digikey.com/en/products/detail/c-k/AYZ0102AGRLC/1640108"
+price=0.916
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+description="Slide Switch SPDT Surface Mount"
+item="JS102011JCQN"
+URL="https://www.digikey.com/en/products/detail/c-k/JS102011JCQN/6137628"
+price=0.68
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+description="Tactile Switch SPST-NO Top Actuated Surface Mount"
+item="B3SN-3112P"
+URL="https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3SN-3112P/27856"
+price=0.9176
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories.switches]]
+description="Tactile Switch SPST-NO Top Actuated Surface Mount"
+item="PTS636 SM25F SMTR LFS"
+URL="https://www.digikey.com/en/products/detail/c-k/PTS636-SM25F-SMTR-LFS/10071742"
+price=0.1384
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 1 row horizontal header"]]
+comment = "--------------------------------------------------------"
+description="CONN HEADER SMD R/A 36POS 2.54MM"
+item="GBC36SGSN-M89"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/GBC36SGSN-M89/862355"
+price=3.787
+quantity=10
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 2 row vertical header"]]
+comment = "--------------------------------------------------------"
+description="CONN HEADER SMD 4POS 1.27MM"
+item="S9012E-02-ND"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/GRPB022VWQS-RC/1786411"
+price=0.33
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 2 row vertical header"]]
+description="CONN HEADER SMD 10POS 1.27MM"
+item="609-6529-ND"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-fci/20021121-00010T1LF/4243614"
+price=0.61
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."male 2 row vertical header"]]
+description="CONN HEADER SMD 4POS 2.54MM"
+item="95278-101-04LF"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-fci/95278-101-04LF/1534787"
+price=0.3214
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row horizontal header"]]
+comment = "--------------------------------------------------------"
+description="6W, 2.54MM PTH SOCKET, SIL, SMT"
+item="2073-BG300-06-A-L-ACT-ND"
+URL="https://www.digikey.com/en/products/detail/gct/BG300-06-A-L-A/9859597"
+price=0.73
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+comment = "--------------------------------------------------------"
+description="CONN HDR 2POS 0.1 TIN SMD"
+item="NPTC021KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC021KFXC-RC/776052"
+price=0.505
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+description="CONN HDR 3POS 0.1 TIN SMD"
+item="NPTC031KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC031KFXC-RC/776053"
+price=0.605
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+description="CONN HDR 4POS 0.1 TIN SMD"
+item="NPTC041KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC041KFXC-RC/776054"
+price=0.564
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."female 1 row vertical header"]]
+description="CONN HDR 5POS 0.1 TIN SMD"
+item="NPTC051KFXC-RC"
+URL="https://www.digikey.com/en/products/detail/sullins-connector-solutions/NPTC051KFXC-RC/776055"
+price=0.73
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."IDC female 2 row plug"]]
+comment = "--------------------------------------------------------"
+description="CONN RCPT 4POS IDC 28-30AWG GOLD"
+item="71600-104LF"
+URL="https://www.digikey.com/product-detail/en/amphenol-icc-fci/71600-104LF/609-4958-ND/"
+price=0.6096
+quantity=50
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+comment = "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+description="CONN RCP USB2.0 TYP C 24P SMD RA"
+item="2171790001"
+manufacturer="Molex"
+URL="https://www.digikey.com/en/products/detail/molex/2171790001/13913749"
+price=0.58720
+quantity=100
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+comment = "--------------------------------------------------------"
+description="CONN RCPT USB2.0 MICRO B SMD R/A"
+item="609-4618-1-ND"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-fci/10118194-0001LF/2785389"
+price=0.30
+quantity=250
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+description="AC/DC WALL MOUNT ADAPTER 5V 5W"
+item="VEL05US050-US-BB"
+URL="https://www.digikey.com/en/products/detail/xp-power/VEL05US050-US-BB/5023710"
+price=4.50
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+description="CBL USB2.0 A PLG-MCR B PLG 0.98'"
+item="AK67421-0.3-VM"
+URL="https://www.digikey.com/en/products/detail/assmann-wsw-components/AK67421-0-3-VM/5428793"
+price=2.2536
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories."USB connectors, cables, power"]]
+description="CABLE A RCPT TO A PLUG 3'"
+item="CA-USB3-AM-AF-3FT"
+URL="https://www.digikey.com/en/products/detail/adam-tech/CA-USB3-AM-AF-3FT/9830217"
+price=5.1104
+quantity=25
+
+[[topics."Electronics Design".sources.Digi-Key.categories."ribbon cable"]]
+comment = "--------------------------------------------------------"
+description="CBL RIBN 10COND 0.05 MULTI 50'"
+item="3302/10 300SF"
+URL="https://www.digikey.com/en/products/detail/3m/3302-10-300SF/145483"
+price=34.43
+quantity=1
+
+[[topics."Electronics Design".sources.Digi-Key.categories."ribbon cable"]]
+description="CBL RIBN 10COND 0.025 GRAY 50'"
+item="3756/10 100"
+URL="https://www.digikey.com/en/products/detail/3m/3756-10-100/5308216"
+price=26.18
+quantity=1
+
+[topics."Electronics Production"]
+comment = "########################################################"
+
+[topics."Electronics Production".sources.Roland]
+comment = "========================================================"
+URL="https://www.rolanddga.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources.Roland.categories."precision machining option"]]
+comment = "--------------------------------------------------------"
+description="Desktop milling machine"
+item="SRM-20"
+URL="https://www.rolanddga.com/products/3d/srm-20-small-milling-machine"
+price=3995
+quantity=0
+
+[topics."Electronics Production".sources."Bantam Tools"]
+comment = "========================================================"
+URL="https://www.bantamtools.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources."Bantam Tools".categories."precision machining option"]]
+comment = "--------------------------------------------------------"
+description='7"x9"x3.5", 28,000 RPM'
+item="Desktop CNC milling machine"
+URL="https://store.bantamtools.com/collections/machines/products/bantam-tools-desktop-cnc-milling-machine"
+price=4999
+quantity=0
+
+[topics."Electronics Production".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources.Amazon.categories."precision machining option"]]
+comment = "--------------------------------------------------------"
+description="SainSmart Genmitsu Desktop CNC Router Machine with GRBL Offline Control, Limit Switches & Emergency-Stop, XYZ Working Area 300 x 180 x 45mm"
+item="3018-PROVer"
+URL="https://www.amazon.com/SainSmart-Genmitsu-3018-PROVer-Switches-Emergency-Stop/dp/B07ZFD6SKP"
+price=349
+quantity=3
+
+[[topics."Electronics Production".sources.Amazon.categories."precision machining option"]]
+description="Genmitsu 2PCS T-Track Mini Hold Down Clamp Kit"
+item="101-63-MCP"
+URL="https://www.amazon.com/Genmitsu-Woodworking-Metalworking-Compatible-3018-PROVer/dp/B08V5CY416"
+price=19.99
+quantity=6
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+comment = "--------------------------------------------------------"
+description="Soldering Station, Professional 2.9'' LED Digital Soldering Iron Station Kit with 356-896F Adjustable Temperature, Password Lock, ESD Safe, 5 Extra Tips, Solder Wire, Tweezers, Tip Cleaner"
+item="BK969S"
+URL="https://www.amazon.com/Soldering-Professional-356%E2%84%89-896%E2%84%89-Adjustable-Temperature/dp/B0983M3CBN/"
+price=39.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+description="Soldering Station, 2 in 1 Soldering Iron Hot Air Gun Rework Station Kit with LCD Display, Cool/Hot Air Conversion, Auto Standby & Sleep, Temperature Memory & Lock & Correction"
+item="DS882"
+URL="https://www.amazon.com/TOAUTO-Soldering-Conversion-Temperature-Correction/dp/B08L8YGYQZ"
+price=119.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+description="Mini Hot Plate Soldering Preheating Station Preheater Multi Intelligent Modes with Built-in OLED Display 60W 30X30mm + Power Supply"
+item="MHP30M"
+URL="https://www.amazon.com/SainSmart-Soldering-Preheating-Preheater-Intelligent/dp/B08R6XFPKR"
+price=119.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+URL = "https://www.amazon.com/Corning-6795-400D-PC-400D-Digital-Pyroceram/dp/B004DGID7Y"
+description = 'Corning 6795-400D Hot Plate, Digital Display, 5" x 7" Pyroceram Top'
+item="PC-400D "
+price=338.69
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+URL="https://www.amazon.com/ERICKHILL-Thermometer-58%C2%B0F-752%C2%B0F-50%C2%B0C-400%C2%B0C-Temperature/dp/B09K39S9J1/"
+description='ERICKHILL Infrared Thermometer, -58°F~752°F (-50°C~400°C) Temperature Gun Non-Contact Digital Laser Thermometer'
+item="400SP"
+price=17.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.soldering]]
+URL="https://www.amazon.com/Jonard-SA-9-115-Benchtop-Absorber-Filter/dp/B006962NCM/"
+description="Jonard Benchtop Fume Absorber with Adjustable Stand, 115VAC, Includes 3 Filters"
+item="SA-9-115"
+price=111.95
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+comment = "--------------------------------------------------------"
+description="SainSmart Mini Handheld Pocket-Sized Digital Storage Oscilloscope 4 Channels"
+item="DSO213"
+URL="https://www.amazon.com/dp/B07JQ3HRMX/"
+price=229.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="FOCHANC Digital Multimeter"
+item="DM003"
+URL="https://www.amazon.com/FOCHANC-Digital-Multimeter-Black-A-Black/dp/B08VJHM7NZ"
+price=21.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Technologies 200 MHz Digital Oscilloscope 2 Channels"
+item="SDS1202X-E"
+URL="https://www.amazon.com/Siglent-Technologies-SDS1202X-Oscilloscope-Channels/dp/B06XZML6RD"
+price=359
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Technologies 4-1/2 Digit Digital Multimeter"
+item="SDM3045X"
+URL="https://www.amazon.com/Siglent-Technologies-SDM3045X-Digital-Multimeter/dp/B01IXPKIV4"
+price=389
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Technologies Triple Output Power Supply"
+item="SPD3303X-E"
+URL="https://www.amazon.com/Siglent-Technologies-SPD3303X-Triple-Output/dp/B01410O424"
+price=389
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories."test equipment"]]
+description="Siglent Programmable DC Power Supply 1 Channel"
+item="SPD1305X"
+URL="https://www.amazon.com/Siglent-SPD1305X-Programmable-Supply-Channel/dp/B07Q6FDZRF"
+price=279
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.inspection]]
+comment = "--------------------------------------------------------"
+description="2-in-1 Magnifying Glass with Light and Stand, 5X Real Glass Lens 3 Color Modes Stepless Dimmable, Adjustable LED Lighted Magnifier Desk Lamp with Clamp"
+item="LANCOSC"
+URL="https://www.amazon.com/LANCOSC-Magnifying-Stepless-5-Diopter-Magnifier/dp/B09BVTDHJQ"
+price=41.99
+quantity=1
+
+[[topics."Electronics Production".sources.Amazon.categories.inspection]]
+description="LCD Digital USB Microscope 7 inch HD Screen 1200X Magnification"
+item="G1200"
+URL="https://www.amazon.com/dp/B07YB2TNM3"
+price=109.88
+quantity=1
+
+[topics."Electronics Production".sources.Digi-Key]
+comment = "========================================================"
+URL="https://www.digikey.com/"
+currency="USD"
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+comment = "--------------------------------------------------------"
+description="TWEEZER POINTED MICRO 4.50"
+item="EROP7SA"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/EROP7SA/114194"
+price=4.80
+quantity=10
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="CUTTER SIDE OVAL SEMI-FLUSH 4"
+item="MS54VN"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/MS54VN/6554"
+price=30.00
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="PLIERS ELEC NEEDLE NOSE 4"
+item="L4GN"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/L4GN/373402"
+price=29.50
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description='MAGNIFIER EYE LOUPE 10X 1" LENS'
+item="26034"
+URL="https://www.digikey.com/en/products/detail/aven-tools/26034/600975"
+price=3.15
+quantity=10
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="VISE 2.88'' GROOVED JAWS"
+item="201"
+URL="https://www.digikey.com/en/products/detail/panavise/201/166719"
+price=32.95
+quantity=3
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="SCREWDRIVER SET PHIL W/CASE 6PC"
+item="XP600"
+URL="https://www.digikey.com/en/products/detail/apex-tool-group/XP600/278953"
+price=38.00
+quantity=3
+
+[[topics."Electronics Production".sources.Digi-Key.categories."tools"]]
+description="WIRE STRIPPER DATASHARK 30-20AWG"
+item="PA70057-ND"
+URL="https://www.digikey.com/en/products/detail/tempo-communications/PA70057/1850296"
+price=16.67
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
+comment = "--------------------------------------------------------"
+description="Lead Free No-Clean Solder Paste Sn96.5Ag3Cu0.5 (96.5/3/0.5) - Syringe, 0.53 oz (15g), 5cc"
+item="TS391SNL"
+URL="https://www.digikey.com/en/products/detail/chip-quik-inc/TS391SNL/7802215"
+price=16.95
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
+description="Lead Free No-Clean, Water Soluble Wire Solder Sn96.5Ag3Cu0.5 (96.5/3/0.5) 24 AWG, 25 SWG Spool, 4 oz (113.40g)"
+item="SMDSWLF.020 4OZ"
+URL="https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSWLF-020-4OZ/2177058"
+price=31.57
+quantity=5
+
+[[topics."Electronics Production".sources.Digi-Key.categories."solder"]]
+URL='https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSWLT-040-10G/9836741'
+description='Lead Free No-Clean, Rosin Activated (RA) Wire Solder Bi57Sn42Ag1 (57/42/1) 18 AWG, 19 SWG Spool, 0.35 oz (10g)'
+item='SMDSWLT.040 10G'
+price=19.95
+quantity=3
+
+[[topics."Electronics Production".sources.Digi-Key.categories."desolder"]]
+comment = "--------------------------------------------------------"
+description="Desolder Braid/Wick Rosin, Non Activated (R) Static Dissipative (SD) Gold 0.050 (1.27mm) 10' (3.048m)"
+item="Q-B-10AS"
+URL="https://www.digikey.com/en/products/detail/menda-easybraid/Q-B-10AS/350543"
+price=6.836
+quantity=10
+
+[[topics."Electronics Production".sources.Digi-Key.categories."antistatic"]]
+comment = "--------------------------------------------------------"
+description="Static Shielding Bag <25nJ Energy Shielding Silver 3'' (76.2mm) X 5'' (127mm)"
+item="13605"
+URL="https://www.digikey.com/en/products/detail/desco/13605/299792"
+price=0.12
+quantity=100
+
+[[topics."Electronics Production".sources.Digi-Key.categories."antistatic"]]
+description="Static Shielding Bag <25nJ Energy Shielding Silver 5'' (127mm) X 8'' (203.2mm)"
+item="13630"
+URL="https://www.digikey.com/en/products/detail/desco/13630/299794"
+price=0.19
+quantity=100
+
+[[topics."Electronics Production".sources.Digi-Key.categories."antistatic"]]
+description="Static Shielding Bag <25nJ Energy Shielding Silver 8'' (203.2mm) X 10'' (254mm)"
+item="13660"
+URL="https://www.digikey.com/en/products/detail/desco/13660/299796"
+price=0.30
+quantity=100
+
+[topics."Electronics Production".sources."Carbide Depot"]
+comment = "========================================================"
+URL="http://www.carbidedepot.com"
+currency="USD"
+
+[[topics."Electronics Production".sources."Carbide Depot".categories."tooling"]]
+comment = "--------------------------------------------------------"
+description="0.0100in DIA 2FL SE MICRO AlTiN"
+item="CU 222737"
+URL="http://www.carbidedepot.com/00100in-DIA-2FL-SE-MICRO-AlTiN-P183831.aspx"
+price=28.80
+quantity=10
+
+[[topics."Electronics Production".sources."Carbide Depot".categories."tooling"]]
+description="0.0156in DIA 2FL SE AlTiN 1/64"
+item="CU 129974"
+URL="http://www.carbidedepot.com/00156in-DIA-2FL-SE-AlTiN-164-P180142.aspx"
+price=17.96
+quantity=20
+
+[[topics."Electronics Production".sources."Carbide Depot".categories."tooling"]]
+description="0.0312in DIA 2FL SE AlTiN 1/32"
+item="CU 129985"
+URL="http://www.carbidedepot.com/00312in-DIA-2FL-SE-AlTiN-132-P180143.aspx"
+price=12.14
+quantity=20
+
+[topics."Embedded Programming"]
+comment = "########################################################"
+
+[topics."Embedded Programming".sources.Digi-Key]
+comment = "========================================================"
+URL = "https://www.digikey.com"
+currency = "USD"
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+comment = "--------------------------------------------------------"
+description="IC MCU 32BIT 16KB FLASH 14SOIC"
+item="ATSAMD11C14A-SSUTD"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD11C14A-SSUT/5226470"
+price=1.29
+quantity=200
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 32BIT 16KB FLASH 20SOIC"
+item="ATSAMD11D14A-SSUT"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD11D14A-SSUT/5226474"
+price=1.41
+quantity=100
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 32BIT 256KB FLASH 32TQFP"
+item="ATSAMD21E18A-AUT"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD21E18A-AUT/4878871"
+price=3.66
+quantity=50
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 8BIT 4KB FLASH 8SOIC"
+item="ATTINY412-SSFR"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATTINY412-SSFR/9554947"
+price=0.48
+quantity=200
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 8BIT 16KB FLASH 14SOIC"
+item="150-ATTINY1624-SSFR"
+URL="https://www.digikey.com/en/products/detail/ATTINY1624-SSFR/150-ATTINY1624-SSFRCT-ND/12153587"
+price=0.76
+quantity=100
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="20MHZ, 32KB, SOIC20, IND 85C, GR"
+item="ATTINY3226-SU"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATTINY3226-SU/15520405"
+price=1.29
+quantity=100
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+description="IC MCU 8BIT 128KB FLASH 32TQFP"
+item="150-AVR128DB32-I/PT"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/AVR128DB32-I-PT/12807334"
+price=1.90
+quantity=50
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.programmer]]
+comment = "--------------------------------------------------------"
+description="EMU FOR SAM AND AVR MCU BASIC"
+item="ATATMEL-ICE-BASIC"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/ATATMEL-ICE-BASIC/4753381"
+price=117.29
+quantity=2
+
+[topics."Embedded Programming".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Embedded Programming".sources.Amazon.categories."logic analyzers"]]
+comment = "--------------------------------------------------------"
+description="SainSmart Handheld 4-Channel Logic Analyzer"
+item="LA104"
+URL="https://www.amazon.com/SainSmart-Handheld-4-Channel-Analyzer-Programmable/dp/B07FXDWMKN"
+price=119.99
+quantity=1
+
+[[topics."Embedded Programming".sources.Amazon.categories."logic analyzers"]]
+description="USB Logic Analyzer Saleae - 8 Channel 100 MS/s Digital and 10 MS/s Analog Sampling Rate"
+item="Logic 8"
+URL="https://www.amazon.com/Logic-Analyzer-Saleae-Black-Easy/dp/B09GDVFTK2"
+price=399
+quantity=1
+
+[topics."Input Devices"]
+comment = "########################################################"
+
+[topics."Input Devices".sources.Digi-Key]
+comment = "========================================================"
+URL = "https://www.digikey.com"
+currency = "USD"
+
+[[topics."Input Devices".sources.Digi-Key.categories.switches]]
+comment = "--------------------------------------------------------"
+URL="https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3SN-3112P/27856"
+item="B3SN-3112P"
+description="SWITCH TACTILE SPST-NO 0.05A 24V"
+price=0.96360
+quantity=50
+
+[[topics."Input Devices".sources.Digi-Key.categories.potentiometer]]
+comment = "10 kOhms 0.25W, 1/4W Gull Wing Surface Mount Trimmer Potentiometer Cermet 1.0 Turn Top Adjustment"
+description = "TRIMMER 10K OHM 0.25W GW TOP ADJ"
+manufacturer = "Nidec Copal Electronics"
+item = "ST4ETB103"
+URL = "https://www.digikey.com/en/products/detail/nidec-copal-electronics/ST4ETB103/738213"
+price = 0.96400
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories.light]]
+comment = "Phototransistors 940nm Top View 1206 (3216 Metric) Infrared"
+description = "SENSOR PHOTO 940NM TOP VIEW 1206 IR"
+manufacturer = "Everlight Electronics Co Ltd"
+item = "PT15-21B/TR8"
+URL = "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/PT15-21B-TR8/2675870"
+price = 0.09860
+quantity = 100
+
+[[topics."Input Devices".sources.Digi-Key.categories.light]]
+comment = "Phototransistors 940nm Top View 1206 (3216 Metric) Visible light"
+description = "SENSOR PHOTO 940NM TOP VIEW 1206 VISIBLE"
+manufacturer = "Everlight Electronics Co Ltd"
+item = "PT15-21C/TR8"
+URL = "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/PT15-21C-TR8/2675871"
+price = 0.09860
+quantity = 100
+
+[[topics."Input Devices".sources.Digi-Key.categories.color]]
+comment = "Color Sensor 16 b Low Power Consumption 4-TFLGA"
+description = "RGBW COLOR SENSOR I2C INTERFACE"
+manufacturer = "Vishay Semiconductor Opto Division"
+item = "VEML6040A3OG"
+URL = "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/VEML6040A3OG/5168308"
+price = 1.80040
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories.temperature]]
+comment = "NTC Thermistor 10k 1206 (3216 Metric)"
+description = "THERMISTOR NTC 10KOHM 3750K 1206"
+manufacturer = "Amphenol Thermometrics"
+item = "NHQ103B375T10"
+URL = "https://www.digikey.com/en/products/detail/amphenol-thermometrics/NHQ103B375T10/374815"
+price = 1.88560
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories.temperature]]
+comment = "1 kOhms RTD Platinum (Pt) ±0.3K 3850ppm/°C 1206 (3216 Metric)"
+description = "SENSOR RTD 1KOHM 0.3K 1206"
+manufacturer = "Vishay Beyschlag/Draloric/BC Components"
+item = "PTS1206M1B1K00P100"
+URL = "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/PTS1206M1B1K00P100/5218662"
+price = 3.29440
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories.distance]]
+comment = "Optical Sensor 157.480in (4m) I²C Output"
+description = "SENSOR OPTICAL 4M I2C"
+manufacturer = "STMicroelectronics"
+item = "VL53L1CXV0FY/1"
+URL = "https://www.digikey.com/en/products/detail/stmicroelectronics/VL53L1CXV0FY-1/8258055"
+price = 6.38600
+quantity = 10
+
+[[topics."Input Devices".sources.Digi-Key.categories.distance]]
+comment = "VL53L1X series Light, 3D Time-of-Flight (ToF) Sensor Evaluation Board"
+description = "VL53L1X TOF DISTANCE SNSR W/VREG"
+manufacturer = "Pololu Corporation"
+item = "3415"
+URL = "https://www.digikey.com/en/products/detail/pololu-corporation/3415/10451121"
+price = 16.95000
+quantity = 10
+
+[[topics."Input Devices".sources.Digi-Key.categories.microphones]]
+comment = "100 Hz ~ 10 kHz Analog Microphone MEMS (Silicon) 1.5 V ~ 3.6 V Omnidirectional (-42dB ±3dB @ 94dB SPL) Solder Pads"
+description = "MICROPHONE MEMS ANLG OMNI IOT"
+manufacturer = "Knowles"
+item = "SPU0410HR5H-PB"
+URL = "https://www.digikey.com/en/products/detail/knowles/SPU0410HR5H-PB/2242378"
+price = 0.71160
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories.microphones]]
+comment = "100 Hz ~ 10 kHz Digital, I²S Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB) Solder Pads"
+description = "MICROPHONE, 4MM X 3MM X1.25MM DE"
+manufacturer = "CUI Devices"
+item = "CMM-4030D-261-I2S-TR"
+URL = "https://www.digikey.com/en/products/detail/cui-devices/CMM-4030D-261-I2S-TR/13164051"
+price = 1.90780
+quantity = 50
+
+[[topics."Input Devices".sources.Digi-Key.categories.pressure]]
+comment = "Pressure Sensor 4.35PSI ~ 17.4PSI (30kPa ~ 120kPa) Vented Gauge - 24 b 8-VFLGA"
+description = "SENSOR PRESSURE CAPACITIVE"
+manufacturer = "Infineon Technologies"
+item = "DPS310XTSA1"
+URL = "https://www.digikey.com/en/products/detail/infineon-technologies/DPS310XTSA1/6099978"
+price = 2.75500
+quantity = 10
+
+[[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
+comment = "Hall Effect Sensor X, Y, Z Axis PG-TSOP6-6-8"
+description = "SENSOR HALL EFFECT I2C"
+manufacturer = "Infineon Technologies"
+item = "TLE493DA2B6HTSA1"
+URL = "https://www.digikey.com/en/products/detail/infineon-technologies/TLE493DA2B6HTSA1/9808570"
+price = 1.96080
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
+comment = "Hall Effect Sensor Single Axis SOT-23W"
+description = "SENSOR HALL EFFECT ANALOG SOT23W"
+manufacturer = "Allegro MicroSystems"
+item = "A1324LLHLT-T"
+URL = "https://www.digikey.com/en/products/detail/allegro-microsystems/A1324LLHLT-T/2639989"
+price = 1.42560
+quantity = 25
+
+[[topics."Input Devices".sources.Digi-Key.categories."magnetic field"]]
+comment = "Hall Effect Sensor Single Axis SOT-23-3"
+description = "SENSOR HALL ANALOG SOT23-3"
+manufacturer = "Diodes Incorporated"
+item = "AH49ENTR-G1"
+URL = "https://www.digikey.com/en/products/detail/diodes-incorporated/AH49ENTR-G1/4470722"
+price = 0.77600
+quantity = 0
+
+[[topics."Input Devices".sources.Digi-Key.categories.magnets]]
+comment = "--------------------------------------------------------"
+description = 'MAGNET 0.5"DIA X 0.125"H CYL'
+item = "8022"
+URL = "https://www.digikey.com/en/products/detail/radial-magnets-inc/8022/555326"
+price = 0.72760
+quantity = 50
+
+[[topics."Input Devices".sources.Digi-Key.categories.magnets]]
+description = 'MAGNET 0.25"DIA X 0.125"H CYL'
+item = "8193"
+URL = "https://www.digikey.com/en/products/detail/radial-magnets-inc/8193/555328"
+price = 0.23400
+quantity = 100
+
+[[topics."Input Devices".sources.Digi-Key.categories.IMU]]
+comment = "LIS3MDL, LSM6DS33 series Accelerometer, Gyroscope, Magnetometer Sensor Evaluation Board"
+description = "MINIMU-9 V5 GYRO ACCEL & COMPASS"
+manufacturer = "Pololu Corporation"
+item = "2738"
+URL = "https://www.digikey.com/en/products/detail/pololu-corporation/2738/10451104"
+price = 31.95000
+quantity = 10
+
+[[topics."Input Devices".sources.Digi-Key.categories.IMU]]
+comment = "LSM6DS33 series Accelerometer, Gyroscope, 6 Axis Sensor Evaluation Board"
+description = "LSM6DS33 3D ACCEL & GYRO W/VREG"
+manufacturer = "Pololu Corporation"
+item = "2736"
+URL = "https://www.digikey.com/en/products/detail/pololu-corporation/2736/10451119"
+price = 17.01000
+quantity = 10
+
+[[topics."Input Devices".sources.Digi-Key.categories.IMU]]
+comment = "BNO085 series Accelerometer, Gyroscope, Magnetometer, 3 Axis Sensor Evaluation Board"
+description = "ADAFRUIT 9-DOF ORIENTATION IMU F"
+manufacturer = "Adafruit Industries LLC"
+item = "4754"
+URL = "https://www.digikey.com/en/products/detail/adafruit-industries-llc/4754/13426653"
+price = 24.95000
+quantity = 10
+
+[topics."Machine Design"]
+comment = "########################################################"
+
+[topics."Machine Design".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency = "USD"
+
+[[topics."Machine Design".sources.Amazon.categories."USB power and control"]]
+comment = "--------------------------------------------------------"
+description="Sabrent 60W 10-Port USB 3.0 Hub Includes 3 Smart Charging Ports with Individual Power Switches and LEDs + 60W 12V/5A Power Adapter"
+item="HB-B7C3"
+URL="https://www.amazon.com/Sabrent-Charging-Individual-Switches-HB-B7C3/dp/B0797NWDCB"
+price=39.98
+quantity=3
+
+[[topics."Machine Design".sources.Amazon.categories."USB power and control"]]
+description="2 Pack 3.3FT + 6.6FT USB 3.0 Extension Cable, USB A Male to Female Extension Cord"
+item="NIMASO"
+URL="https://www.amazon.com/Extension-NIMASO-Material-Compatible-Playstation/dp/B088GSJLWX?th=1"
+price=9.99
+quantity=5
+
+[[topics."Machine Design".sources.Amazon.categories."USB power and control"]]
+description="USB Extension Cable 10FT Type A Male to Female USB 3.0 Extension Cord"
+item="AINOPE"
+URL="https://www.amazon.com/Extension-AINOPE-Material-Transfer-Compatible/dp/B07ZV6FHWF/"
+price=7.95
+quantity=10
+
+[topics."Mechanical Design"]
+comment = "########################################################"
+
+[topics."Mechanical Design".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency = "USD"
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+comment = "--------------------------------------------------------"
+description="XiKe 20 Pcs 608ZZ Double Metal Seal Bearings 8x22x7mm"
+item="608ZZ"
+URL="https://www.amazon.com/XiKe-Pre-Lubricated-Performance-Effective-Bearings/dp/B07SFDVJHM/"
+price=12.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+description="XiKe 10 Pcs 625ZZ Double Metal Seal Bearings 5x16x5mm"
+item="625ZZ"
+URL="https://www.amazon.com/XiKe-625ZZ-Pre-Lubricated-Performance-Cost-Effective/dp/B07JHKKGKT/"
+price=9.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+description="SIMAX3D [13pcs/Pack] Black POM Polycarbonate Roller 625zz"
+item="POM003"
+URL="https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp/B08B4JDB67"
+price=13.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.bearings]]
+description="SIMAX3D [13pcs/Pack] V Slot Wheel POM Polycarbonate Roller 625zz"
+item="POM005"
+URL="https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp/B08QVQTRZP"
+price=13.99
+quantity=5
+
+[[topics."Mechanical Design".sources.Amazon.categories.transmission]]
+comment = "--------------------------------------------------------"
+description="Calamus Bastion Braided Fishing Line -Abrasion Resisting Braided Lines - Thin Diameter Superline - Zero Stretch - 4 Strand MultiTuf Fiber Braid Line"
+item="80 LB-600 Yds"
+URL="https://www.amazon.com/Calamus-Bastion-Braided-Fishing-Strands/dp/B08QYNLQ9D"
+price=21.99
+quantity=2
+
+[[topics."Mechanical Design".sources."Amazon".categories.cleaning]]
+comment = "--------------------------------------------------------"
+URL='https://www.amazon.com/Tork-192125A-Pop-Up-Length-Towels/dp/B01LX67H64'
+description='Tork Basic Paper Wiper White, Pop-up Box, 18 x 110 Sheets'
+item='192125A'
+price=47.95
+quantity=1
+
+[[topics."Mechanical Design".sources."Amazon".categories.cleaning]]
+URL='https://www.amazon.com/Simple-Green-All-Purpose-Cleaner-Original/dp/B0845ZB6GX/'
+description='Simple Green AllPurpose Cleaner, 32 Fl Oz (Pack of 3), Original, 96 Fl Oz'
+item='2770700100003'
+price=11.91
+quantity=3
+
+[topics."Mechanical Design".sources."McMaster-Carr"]
+comment = "========================================================"
+URL="https://www.mcmaster.com/"
+currency = "USD"
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+comment = "--------------------------------------------------------"
+description='M3 x 0.5 mm Thread, 5 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 100'
+item='91292A110'
+URL='https://www.mcmaster.com/91292A110/'
+price=5.19
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 10 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 100'
+item='91292A113'
+URL='https://www.mcmaster.com/91292A113/'
+price=5.19
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 20 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 100'
+item='91292A123'
+URL='https://www.mcmaster.com/91292A123/'
+price=7.08
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 30 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 50'
+item='91292A022'
+URL='https://www.mcmaster.com/91292A022/'
+price=4.48
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 40 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 25'
+item='91292A024'
+URL='https://www.mcmaster.com/91292A024/'
+price=3.42
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 50 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 25'
+item='91292A026'
+URL='https://www.mcmaster.com/91292A026/'
+price=4.13
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.5 mm Thread, 60 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 50'
+item='91292A267'
+URL='https://www.mcmaster.com/91292A267/'
+price=13.24
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='M3 x 0.50 mm Thread, 70 mm Long, 18-8 Stainless Steel Socket Head Screw, pack of 25'
+item='91292A316'
+URL='https://www.mcmaster.com/91292A316/'
+price=10.89
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Cup-Point Set Screw, M3 x 0.5 mm Thread, 5 mm Long, pack of 50'
+item='92015A103'
+URL='https://www.mcmaster.com/92015A103/'
+price=8.68
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Cup-Point Set Screw, M3 x 0.5 mm Thread, 10 mm Long, pack of 50'
+item='92015A106'
+URL='https://www.mcmaster.com/92015A106/'
+price=10.16
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Plastic-Head Thumb Screws, Knurled, M3 x 0.5 mm Thread, 10 mm Long, Black Head, pack of 10'
+item='96016A553'
+URL='https://www.mcmaster.com/96016A553/'
+price=5.25
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Plastic-Head Thumb Screws, Knurled, M3 x 0.5mm Thread Size, 20mm Long, pack of 10'
+item='96016A556'
+URL='https://www.mcmaster.com/96016A556/'
+price=5.50
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Hex Nut, M3 x 0.5 mm Thread, pack of 100'
+item='91828A211'
+URL='https://www.mcmaster.com/91828A211/'
+price=5.45
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Nylon-Insert Locknut, M3 x 0.5 mm Thread, 5.5 mm Wide, 4 mm High, pack of 100'
+item='93625A100'
+URL='https://www.mcmaster.com/93625A100/'
+price=5.31
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Slotted Unthreaded Spacers, Zinc-Plated Low-Carbon Steel, 4.5mm OD, 3.15mm ID, 4mm Long, pack of 25'
+item='93441A487'
+URL='https://www.mcmaster.com/93441A487/'
+price=6.30
+quantity=4
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Split Lock Washer for M3 Socket Head Screws, 3.4 mm ID, 5.6 mm OD, pack of 100'
+item='91111A118'
+URL='https://www.mcmaster.com/91111A118/'
+price=2.10
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Nylon Plastic Washer, for M3 Screw Size, 3.2 mm ID, 8 mm OD, Off-White, pack of 100'
+item='95610A130'
+URL='https://www.mcmaster.com/95610A130/'
+price=3.81
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Washer for M3 Screw Size, 3.200 mm ID, 6 mm OD, pack of 100'
+price=2.71
+item='98689A112'
+URL='https://www.mcmaster.com/98689A112/'
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='18-8 Stainless Steel Washer for M3 Screw Size, 3.2 mm ID, 7 mm OD, pack of 100'
+item='93475A210'
+URL='https://www.mcmaster.com/93475A210/'
+price=1.62
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Electrical-Insulating Nylon 6/6 Sleeve Washer for M3 Screw Size, 5 mm Overall Height, pack of 100'
+item='91145A318'
+URL='https://www.mcmaster.com/91145A318/'
+price=6.80
+quantity=1
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Tapered Heat-Set Inserts for Plastic, M3 x 0.5 mm Thread Size, 3.43 mm Installed Length, pack of 25'
+item='97163A149'
+URL='https://www.mcmaster.com/97163A149/'
+price=9.02
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Tapered Heat-Set Inserts for Plastic, M3 x 0.5 mm Thread Size, 6.35 mm Installed Length, packs of 10'
+item='97163A161'
+URL='https://www.mcmaster.com/97163A161/'
+price=5.31
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 1.5 mm Size, 3-1/16"'
+item='5503A36'
+URL='https://www.mcmaster.com/5503A36/'
+price=0.80
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 1.5 mm Size, 3-9/16"'
+item='57185A34'
+URL='https://www.mcmaster.com/57185A34/'
+price=0.76
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 2.5 mm Size, 3-5/8"'
+item='5503A38'
+URL='https://www.mcmaster.com/5503A38/'
+price=0.84
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.fasteners]]
+description='Ball-End Hex L-Key, 2.5 mm Size, 4-9/16"'
+item='57185A22'
+URL='https://www.mcmaster.com/57185A22/'
+price=0.87
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.transmission]]
+comment = "--------------------------------------------------------"
+URL='https://www.mcmaster.com/8800K44/'
+description='Kevlar thread, 0.025" Diameter, 60 lbs., 300 ft.'
+item='8800K44'
+price=36.25
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.transmission]]
+URL='https://www.mcmaster.com/8800K43/'
+description='Kevlar thread, 0.038" Diameter, 130 lbs., 200 ft.'
+item='8800K43'
+price=34.46
+quantity=2
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.storage]]
+comment = "--------------------------------------------------------"
+description='Plastic Small-Parts Cabinet with 16 Drawers, 8-1/2" High x 10-1/2" Wide x 6-1/2" Deep Overall'
+item='9619T61'
+URL='https://www.mcmaster.com/9619T61/'
+price=23.23
+quantity=10
+
+[[topics."Mechanical Design".sources."McMaster-Carr".categories.storage]]
+description='Divider for 1.5" High x 2" Wide x 5.25" Deep Drawer in Plastic Small-Parts Cabinet, packs of 16'
+item='9619T92'
+URL='https://www.mcmaster.com/9619T92/'
+price=6.49
+quantity=10
+
+[topics."Molding and Casting"]
+comment = "########################################################"
+
+[topics."Molding and Casting".sources.ShopBot]
+comment = "========================================================"
+URL = "https://www.shopbottools.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.ShopBot.categories."medium-format machining option"]]
+comment = "--------------------------------------------------------"
+description = "Desktop with 1hp spindle"
+item = "D2418"
+URL = "https://www.shopbottools.com/products/desktop"
+price = 8550
+quantity = 0
+
+[topics."Molding and Casting".sources.Amazon]
+comment = "========================================================"
+URL = "https://www.amazon.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.Amazon.categories."medium-format machining option"]]
+comment = "--------------------------------------------------------"
+description = "Genmitsu CNC Router Machine, Working Area 400 x 300 x 110mm"
+item = "PROVerXL 4030"
+URL = "https://www.amazon.com/Genmitsu-Machine-PROVerXL-Controlled-Engraving/dp/B08L6314MW"
+price = 999
+quantity = 1
+
+[topics."Molding and Casting".sources.Smooth-On]
+comment = "========================================================"
+URL = "https://www.smooth-on.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+comment = "--------------------------------------------------------"
+description = "tin cure silicone rubber"
+item = "OOMOO 25 Trial Unit"
+URL = "https://shop.smooth-on.com/oomoo-25"
+price = 27.25
+quantity = 10
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "food safe translucent silicone rubber"
+item = "SORTA-Clear 37 Trial Unit"
+URL = "https://shop.smooth-on.com/sorta-clear-37"
+price = 37.30
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "urethane rubber"
+item = "PMC-121 30/DRY Trial Unit"
+URL = "https://shop.smooth-on.com/pmc-121-30-dry"
+price = 36.60
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "ultra-low viscosity bright white liquid plastic"
+item = "Smooth-Cast 305 Trial Unit"
+URL = "https://shop.smooth-on.com/smooth-cast-305"
+price = 30.56
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "fast-cast plastic for color pigments and fillers"
+item = "Smooth-Cast 326 Trial Unit"
+URL = "https://shop.smooth-on.com/smooth-cast-326"
+price = 34.99
+quantity = 5
+
+[[topics."Molding and Casting".sources.Smooth-On.categories.resins]]
+description = "liquid urethane colorants"
+item = "SO-Strong 9 Pack"
+URL = "https://shop.smooth-on.com/so-strongtm-colorants"
+price = 33.46
+quantity = 1
+
+[topics."Molding and Casting".sources.USG]
+comment = "========================================================"
+URL = "https://plaster.com"
+currency = "USD"
+
+[[topics."Molding and Casting".sources.USG.categories."casting media"]]
+comment = "--------------------------------------------------------"
+description = "hard, high compressive strength"
+item = "Hydro-Stone 50 lbs"
+URL = "https://plaster.com/product/usg-hydrostone"
+price = 34
+quantity = 2
+
+[[topics."Molding and Casting".sources.USG.categories."casting media"]]
+description = "white, no drying"
+item = "Drystone 50 lbs"
+URL = "https://plaster.com/product/usg-drystone"
+price = 37
+quantity = 2
+
+[topics."Networking and Communications"]
+comment = "########################################################"
+
+[topics."Networking and Communications".sources.Digi-Key]
+comment = "========================================================"
+URL = "https://www.digikey.com"
+currency = "USD"
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+comment = "--------------------------------------------------------"
+description="RX TXRX MOD BLUETOOTH CHIP SMD"
+item="RN4871-V/RM118"
+URL="https://www.digikey.com/en/products/detail/microchip-technology/RN4871-V-RM118/6130476"
+price=7.71
+quantity=10
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+description="LoRa Transceiver Module 868MHz"
+item="109990166"
+URL="https://www.digikey.com/product-detail/en/seeed-technology-co-ltd/109990166/1597-1488-ND"
+price=7.90
+quantity=10
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+description="ESP-01S ESP8266 WI-FI IOT MODULE"
+item="26209"
+URL="https://www.digikey.com/en/products/detail/canaduino/26209/14319860"
+price=3.56
+quantity=25
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."radios"]]
+description="ESP32-WROOM-32E (4MB)"
+item="1965-ESP32-WROOM-32E(4MB)"
+URL="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-4MB/11613125"
+price=3.00
+quantity=50
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."Micro SD"]]
+comment = "--------------------------------------------------------"
+description="CONN MICRO SD CARD PUSH-PULL R/A"
+item="114-00841-68"
+URL="https://www.digikey.com/en/products/detail/amphenol-icc-commercial-products/114-00841-68/2187086"
+price=1.2078
+quantity=50
+
+[[topics."Networking and Communications".sources.Digi-Key.categories."Micro SD"]]
+description="MEM CARD MICROSD 32GB CLASS 10"
+item="112990066"
+URL="https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/112990066/10290294"
+price=7.00
+quantity=10
+
+[topics."Networking and Communications".sources.Amazon]
+comment = "========================================================"
+URL = "https://www.amazon.com/"
+currency = "USD"
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+comment = "--------------------------------------------------------"
+description="10pcs NRF24L01+ 2.4GHz Wireless RF Transceiver Module"
+item="Makerfire"
+URL="https://www.amazon.com/Arduino-NRF24L01-2-4GHz-Wireless-Transceiver/dp/B00O9O868G"
+price=12.99
+quantity=5
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+description="NRF905 Wireless Transceiver Module PTR8000+ 433/486/915MHz with Antenna NF905SE"
+item="HiLetgo"
+URL="https://www.amazon.com/HiLetgo-Wireless-Transceiver-PTR8000-Antenna/dp/B00RJISY5Y"
+price=5.59
+quantity=10
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+description="3pcs RFID Kit - Mifare RC522 RF IC Card Sensor Module + S50 Blank Card + Key Ring"
+item="HiLetgo"
+URL="https://www.amazon.com/HiLetgo-3pcs-RFID-Kit-Raspberry/dp/B07VLDSYRW/"
+price=9.99
+quantity=10
+
+[[topics."Networking and Communications".sources.Amazon.categories.radios]]
+description="2Pcs SIM800L GPRS GSM Phone Module Card Board Quad-Band Onboard + Antenna"
+item="Comimark"
+URL="https://www.amazon.com/Comimark-Smallest-SIM800L-Quad-Band-Onboard/dp/B07V3PYYJP"
+price=8.99
+quantity=5
+
+[topics."Output Devices"]
+comment = "########################################################"
+
+[topics."Output Devices".sources.Digi-Key]
+comment = "========================================================"
+URL = "https://www.digikey.com"
+currency = "USD"
+
+[[topics."Output Devices".sources.Digi-Key.categories."motor drivers"]]
+comment = "--------------------------------------------------------"
+description = "IC MOTOR DRIVER 8V-40V 8SOIC"
+item = "A4950ELJTR-T"
+URL = "https://www.digikey.com/product-detail/en/allegro-microsystems-llc/A4950ELJTR-T/620-1400-1-ND"
+price = 2.552
+quantity = 25
+
+[[topics."Output Devices".sources.Digi-Key.categories."motor drivers"]]
+description = "35V, 1A BIPOLAR STEPPER MOTOR DR"
+item = "DRV8428PWPR"
+URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV8428PWPR/13563046"
+price = 2.676
+quantity = 25
+
+[[topics."Output Devices".sources.Digi-Key.categories."motor drivers"]]
+description = "2A DUAL H-BRIDGE MOTOR DRIVER"
+item = "DRV8847PWPR"
+URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV8847PWPR/9954204"
+price = 1.8948
+quantity = 25
+
+[[topics."Output Devices".sources.Digi-Key.categories."motor drivers"]]
+description = "IC MOTOR DRIVER 5V-16V 16HTSSOP"
+item = "DRV11873PWPR"
+URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV11873PWPR/3903327"
+price = 1.8392
+quantity = 25
+
+[[topics."Output Devices".sources.Digi-Key.categories."alternate motor drivers"]]
+comment = "--------------------------------------------------------"
+description = "50V/3A BRUSHED MOTOR DRIVER"
+item = "TB67H451FNG,EL"
+URL = "https://www.digikey.com/en/products/detail/TB67H451FNG%2cEL/264-TB67H451FNGELCT-ND/11568783"
+price = 1.0971
+quantity = 0
+
+[[topics."Output Devices".sources.Digi-Key.categories."alternate motor drivers"]]
+description = "35V, 1A BIPOLAR STEPPER OR DUAL"
+item = "DRV8428PPWPR"
+URL = "https://www.digikey.com/en/products/detail/texas-instruments/DRV8428PPWPR/13562999"
+price = 2.67600
+quantity = 0
+
+[[topics."Output Devices".sources.Digi-Key.categories.speakers]]
+comment = "8 Ohms General Purpose Speaker 250 mW 900 Hz ~ 6.5 kHz Top Round"
+description = "SPEAKER 8OHM 250MW TOP PORT 81DB"
+manufacturer = "Mallory Sonalert Products Inc."
+item = "PSR-23F08S-JQ"
+URL = "https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PSR-23F08S-JQ/2071440"
+price = 0.62580
+quantity = 50
+
+[[topics."Output Devices".sources.Digi-Key.categories.speakers]]
+comment = "8 Ohms General Purpose Speaker 500 mW 600 Hz ~ 4 kHz Top Round"
+description = "SPEAKER 8OHM 500MW TOP PORT 92DB"
+manufacturer = "Mallory Sonalert Products Inc."
+item = "PSR-57N08A01-AQ"
+URL = "https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PSR-57N08A01-AQ/2071452"
+price = 2.18720
+quantity = 25
+
+[[topics."Output Devices".sources.Digi-Key.categories.amplifiers]]
+comment = "General Purpose Amplifier 1 Circuit Rail-to-Rail SOT-23-5"
+description="IC OPAMP GP 1 CIRCUIT SOT23-5"
+manufacturer = "Analog Devices Inc."
+item="AD8605ARTZ-REEL7"
+URL="https://www.digikey.com/en/products/detail/analog-devices-inc/AD8605ARTZ-REEL7/654064"
+price=2.12000
+quantity=50
+
+[[topics."Output Devices".sources.Digi-Key.categories.amplifiers]]
+comment = "Amplifier IC 1-Channel (Mono) Class AB 8-SOIC"
+description = "IC AMP CLASS AB MONO 3W 8SOIC"
+manufacturer = "Texas Instruments"
+item = "LM4871M"
+URL = "https://www.digikey.com/en/products/detail/texas-instruments/LM4871M/3701369"
+price = 1.90280
+quantity = 25
+
+[topics."Output Devices".sources.Amazon]
+comment = "========================================================"
+URL = "https://www.amazon.com"
+currency = "USD"
+
+[[topics."Output Devices".sources.Amazon.categories.displays]]
+comment = "--------------------------------------------------------"
+description = "20X4 LCD Display LCD Screen Serial with I2C Adapter"
+item = "HiLetGo"
+URL = "https://www.amazon.com/HiLetgo-Backlight-Display-Arduino-MEGA2560/dp/B01DKETWO2"
+price = 8.59
+quantity = 10
+
+[[topics."Output Devices".sources.Amazon.categories.displays]]
+description = "5PCS OLED Display Module, 0.96 Inch I2C Serial 128 x 64 with SSD1306"
+item = "PEMENOL"
+URL = "https://www.amazon.com/PEMENOL-Display-0-96inch-Raspberry-Microcontroller/dp/B07F3KY8NF"
+price = 22.50
+quantity = 5
+
+[[topics."Output Devices".sources.Amazon.categories.displays]]
+description = "TFT LCD Screen Display 1.3inch 240x240 IPS 65K Full Color 3.3V with SPI Interface ST7789 IC Driver"
+item = "MakerFocus"
+URL = "https://www.amazon.com/MakerFocus-Display-1-3inch-Interface-Routines/dp/B07P9X3L7M"
+price = 11.99
+quantity = 10
+
+[topics."Wildcard Week"]
+comment = "########################################################"
+
+[topics."Wildcard Week".sources.Amazon]
+comment = "========================================================"
+URL="https://www.amazon.com/"
+currency="USD"
+
+[[topics."Wildcard Week".sources.Amazon.categories."embroidery"]]
+comment = "--------------------------------------------------------"
+URL="https://www.amazon.com/Brother-Computerized-Embroidery-SE1900-Combination/dp/B07C9RQP1D"
+description='Brother Sewing and Embroidery Machine, 138 Designs, 240 Built-in Stitches, Computerized, 5" x 7" Hoop Area, 3.2" LCD Touchscreen Display, 8 Included Feet'
+item="SE1900"
+price=999.99
+quantity=1
