@@ -3228,59 +3228,59 @@ attributes = [ "active",]
 
 [purposes."3D Scanning and Printing"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/scanning_printing/index.html",]
 
 [purposes."Computer-Aided Design, Project Management"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/computer_design/index.html",]
 
 [purposes."Computer-Controlled Cutting"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/computer_cutting/index.html",]
 
 [purposes."Computer-Controlled Machining"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/computer_machining/index.html",]
 
 [purposes."Electronics Design"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/electronics_design/index.html",]
 
 [purposes."Electronics Production"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/electronics_production/index.html",]
 
 [purposes."Embedded Programming"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/embedded_programming/index.html",]
 
 [purposes."Input Devices"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/input_devices/index.html",]
 
 [purposes."Machine Design"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/machine_design/index.html",]
 
 [purposes."Mechanical Design"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/mechanical_design/index.html",]
 
 [purposes."Molding and Casting"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/molding_casting/index.html",]
 
 [purposes."Networking and Communications"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/networking_communications/index.html",]
 
 [purposes."Output Devices"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/output_devices/index.html",]
 
 [purposes."Wildcard Week"]
 program = [ "Fab Academy",]
-URL = [ "https://www.fabacademy.org",]
+URL = [ "http://academy.cba.mit.edu/classes/wildcard/index.html",]
 
 [sources.Prusa]
 URL = [ "https://www.prusa3d.com",]
