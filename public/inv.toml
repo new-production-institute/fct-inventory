@@ -1546,6 +1546,7 @@ price = [ 4999,]
 quantity = [ 0,]
 attributes = [ "active",]
 
+[[items]]
 purpose = [ "Electronics Production",]
 source = [ "Bantam Tools",]
 category = [ "PCB milling stock",]
