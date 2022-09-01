@@ -3,8 +3,9 @@ image: python:3.10-alpine
 pages:
   stage: deploy
   script:
-    - pip install toml
+    - pip install toml xlsxwriter
     - python TOML-JSON.py
+    - python TOML-excel.py
   artifacts:
     paths:
     - public
