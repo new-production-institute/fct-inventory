@@ -10,6 +10,11 @@ for item in data["items"]:
     purpose = item["purpose"][0]
     source = item["source"][0]
     category = item["category"][0]
+    # sanitize
+    if not item["item"]:
+        item["item"] = [""]
+    if not item["description"]:
+        item["description"] = [""]
     purpose_source[purpose][source][category].append(item)
 
 workbook = xlsxwriter.Workbook("public/inv.xlsx")
@@ -31,20 +36,42 @@ fmt_dollar = workbook.add_format({'num_format': '$#,##0.00',
 fmt_left = workbook.add_format({'align': 'left',
                                 'border': 1})
 
+fmt_link = workbook.add_format({'align': 'left',
+                                'underline': True,
+                                'border': 1})
+
+fmt_link_center_bold = workbook.add_format({'underline': True,
+                                            'bold': True,
+                                            'border': 1})
+fmt_link_center_bold.set_align('center')
+fmt_link_center_bold.set_align('vcenter')
+
 fmt_right_bold = workbook.add_format({'align': 'right',
                                       'bold': True,
                                       'border': 1})
 
 # define columns
-column_length = [16, 24, 90, 44, 16]
+column_length = [16, 24, 100, 46, 16]
 column_field = ("quantity", "item", "description", "unit price", "extended price")
 
 # start writing
-worksheet.merge_range(0, 0, 0, 4, "Fab Lab/Class Inventory", fmt_bold_center)
+worksheet.merge_range(0, 0, 0, 4, "", fmt_link_center_bold)
+worksheet.write_url(0, 0, "http://inventory.fabcloud.io/", string="Fab Lab/Class Inventory",
+                    cell_format=fmt_link_center_bold)
+
+# Fab Lab/Class Inventory
+
 i = 2
 i_total_purpose = []
-for purpose in data["purposes"]:
-    worksheet.merge_range(i, 0, i, 4, purpose, fmt_bold_center)
+for purpose, purpose_info in data["purposes"].items():
+    worksheet.merge_range(i, 0, i, 4, purpose, fmt_link_center_bold)
+
+    if purpose_info["URL"]:
+        worksheet.write_url(i, 0, purpose_info["URL"][0], string=purpose,
+                            cell_format=fmt_link_center_bold)
+    else:
+        worksheet.write(i, 0, purpose, fmt_link_center_bold)
+
     worksheet.set_row(i, 30)
 
     i += 1
@@ -53,13 +80,16 @@ for purpose in data["purposes"]:
 
     i += 1
     i_total_category = []
-    for source in data["sources"]:
+    for source, source_info in data["sources"].items():
         category_list = purpose_source[purpose][source].keys()
 
         if not category_list:
             continue
 
-        worksheet.write(i, 0, source, fmt_bold)
+        if source_info["URL"]:
+            worksheet.write_url(i, 0, source_info["URL"][0], string=source, cell_format=fmt_link_center_bold)
+        else:
+            worksheet.write(i, 0, source, fmt_bold)
         i += 1
 
         i_start_category = i
@@ -69,8 +99,11 @@ for purpose in data["purposes"]:
 
             for item in purpose_source[purpose][source][category]:
                 worksheet.write_number(i, 0, item["quantity"][0], fmt_left)
-                worksheet.write(i, 1, item["item"][0] if item["item"] else "", fmt_left)
-                worksheet.write(i, 2, item["description"][0] if item["description"] else "", fmt_left)
+                if item["URL"]:
+                    worksheet.write_url(i, 1, item["URL"][0], string=item["item"][0], cell_format=fmt_link)
+                else:
+                    worksheet.write(i, 1, item["item"][0], fmt_left)
+                worksheet.write(i, 2, item["description"][0], fmt_left)
                 worksheet.write_number(i, 3, item["price"][0], fmt_dollar)
                 worksheet.write_formula(i, 4, f'=A{i + 1}*D{i + 1}', fmt_dollar)
                 i_total_category.append(i)
