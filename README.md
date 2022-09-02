@@ -11,10 +11,10 @@
 - publishing YAML
     - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/.gitlab-ci.yml
 - TOML-JSON converter
-    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/public/TOML-JSON.py
+    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/TOML-JSON.py
 - inventory JSON
     - http://inventory.fabcloud.io/inv.json
 - TOML-excel converter
-    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/public/TOML-excel.py
+    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/TOML-excel.py
 - inventory xlsx
     - http://inventory.fabcloud.io/inv.xlsx
