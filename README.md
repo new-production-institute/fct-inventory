@@ -1,16 +1,20 @@
 - show full inventory
-    - http://inventory.fabcloud.io/data/
+    - http://inventory.fabcloud.io/
 - show inventory index
-    - http://inventory.fabcloud.io/data/?index
+    - http://inventory.fabcloud.io/?index
 - show a purpose
-    - http://inventory.fabcloud.io/data/?purpose=Output%20Devices
+    - http://inventory.fabcloud.io/?purpose=Output%20Devices
 - show a source
-    - http://inventory.fabcloud.io/data/?source=Digi-Key
+    - http://inventory.fabcloud.io/?source=Digi-Key
 - inventory TOML
-    - https://gitlab.fabcloud.org/inventory/data/-/blob/main/public/inv.toml
+    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/public/inv.toml
 - publishing YAML
-   - https://gitlab.fabcloud.org/inventory/data/-/blob/main/.gitlab-ci.yml
+    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/.gitlab-ci.yml
 - TOML-JSON converter
-    - https://gitlab.fabcloud.org/inventory/data/-/blob/main/public/TOML-JSON.py
+    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/public/TOML-JSON.py
 - inventory JSON
-    - http://inventory.fabcloud.io/data/inv.json
+    - http://inventory.fabcloud.io/inv.json
+- TOML-excel converter
+    - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/public/TOML-excel.py
+- inventory xlsx
+    - http://inventory.fabcloud.io/inv.xlsx
