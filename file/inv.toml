@@ -1420,7 +1420,7 @@ item="102010428"
 manufacturer="Seeed Technology Co., Ltd"
 URL="https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010428/14672129"
 price=5.4
-quantity=50
+quantity=100
 
 [[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
 comment = "ATSAMD21G18 Seeeduino XIAO SAM D ARM® Cortex®-M0+ MCU 32-Bit Embedded Evaluation Board"
