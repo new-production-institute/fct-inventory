@@ -1432,6 +1432,15 @@ price=5.4
 quantity=50
 
 [[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+comment = "ARM® Cortex®-M0+ - Microcontroller IC 32-Bit Dual-Core 133MHz External Program Memory 56-QFN (7x7)"
+description="IC MCU 32BIT EXT MEM 56QFN"
+item="SC0914(13)"
+manufacturer="Raspberry Pi"
+URL="https://www.digikey.fi/en/products/detail/raspberry-pi/SC0914-13/14306010"
+price=1.0
+quantity=50
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
 comment = "--------------------------------------------------------"
 description="IC MCU 32BIT 16KB FLASH 14SOIC"
 item="ATSAMD11C14A-SSUTD"
