@@ -1423,6 +1423,15 @@ price=5.4
 quantity=50
 
 [[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+comment = "ATSAMD21G18 Seeeduino XIAO SAM D ARM® Cortex®-M0+ MCU 32-Bit Embedded Evaluation Board"
+description="SEEEDUINO XIAO ARDUINO MCU"
+item="102010328"
+manufacturer="Seeed Technology Co., Ltd"
+URL="https://www.digikey.fi/en/products/detail/seeed-technology-co-ltd/102010328/11506471"
+price=5.4
+quantity=50
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
 comment = "--------------------------------------------------------"
 description="IC MCU 32BIT 16KB FLASH 14SOIC"
 item="ATSAMD11C14A-SSUTD"
