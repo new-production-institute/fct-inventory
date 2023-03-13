@@ -18,3 +18,7 @@
     - https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io/-/blob/main/TOML-excel.py
 - inventory xlsx
     - http://inventory.fabcloud.io/inv.xlsx
+
+## Contributing
+
+Add new inventory items to `public/inv.toml`.
