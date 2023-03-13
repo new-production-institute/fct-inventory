@@ -1414,6 +1414,15 @@ URL = "https://www.digikey.com"
 currency = "USD"
 
 [[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
+comment = "RP2040 XIAO RP2040 - ARM® Cortex®-M0+ MCU 32-Bit Embedded Evaluation Board"
+description="XIAO RP2040"
+item="102010428"
+manufacturer="Seeed Technology Co., Ltd"
+URL="https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/102010428/14672129"
+price=5.4
+quantity=50
+
+[[topics."Embedded Programming".sources.Digi-Key.categories.processors]]
 comment = "--------------------------------------------------------"
 description="IC MCU 32BIT 16KB FLASH 14SOIC"
 item="ATSAMD11C14A-SSUTD"
