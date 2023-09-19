@@ -1758,7 +1758,7 @@ description = [ "4 Position FFC, FPC Connector Contacts, Top 0.039'' (1.00mm) Su
 item = [ "FFC3B11-04-T",]
 URL = [ "https://www.digikey.com/en/products/detail/gct/FFC3B11-04-T/10657221",]
 manufacturer = []
-price = [ 19.05,]
+price = [ 0.1905,]
 quantity = [ 100,]
 attributes = [ "active",]
 
