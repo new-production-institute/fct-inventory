@@ -3786,6 +3786,11 @@ URL = [ "http://academy.cba.mit.edu/classes/output_devices/index.html",]
 program = [ "Fab Academy",]
 URL = [ "http://academy.cba.mit.edu/classes/wildcard/index.html",]
 
+[sources."Bolton Metal Products"]
+URL = [ "https://boltonmetalproducts.com/",]
+currency = [ "USD",]
+currency_symbol = [ "$",]
+
 [sources.Prusa]
 URL = [ "https://www.prusa3d.com",]
 currency = [ "USD",]
