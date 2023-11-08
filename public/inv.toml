@@ -4027,11 +4027,6 @@ URL = [ "https://cricut.com/en-us/",]
 currency = [ "USD",]
 currency_symbol = [ "$",]
 
-[sources.Cricut]
-URL = [ "https://cricut.com/en-us/",]
-currency = [ "USD",]
-currency_symbol = [ "$",]
-
 [sources."Bambu Lab"]
 URL = [ "https://bambulab.com/en-us",]
 currency = [ "USD",]
