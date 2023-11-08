@@ -5,6 +5,7 @@ pages:
   script:
     - pip install toml xlsxwriter
     - python TOML-JSON.py
+    - python TOML-excel.py
   artifacts:
     paths:
     - public

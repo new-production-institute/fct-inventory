@@ -3702,6 +3702,7 @@ description = [ "2.4 TFT LCD Display Touch Screen Module SPI Serial ILI9341 320x
 item = [ "B0BZGY9P9H",]
 URL = [ "https://www.amazon.com/Display-Screen-Module-ILI9341-320X240/dp/B0BZGY9P9H",]
 manufacturer = []
+quantity = [ 5,]
 price = [ 11.99,]
 
 [[items]]
