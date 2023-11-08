@@ -30,8 +30,8 @@ description = [ "FDM 3D Printer with CR Touch Auto Leveling, High Precision Z-ax
 item = [ "Ender 3 S1",]
 URL = [ "https://www.amazon.com/CREALITY-Ender-S1-3D-Professional/dp/B09KMYQNGJ/",]
 manufacturer = []
-price = [ 429,]
-quantity = [ 2,]
+price = [ 286,]
+quantity = [ 4,]
 attributes = [ "active",]
 
 [[items]]
