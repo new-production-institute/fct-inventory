@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset=utf-8>
@@ -16,6 +16,7 @@ var purposes
 var source_total
 var purpose_total
 var inventory_total
+var attributes
 //
 // get the inventory
 //
@@ -29,6 +30,12 @@ function show_inventory(data) {
    items = data.items
    sources = data.sources
    purposes = data.purposes
+   var attributes_found = new Set();
+   items.forEach((x, i) => {
+      if (x.attributes !== undefined)
+         Object.keys(x.attributes).forEach((a, j) => attributes_found.add(a))
+   })
+   attributes = Array.from(attributes_found).sort();
    document.write('<font face="bitstream vera sans,arial,helvetica,sans-serif">')
    //
    // get URL parameters
@@ -268,6 +275,9 @@ function show_purpose(purpose) {
       document.write("<th>description</th>")
       document.write("<th>unit price</th>")
       document.write("<th>extended price</th>")
+      attributes.forEach((a, i) => {
+         document.write(`<th>${a}</th>`)
+      })
       document.write("</tr>")
    }
 //
@@ -294,10 +304,15 @@ function show_item(item) {
    document.write("<td align='right'>"+symbol+parseFloat(item.price).toFixed(2)+"</td>")
    var extended_price = parseFloat(item.quantity)*parseFloat(item.price)
    document.write("<td align='right'>"+symbol+extended_price.toFixed(2)+"</td>")
+   attributes.forEach((a, i) => {
+      if (item.attributes !== undefined && item.attributes[a] !== undefined)
+         document.write(`<td align='right'>${item.attributes[a]}</td>`)
+      else
+         document.write(`<td align='right'></td>`)
+   })
    source_total += extended_price
    purpose_total += extended_price
    inventory_total += extended_price
    document.write("</tr>")
    }
 </script>
-

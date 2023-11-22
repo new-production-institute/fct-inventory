@@ -8,10 +8,13 @@ import xlsxwriter
 #
 data = toml.load("public/inv.toml")
 
+attributes = []
+
 #
 # build tree
 #
 item_tree = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: [])))
+attributes_found = set()
 for item in data["items"]:
     purpose = item["purpose"][0]
     source = item["source"][0]
@@ -21,7 +24,11 @@ for item in data["items"]:
         item["item"] = [""]
     if not item["description"]:
         item["description"] = [""]
+    if "attributes" not in item:
+        item["attributes"] = {}
     item_tree[purpose][source][category].append(item)
+    attributes_found |= item["attributes"].keys()
+attributes = sorted(attributes_found)
 
 #
 # create sheet
@@ -63,7 +70,10 @@ fmt_right_bold = workbook.add_format({'align': 'right',
 
 # set column size
 column_length = [16, 24, 100, 46, 16]
-column_field = ("quantity", "item", "description", "unit price", "extended price")
+column_field = ["quantity", "item", "description", "unit price", "extended price"]
+for a in attributes:
+    column_length.append(16)
+    column_field.append(a)
 for j, length in enumerate(column_length):
     worksheet.set_column(j, j, width=length)
 
@@ -121,6 +131,9 @@ for purpose, purpose_info in data["purposes"].items():
                 worksheet.write(i, 2, item["description"][0], fmt_left)
                 worksheet.write_number(i, 3, item["price"][0], fmt_dollar)
                 worksheet.write_formula(i, 4, f'=A{i + 1}*D{i + 1}', fmt_dollar)
+                for k, a in enumerate(attributes):
+                    if a in item["attributes"]:
+                        worksheet.write(i, 5+k, item["attributes"][a], fmt_left)
                 i_total_category.append(i)
                 i += 1
 
