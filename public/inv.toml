@@ -2713,6 +2713,18 @@ attributes.active = 1
 [[items]]
 purpose = [ "Input Devices",]
 source = [ "Digi-Key",]
+category = [ "image",]
+description = [ "OV5640 CAMERA XIAO ESP32S3 SENSE",]
+item = [ "114993115",]
+URL = [ "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/114993115/21277047", ]
+manufacturer = [ "", ]
+price = [ 11.99,]
+quantity = [ 10,]
+attributes.active = 1
+
+[[items]]
+purpose = [ "Input Devices",]
+source = [ "Digi-Key",]
 category = [ "pressure",]
 description = [ "SENSOR PRESSURE CAPACITIVE",]
 item = [ "DPS310XTSA1",]
