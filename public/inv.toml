@@ -8,8 +8,9 @@ URL = [ "https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-3/",]
 manufacturer = []
 price = [ 999,]
 quantity = [ 0,]
-attributes."tariff code" = "8443.0"
-attributes."country of origin" = "Czech Republic"
+[items.attributes]
+"tariff code" = "8443.0"
+"country of origin" = "Czech Republic"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -21,8 +22,9 @@ URL = [ "https://us.store.bambulab.com/products/x1-carbon-combo",]
 manufacturer = []
 price = [ 1449,]
 quantity = [ 1,]
-attributes."tariff code" = "8443.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8443.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -34,8 +36,9 @@ URL = [ "https://www.amazon.com/CREALITY-Ender-S1-3D-Professional/dp/B09KMYQNGJ/
 manufacturer = []
 price = [ 286,]
 quantity = [ 4,]
-attributes."tariff code" = "8443.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8443.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -47,8 +50,9 @@ URL = [ "https://www.amazon.com/ELEGOO-Monochrome-Transfer-8-62x4-84x10-24-Print
 manufacturer = []
 price = [ 474.99,]
 quantity = [ 2,]
-attributes."tariff code" = "8443.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8443.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -60,8 +64,9 @@ URL = [ "https://www.amazon.com/Revopoint-Scanner-Precision-Portable-Printing/dp
 manufacturer = []
 price = [ 799,]
 quantity = [ 1,]
-attributes."tariff code" = "8471.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -73,8 +78,9 @@ URL = [ "https://www.amazon.com/AnyBeam-Projector-Focus-Free-Lightweight-Compati
 manufacturer = []
 price = [ 229.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8528.0"
-attributes."country of origin" = "Taiwan"
+[items.attributes]
+"tariff code" = "8528.0"
+"country of origin" = "Taiwan"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -86,8 +92,9 @@ URL = [ "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/
 manufacturer = []
 price = [ 57.0,]
 quantity = [ 2,]
-attributes."tariff code" = "3906.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3906.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -99,8 +106,9 @@ URL = [ "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/
 manufacturer = []
 price = [ 57.0,]
 quantity = [ 2,]
-attributes."tariff code" = "3906.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3906.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -112,8 +120,9 @@ URL = [ "https://www.matterhackers.com/store/l/pro-series-tough-pla-filament/sk/
 manufacturer = []
 price = [ 57.0,]
 quantity = [ 2,]
-attributes."tariff code" = "3906.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3906.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -125,8 +134,9 @@ URL = [ "https://www.matterhackers.com/store/l/ultimaker-pla-3d-printing-filamen
 manufacturer = []
 price = [ 49.95,]
 quantity = [ 2,]
-attributes."tariff code" = "3906.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3906.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -138,8 +148,9 @@ URL = [ "https://www.matterhackers.com/store/l/pro-series-flex-flexible-tpe-05kg
 manufacturer = []
 price = [ 60.0,]
 quantity = [ 2,]
-attributes."tariff code" = "3906.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3906.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -151,8 +162,9 @@ URL = [ "https://www.matterhackers.com/store/l/timberfill-rosewood-filament-1.75
 manufacturer = []
 price = [ 51.0,]
 quantity = [ 2,]
-attributes."tariff code" = "3906.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3906.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
@@ -164,8 +176,9 @@ URL = [ "https://www.matterhackers.com/store/l/fillamentum-timberfill-light-wood
 manufacturer = []
 price = [ 51.0,]
 quantity = [ 2,]
-attributes."tariff code" = "3906.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3906.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Aided Design, Project Management",]
@@ -177,8 +190,9 @@ URL = [ "https://www.amazon.com/wowe-Excavator-A9-9400-Supports-Ethernet/dp/B0B6
 manufacturer = []
 price = [ 239.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8471.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Computer-Aided Design, Project Management",]
@@ -190,8 +204,9 @@ URL = [ "https://www.amazon.com/GTEK-Computer-Frameless-Professional-Mountable/d
 manufacturer = []
 price = [ 89.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8528.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8528.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Computer-Aided Design, Project Management",]
@@ -203,8 +218,9 @@ URL = [ "https://www.amazon.com/Keyboard-EDJO-Full-Sized-Ergonomic-Computer/dp/B
 manufacturer = []
 price = [ 20.49,]
 quantity = [ 5,]
-attributes."tariff code" = "8471.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Computer-Aided Design, Project Management",]
@@ -216,8 +232,9 @@ URL = [ "https://www.amazon.com/Logitech-C920x-Pro-HD-Webcam/dp/B085TFF7M1/",]
 manufacturer = []
 price = [ 56.99,]
 quantity = [ 3,]
-attributes."tariff code" = "8517.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8517.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Computer-Aided Design, Project Management",]
@@ -229,8 +246,9 @@ URL = [ "https://www.amazon.com/Jabra-Speak510-Wireless-Bluetooth-Softphone/dp/B
 manufacturer = []
 price = [ 149.0,]
 quantity = [ 1,]
-attributes."tariff code" = "8517.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8517.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -242,8 +260,9 @@ URL = [ "https://github.com/fab-machines/Fabulaser-Mini",]
 manufacturer = []
 price = [ 4400,]
 quantity = [ 1,]
-attributes."tariff code" = "8456.11"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "8456.11"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -255,8 +274,9 @@ URL = [ "https://github.com/fab-machines/Fabulaser-Mini",]
 manufacturer = []
 price = [ 600,]
 quantity = [ 0,]
-attributes."tariff code" = "8414.0"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "8414.0"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -268,8 +288,9 @@ URL = [ "https://github.com/fab-machines/Fabulaser-Mini",]
 manufacturer = []
 price = [ 1600,]
 quantity = [ 1,]
-attributes."tariff code" = "8414.0"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "8414.0"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -281,8 +302,9 @@ URL = [ "https://github.com/fab-machines/Fabulaser-Mini",]
 manufacturer = []
 price = [ 500,]
 quantity = [ 1,]
-attributes."tariff code" = "8466.93"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "8466.93"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -342,8 +364,9 @@ URL = [ "https://www.uline.com/Product/Detail/S-12647/Corrugated-Pads/30-x-40-27
 manufacturer = []
 price = [ 2.21,]
 quantity = [ 50,]
-attributes."tariff code" = "4802.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "4802.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -355,8 +378,9 @@ URL = [ "https://www.rolanddga.com/products/vinyl-cutters/camm-1-gs-24-desktop-v
 manufacturer = []
 price = [ 1995,]
 quantity = [ 0,]
-attributes."tariff code" = "8477.8"
-attributes."country of origin" = "USA / Japan"
+[items.attributes]
+"tariff code" = "8477.8"
+"country of origin" = "USA / Japan"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -368,8 +392,9 @@ URL = [ "https://cricut.com/en-us/cutting-machines/cricut-maker/cricut-maker-3/c
 manufacturer = []
 price = [ 429.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8477.8"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.8"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -381,8 +406,9 @@ URL = [ "https://cricut.com/en-us/tools-accessories/featured/machine-tool-organi
 manufacturer = []
 price = [ 32.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -394,8 +420,9 @@ URL = [ "https://cricut.com/en-us/50-and-under/knife-blade-drive-housing/2003918
 manufacturer = []
 price = [ 24.99,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -407,8 +434,9 @@ URL = [ "https://cricut.com/en-us/cutting-machines/cricut-maker/accessories/engr
 manufacturer = []
 price = [ 24.49,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -420,8 +448,9 @@ URL = [ "https://cricut.com/en-us/tools-accessories/machine-tools/blades-tools/r
 manufacturer = []
 price = [ 27.49,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -433,8 +462,9 @@ URL = [ "https://cricut.com/en-us/tools-accessories/machine-tools/replacement-pa
 manufacturer = []
 price = [ 39.99,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -446,8 +476,9 @@ URL = [ "https://cricut.com/en-us/cutting-machines/cricut-maker/accessories/fine
 manufacturer = []
 price = [ 24.49,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -459,8 +490,9 @@ URL = [ "https://cricut.com/en-us/cutting-machines/cricut-maker/accessories/deep
 manufacturer = []
 price = [ 18.99,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -472,8 +504,9 @@ URL = [ "https://cricut.com/en-us/tools-accessories/machine-tools/blades-tools/p
 manufacturer = []
 price = [ 18.99,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -485,8 +518,9 @@ URL = [ "https://cricut.com/en-us/cutting-machines/cricut-maker/accessories/mach
 manufacturer = []
 price = [ 20.49,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -498,8 +532,9 @@ URL = [ "https://cricut.com/en-us/cutting-machines/cricut-maker/accessories/mach
 manufacturer = []
 price = [ 20.49,]
 quantity = [ 2,]
-attributes."tariff code" = "8477.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8477.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -511,8 +546,9 @@ URL = [ "https://cricut.com/en-us/materials/material-type/vinyl/smart-vinyl/smar
 manufacturer = []
 price = [ 47.97,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -524,8 +560,9 @@ URL = [ "https://cricut.com/en-us/materials/material-type/vinyl/bulk-vinyl/smart
 manufacturer = []
 price = [ 57.97,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -537,8 +574,9 @@ URL = [ "https://www.3m.com/3M/en_US/p/d/b00035183/",]
 manufacturer = []
 price = [ 220.87,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -550,8 +588,9 @@ URL = [ "https://www.3m.com/3M/en_US/p/d/b00041302/",]
 manufacturer = []
 price = [ 246.04,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -563,8 +602,9 @@ URL = [ "https://www.3m.com/3M/en_US/p/d/b40067085/",]
 manufacturer = []
 price = [ 211.22,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -576,8 +616,9 @@ URL = [ "https://www.budnick.com/Datasheets/PermacelNittoDenkoAmerica/595B",]
 manufacturer = []
 price = [ 53.75,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -589,8 +630,9 @@ URL = [ "https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4001%2DO%
 manufacturer = []
 price = [ 59.25,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -602,8 +644,9 @@ URL = [ "https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4003%2DO%
 manufacturer = []
 price = [ 59.25,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -615,8 +658,9 @@ URL = [ "https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4090%2DO%
 manufacturer = []
 price = [ 59.25,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -628,8 +672,9 @@ URL = [ "https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4330%2DO%
 manufacturer = []
 price = [ 65.25,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -641,8 +686,9 @@ URL = [ "https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4674%2DO%
 manufacturer = []
 price = [ 65.25,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Cutting",]
@@ -654,8 +700,9 @@ URL = [ "https://www.beacongraphics.com/bgllc/Amazing/Itemdesc.asp?ic=A4583%2DO%
 manufacturer = []
 price = [ 65.25,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -667,8 +714,9 @@ URL = [ "https://www.shopbottools.com/products/alpha",]
 manufacturer = []
 price = [ 26592,]
 quantity = [ 1,]
-attributes."tariff code" = "8465.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8465.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -680,8 +728,9 @@ URL = [ "https://www.onsrud.com/Products/34152.asp",]
 manufacturer = []
 price = [ 48.45,]
 quantity = [ 1,]
-attributes."tariff code" = "8466.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8466.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -693,8 +742,9 @@ URL = [ "https://www.onsrud.com/Products/34156.asp",]
 manufacturer = []
 price = [ 48.45,]
 quantity = [ 1,]
-attributes."tariff code" = "8466.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8466.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -706,8 +756,9 @@ URL = [ "https://www.onsrud.com/Products/34164.asp",]
 manufacturer = []
 price = [ 48.45,]
 quantity = [ 1,]
-attributes."tariff code" = "8466.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8466.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -719,8 +770,9 @@ URL = [ "https://www.onsrud.com/Products/34168.asp",]
 manufacturer = []
 price = [ 48.45,]
 quantity = [ 1,]
-attributes."tariff code" = "8466.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8466.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -732,8 +784,9 @@ URL = [ "https://www.onsrud.com/Products/64000.asp",]
 manufacturer = []
 price = [ 46.7,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -745,8 +798,9 @@ URL = [ "https://www.onsrud.com/Products/64012.asp",]
 manufacturer = []
 price = [ 53.05,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -758,8 +812,9 @@ URL = [ "https://www.onsrud.com/Products/65012.asp",]
 manufacturer = []
 price = [ 50.3,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -771,8 +826,9 @@ URL = [ "https://www.onsrud.com/Products/52240.asp",]
 manufacturer = []
 price = [ 32.4,]
 quantity = [ 5,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -784,8 +840,9 @@ URL = [ "https://www.onsrud.com/Products/57240.asp",]
 manufacturer = []
 price = [ 32.4,]
 quantity = [ 5,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -797,8 +854,9 @@ URL = [ "https://www.onsrud.com/Products/56041.asp",]
 manufacturer = []
 price = [ 35.95,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -810,8 +868,9 @@ URL = [ "https://www.onsrud.com/Products/52280.asp",]
 manufacturer = []
 price = [ 36.7,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -823,8 +882,9 @@ URL = [ "https://www.onsrud.com/Products/57287.asp",]
 manufacturer = []
 price = [ 42.15,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -836,8 +896,9 @@ URL = [ "https://www.onsrud.com/Products/56082.asp",]
 manufacturer = []
 price = [ 39.6,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -849,8 +910,9 @@ URL = [ "https://www.onsrud.com/Products/52280BL.asp",]
 manufacturer = []
 price = [ 85.9,]
 quantity = [ 1,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -862,8 +924,9 @@ URL = [ "https://www.onsrud.com/Products/57367.asp",]
 manufacturer = []
 price = [ 115.15,]
 quantity = [ 1,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -875,8 +938,9 @@ URL = [ "https://www.onsrud.com/Products/3761.asp",]
 manufacturer = []
 price = [ 24.65,]
 quantity = [ 2,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -888,8 +952,9 @@ URL = [ "https://www.onsrud.com/Products/52244BL.asp",]
 manufacturer = []
 price = [ 76.1,]
 quantity = [ 1,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Computer-Controlled Machining",]
@@ -901,8 +966,9 @@ URL = [ "https://www.onsrud.com/Products/52360BL.asp",]
 manufacturer = []
 price = [ 176.55,]
 quantity = [ 1,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -914,8 +980,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-070RL/5698945
 manufacturer = [ "YAGEO",]
 price = [ 0.01055,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -927,8 +994,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/PT1206FR-070R1L/217833
 manufacturer = [ "YAGEO",]
 price = [ 0.12692,]
 quantity = [ 250,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -940,8 +1008,9 @@ URL = [ "https://www.digikey.com/en/products/detail/panasonic-electronic-compone
 manufacturer = [ "Panasonic Electronic Components",]
 price = [ 0.541,]
 quantity = [ 50,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -953,8 +1022,9 @@ URL = [ "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CS
 manufacturer = [ "Stackpole Electronics Inc",]
 price = [ 0.208,]
 quantity = [ 100,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -966,8 +1036,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-071RL/728386"
 manufacturer = [ "YAGEO",]
 price = [ 0.02242,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -979,8 +1050,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-074R99L/72889
 manufacturer = [ "YAGEO",]
 price = [ 0.02242,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -992,8 +1064,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710RL/728482
 manufacturer = [ "YAGEO",]
 price = [ 0.02242,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1005,8 +1078,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0749R9L/72894
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1018,8 +1092,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100RL/72849
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1031,8 +1106,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07499RL/72894
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1044,8 +1120,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1057,8 +1134,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K99L/72889
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1070,8 +1148,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710KL/728483
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1083,8 +1162,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0749K9L/72894
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1096,8 +1176,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/72849
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1109,8 +1190,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07499KL/72894
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1122,8 +1204,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-071ML/728388"
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1135,8 +1218,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-074M99L/72889
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1148,8 +1232,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0710ML/728484
 manufacturer = [ "YAGEO",]
 price = [ 0.01353,]
 quantity = [ 1000,]
-attributes."tariff code" = "8533.21"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8533.21"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1161,8 +1246,9 @@ URL = [ "https://www.digikey.com/en/products/detail/nidec-copal-electronics/ST4E
 manufacturer = [ "",]
 price = [ 0.9192,]
 quantity = [ 50,]
-attributes."tariff code" = "8533.4"
-attributes."country of origin" = "France"
+[items.attributes]
+"tariff code" = "8533.4"
+"country of origin" = "France"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1174,8 +1260,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/CC1206CRNPO9BN1R0/3728
 manufacturer = [ "YAGEO",]
 price = [ 0.07038,]
 quantity = [ 500,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1187,8 +1274,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/CC1206JRNPO9BN100/3028
 manufacturer = [ "YAGEO",]
 price = [ 0.06258,]
 quantity = [ 500,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1200,8 +1288,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/CC1206JRNPO9BN101/3028
 manufacturer = [ "YAGEO",]
 price = [ 0.06258,]
 quantity = [ 500,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1213,8 +1302,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/CC1206KKX7RCBB102/3028
 manufacturer = [ "YAGEO",]
 price = [ 0.1136,]
 quantity = [ 500,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1226,8 +1316,9 @@ URL = [ "https://www.digikey.com/en/products/detail/yageo/CC1206KRX7R9BB103/3029
 manufacturer = [ "YAGEO",]
 price = [ 0.05474,]
 quantity = [ 500,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1239,8 +1330,9 @@ URL = [ "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R2A10
 manufacturer = [ "TDK Corporation",]
 price = [ 0.07128,]
 quantity = [ 500,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1252,8 +1344,9 @@ URL = [ "https://www.digikey.com/en/products/detail/tdk-corporation/C3216X7R1H10
 manufacturer = [ "TDK Corporation",]
 price = [ 0.07444,]
 quantity = [ 500,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1265,8 +1358,9 @@ URL = [ "https://www.digikey.com/en/products/detail/murata-electronics/GRT31CC8Y
 manufacturer = [ "Murata Electronics",]
 price = [ 0.2183,]
 quantity = [ 250,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1278,8 +1372,9 @@ URL = [ "https://www.digikey.com/en/products/detail/panasonic-electronic-compone
 manufacturer = [ "Panasonic Electronic Components",]
 price = [ 0.2815,]
 quantity = [ 250,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1291,8 +1386,9 @@ URL = [ "https://www.digikey.com/en/products/detail/tecate-group/TPLC-3R8-10MR8X
 manufacturer = [ "Tecate Group",]
 price = [ 1.6726,]
 quantity = [ 50,]
-attributes."tariff code" = "8532.24"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8532.24"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1304,8 +1400,9 @@ URL = [ "https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T1R0MR/95
 manufacturer = [ "Taiyo Yuden",]
 price = [ 0.1845,]
 quantity = [ 100,]
-attributes."tariff code" = "8504.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1317,8 +1414,9 @@ URL = [ "https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T100KR/27
 manufacturer = [ "Taiyo Yuden",]
 price = [ 0.1845,]
 quantity = [ 100,]
-attributes."tariff code" = "8504.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1330,8 +1428,9 @@ URL = [ "https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T101KR/27
 manufacturer = [ "Taiyo Yuden",]
 price = [ 0.1845,]
 quantity = [ 100,]
-attributes."tariff code" = "8504.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1343,8 +1442,9 @@ URL = [ "https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T102KR/31
 manufacturer = [ "Taiyo Yuden",]
 price = [ 0.1845,]
 quantity = [ 100,]
-attributes."tariff code" = "8504.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1356,8 +1456,9 @@ URL = [ "https://www.digikey.com/en/products/detail/stmicroelectronics/BAT46ZFIL
 manufacturer = [ "STMicroelectronics",]
 price = [ 0.1943,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.1"
-attributes."country of origin" = "France"
+[items.attributes]
+"tariff code" = "8541.1"
+"country of origin" = "France"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1369,8 +1470,9 @@ URL = [ "https://www.digikey.com/en/products/detail/comchip-technology/CDBM1100-
 manufacturer = [ "Comchip Technology",]
 price = [ 0.2496,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.1"
-attributes."country of origin" = "Taiwan"
+[items.attributes]
+"tariff code" = "8541.1"
+"country of origin" = "Taiwan"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1382,8 +1484,9 @@ URL = [ "https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C3V
 manufacturer = [ "Diodes Incorporated",]
 price = [ 0.07114,]
 quantity = [ 500,]
-attributes."tariff code" = "8541.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1395,8 +1498,9 @@ URL = [ "https://www.digikey.com/en/products/detail/diodes-incorporated/BZT52C4V
 manufacturer = [ "Diodes Incorporated",]
 price = [ 0.06518,]
 quantity = [ 500,]
-attributes."tariff code" = "8541.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1408,8 +1512,9 @@ URL = [ "https://www.digikey.com/en/products/detail/vishay-siliconix/SI2336DS-T1
 manufacturer = [ "Vishay Siliconix",]
 price = [ 0.3388,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1421,8 +1526,9 @@ URL = [ "https://www.digikey.com/en/products/detail/vishay-siliconix/SQ2351ES-T1
 manufacturer = [ "Vishay Siliconix",]
 price = [ 0.4026,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1434,8 +1540,9 @@ URL = [ "https://www.digikey.com/en/products/detail/vishay-siliconix/SUD50N03-06
 manufacturer = [ "Vishay Siliconix",]
 price = [ 1.458,]
 quantity = [ 50,]
-attributes."tariff code" = "8541.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1447,8 +1554,9 @@ URL = [ "https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SM
 manufacturer = [ "Lumex Opto/Components Inc.",]
 price = [ 0.1413,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1460,8 +1568,9 @@ URL = [ "https://www.digikey.com/en/products/detail/lumex-opto-components-inc/SM
 manufacturer = [ "Lumex Opto/Components Inc.",]
 price = [ 0.1692,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1473,8 +1582,9 @@ URL = [ "https://www.digikey.com/en/products/detail/dialight/5988230107F/1291283
 manufacturer = [ "Dialight",]
 price = [ 0.206,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1486,8 +1596,9 @@ URL = [ "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150120
 manufacturer = [ "Würth Elektronik",]
 price = [ 0.177,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1499,8 +1610,9 @@ URL = [ "https://www.digikey.com/en/products/detail/qt-brightek-qtb/QBLP650-IW/5
 manufacturer = [ "QT Brightek (QTB)",]
 price = [ 0.2023,]
 quantity = [ 250,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1512,8 +1624,9 @@ URL = [ "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd
 manufacturer = [ "Everlight Electronics Co Ltd",]
 price = [ 0.2621,]
 quantity = [ 100,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1525,8 +1638,9 @@ URL = [ "https://www.digikey.com/en/products/detail/luminus-devices-inc/MP-3014-
 manufacturer = [ "Luminus Devices Inc.",]
 price = [ 0.0552,]
 quantity = [ 500,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1538,8 +1652,9 @@ URL = [ "https://www.digikey.com/product-detail/en/cree-inc/CLV1A-FKB-CK1VW1DE1B
 manufacturer = [ "CreeLED, Inc.",]
 price = [ 0.3612,]
 quantity = [ 100,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1551,8 +1666,9 @@ URL = [ "https://www.digikey.com/en/products/detail/adafruit-industries-llc/3094
 manufacturer = [ "Adafruit Industries LLC",]
 price = [ 29.95,]
 quantity = [ 2,]
-attributes."tariff code" = "8541.41"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8541.41"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1564,8 +1680,9 @@ URL = [ "https://www.digikey.com/en/products/detail/texas-instruments/LM3480IM3-
 manufacturer = []
 price = [ 1.063,]
 quantity = [ 100,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1577,8 +1694,9 @@ URL = [ "https://www.digikey.com/en/products/detail/texas-instruments/LM3480IM3-
 manufacturer = []
 price = [ 1.063,]
 quantity = [ 100,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1590,8 +1708,9 @@ URL = [ "https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117IH
 manufacturer = []
 price = [ 0.218,]
 quantity = [ 100,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1603,8 +1722,9 @@ URL = [ "https://www.digikey.com/en/products/detail/onsemi/NCV1117ST50T3G/179266
 manufacturer = []
 price = [ 0.4806,]
 quantity = [ 100,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1616,8 +1736,9 @@ URL = [ "https://www.digikey.com/en/products/detail/diodes-incorporated/ZMR330FT
 manufacturer = []
 price = [ 0.627,]
 quantity = [ 0,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1629,8 +1750,9 @@ URL = [ "https://www.digikey.com/en/products/detail/c-k/AYZ0102AGRLC/1640108",]
 manufacturer = []
 price = [ 0.916,]
 quantity = [ 25,]
-attributes."tariff code" = "8536.5"
-attributes."country of origin" = "France"
+[items.attributes]
+"tariff code" = "8536.5"
+"country of origin" = "France"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1642,8 +1764,9 @@ URL = [ "https://www.digikey.com/en/products/detail/c-k/JS102011JCQN/6137628",]
 manufacturer = []
 price = [ 0.68,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.5"
-attributes."country of origin" = "France"
+[items.attributes]
+"tariff code" = "8536.5"
+"country of origin" = "France"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1655,8 +1778,9 @@ URL = [ "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-di
 manufacturer = []
 price = [ 0.9176,]
 quantity = [ 25,]
-attributes."tariff code" = "8536.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1668,8 +1792,9 @@ URL = [ "https://www.digikey.com/en/products/detail/c-k/PTS636-SM25F-SMTR-LFS/10
 manufacturer = []
 price = [ 0.1384,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.5"
-attributes."country of origin" = "France"
+[items.attributes]
+"tariff code" = "8536.5"
+"country of origin" = "France"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1681,8 +1806,9 @@ URL = [ "https://www.digikey.com/en/products/detail/sullins-connector-solutions/
 manufacturer = [ "Sullins Connector Solutions",]
 price = [ 3.787,]
 quantity = [ 10,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1694,8 +1820,9 @@ URL = [ "https://www.digikey.com/en/products/detail/sullins-connector-solutions/
 manufacturer = [ "Sullins Connector Solutions",]
 price = [ 0.3333,]
 quantity = [ 100,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1707,8 +1834,9 @@ URL = [ "https://www.digikey.com/en/products/detail/amphenol-icc-fci/20021121-00
 manufacturer = [ "Amphenol ICC (FCI)",]
 price = [ 0.6648,]
 quantity = [ 100,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1720,8 +1848,9 @@ URL = [ "https://www.digikey.com/en/products/detail/amphenol-icc-fci/95278-101-0
 manufacturer = []
 price = [ 0.3214,]
 quantity = [ 100,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1733,8 +1862,9 @@ URL = [ "https://www.digikey.com/en/products/detail/gct/BG300-06-A-L-A/9859597",
 manufacturer = [ "GCT",]
 price = [ 0.7044,]
 quantity = [ 100,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1746,8 +1876,9 @@ URL = [ "https://www.digikey.com/en/products/detail/sullins-connector-solutions/
 manufacturer = []
 price = [ 0.505,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1759,8 +1890,9 @@ URL = [ "https://www.digikey.com/en/products/detail/sullins-connector-solutions/
 manufacturer = []
 price = [ 0.605,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1772,8 +1904,9 @@ URL = [ "https://www.digikey.com/en/products/detail/sullins-connector-solutions/
 manufacturer = []
 price = [ 0.564,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1785,8 +1918,9 @@ URL = [ "https://www.digikey.com/en/products/detail/sullins-connector-solutions/
 manufacturer = []
 price = [ 0.73,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1798,8 +1932,9 @@ URL = [ "https://www.digikey.com/product-detail/en/amphenol-icc-fci/71600-104LF/
 manufacturer = []
 price = [ 0.6096,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1811,8 +1946,9 @@ URL = [ "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/629105
 manufacturer = []
 price = [ 1.09,]
 quantity = [ 100,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1824,8 +1960,9 @@ URL = [ "https://www.digikey.com/en/products/detail/cui-devices/UJ2-MBH-1-SMT-TR
 manufacturer = []
 price = [ 0.425,]
 quantity = [ 100,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1837,8 +1974,9 @@ URL = [ "https://www.digikey.com/en/products/detail/xp-power/VEL05US050-US-BB/50
 manufacturer = []
 price = [ 4.5,]
 quantity = [ 25,]
-attributes."tariff code" = "8504.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1850,8 +1988,9 @@ URL = [ "https://www.digikey.com/en/products/detail/assmann-wsw-components/AK674
 manufacturer = []
 price = [ 2.2536,]
 quantity = [ 25,]
-attributes."tariff code" = "8544.42"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8544.42"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1863,8 +2002,9 @@ URL = [ "https://www.digikey.com/en/products/detail/tripp-lite/UR030-06N/5359389
 manufacturer = []
 price = [ 4.375,]
 quantity = [ 15,]
-attributes."tariff code" = "8544.42"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8544.42"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1876,8 +2016,9 @@ URL = [ "https://www.digikey.com/en/products/detail/3m/3302-10-300SF/145483",]
 manufacturer = []
 price = [ 34.43,]
 quantity = [ 1,]
-attributes."tariff code" = "8544.49"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8544.49"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1889,8 +2030,9 @@ URL = [ "https://www.digikey.com/en/products/detail/3m/3756-10-100/5308216",]
 manufacturer = []
 price = [ 26.18,]
 quantity = [ 1,]
-attributes."tariff code" = "8544.49"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8544.49"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1902,8 +2044,9 @@ URL = [ "https://www.digikey.com/en/products/detail/gct/FFC3B11-04-T/10657221",]
 manufacturer = []
 price = [ 0.1905,]
 quantity = [ 100,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1915,8 +2058,9 @@ URL = [ "https://www.digikey.com/en/products/detail/molex/0982670701/3469873",]
 manufacturer = []
 price = [ 1.254,]
 quantity = [ 20,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1928,8 +2072,9 @@ URL = [ "https://www.digikey.com/en/products/detail/molex/0982670707/3469879",]
 manufacturer = []
 price = [ 1.536,]
 quantity = [ 20,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1941,8 +2086,9 @@ URL = [ "https://www.digikey.com/en/products/detail/molex/0982670711/3469883",]
 manufacturer = []
 price = [ 1.561,]
 quantity = [ 20,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1954,8 +2100,9 @@ URL = [ "https://www.digikey.com/en/products/detail/mpd-memory-protection-device
 manufacturer = [ "MPD (Memory Protection Devices)",]
 price = [ 1.09,]
 quantity = [ 10,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1967,8 +2114,9 @@ URL = [ "https://www.digikey.com/en/products/detail/keystone-electronics/555/274
 manufacturer = [ "Keystone Electronics",]
 price = [ 0.42,]
 quantity = [ 20,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
@@ -1980,8 +2128,9 @@ URL = [ "https://www.digikey.com/en/products/detail/mpd-memory-protection-device
 manufacturer = [ "MPD (Memory Protection Devices)",]
 price = [ 1.913,]
 quantity = [ 10,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -1993,8 +2142,9 @@ URL = [ "https://www.rolanddga.com/products/3d/srm-20-small-milling-machine",]
 manufacturer = []
 price = [ 3995,]
 quantity = [ 0,]
-attributes."tariff code" = "8465.92"
-attributes."country of origin" = "USA / Japan"
+[items.attributes]
+"tariff code" = "8465.92"
+"country of origin" = "USA / Japan"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2006,8 +2156,9 @@ URL = [ "https://store.bantamtools.com/collections/machines/products/bantam-tool
 manufacturer = []
 price = [ 4999,]
 quantity = [ 0,]
-attributes."tariff code" = "8465.92"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8465.92"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2019,8 +2170,9 @@ URL = [ "https://store.bantamtools.com/products/pcb?variant=574277429",]
 manufacturer = []
 price = [ 36.23,]
 quantity = [ 3,]
-attributes."tariff code" = "7410.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7410.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2032,8 +2184,9 @@ URL = [ "https://www.amazon.com/LUNYEE-All-Metal-MAX-Switches-Emergency-Stop/dp/
 manufacturer = []
 price = [ 399,]
 quantity = [ 2,]
-attributes."tariff code" = "8465.92"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8465.92"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2045,8 +2198,9 @@ URL = [ "https://www.amazon.com/Daedalus-Spindle-Converter-Profession-Engraving/
 manufacturer = []
 price = [ 106.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8465.92"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8465.92"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2058,8 +2212,9 @@ URL = [ "https://www.amazon.com/Genmitsu-Woodworking-Metalworking-Compatible-Spo
 manufacturer = []
 price = [ 24.99,]
 quantity = [ 4,]
-attributes."tariff code" = "8466.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8466.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2071,8 +2226,9 @@ URL = [ "https://www.amazon.com/Genmitsu-Woodworking-Metalworking-Compatible-301
 manufacturer = []
 price = [ 19.99,]
 quantity = [ 4,]
-attributes."tariff code" = "8466.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8466.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2084,8 +2240,9 @@ URL = [ "https://www.amazon.com/Genmitsu-Cleaner-Machines-Diameter-Transparent/d
 manufacturer = []
 price = [ 26.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8466.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8466.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2097,8 +2254,9 @@ URL = [ "https://www.amazon.com/DEWALT-STEALTHSONIC-DXV09P-QTA-Reduction-Worksho
 manufacturer = []
 price = [ 169.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8508.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8508.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2110,8 +2268,9 @@ URL = [ "https://www.amazon.com/Koblenz-45-1135-00-8-Replacement-Black-Feature/d
 manufacturer = []
 price = [ 17.34,]
 quantity = [ 1,]
-attributes."tariff code" = "8466.0"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "8466.0"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2123,8 +2282,9 @@ URL = [ "https://www.amazon.com/Soldering-Professional-356%E2%84%89-896%E2%84%89
 manufacturer = []
 price = [ 39.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8515.11"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8515.11"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2136,8 +2296,9 @@ URL = [ "https://www.amazon.com/TOAUTO-Soldering-Conversion-Temperature-Correcti
 manufacturer = []
 price = [ 119.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8515.11"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8515.11"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2149,8 +2310,9 @@ URL = [ "https://www.amazon.com/gp/product/B073J2STSQ",]
 manufacturer = []
 price = [ 20,]
 quantity = [ 1,]
-attributes."tariff code" = "8515.11"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8515.11"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2162,8 +2324,9 @@ URL = [ "https://www.amazon.com/SainSmart-Soldering-Preheating-Preheater-Intelli
 manufacturer = []
 price = [ 119.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8515.8"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8515.8"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2175,8 +2338,9 @@ URL = [ "https://www.amazon.com/Corning-6795-400D-PC-400D-Digital-Pyroceram/dp/B
 manufacturer = []
 price = [ 338.69,]
 quantity = [ 1,]
-attributes."tariff code" = "8515.8"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8515.8"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2188,8 +2352,9 @@ URL = [ "https://www.amazon.com/ERICKHILL-Thermometer-58%C2%B0F-752%C2%B0F-50%C2
 manufacturer = []
 price = [ 17.99,]
 quantity = [ 1,]
-attributes."tariff code" = "9025.19"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9025.19"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2201,8 +2366,9 @@ URL = [ "https://www.amazon.com/Jonard-SA-9-115-Benchtop-Absorber-Filter/dp/B006
 manufacturer = []
 price = [ 111.95,]
 quantity = [ 1,]
-attributes."tariff code" = "8421.99"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8421.99"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2214,8 +2380,9 @@ URL = [ "https://www.amazon.com/dp/B07JQ3HRMX/",]
 manufacturer = []
 price = [ 229.99,]
 quantity = [ 1,]
-attributes."tariff code" = "9030.2"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9030.2"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2227,8 +2394,9 @@ URL = [ "https://www.amazon.com/FOCHANC-Digital-Multimeter-Black-A-Black/dp/B08V
 manufacturer = []
 price = [ 21.99,]
 quantity = [ 1,]
-attributes."tariff code" = "9030.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9030.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2240,8 +2408,9 @@ URL = [ "https://www.amazon.com/Siglent-Technologies-SDS1202X-Oscilloscope-Chann
 manufacturer = []
 price = [ 359,]
 quantity = [ 1,]
-attributes."tariff code" = "9030.2"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9030.2"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2253,8 +2422,9 @@ URL = [ "https://www.amazon.com/Siglent-Technologies-SDM3045X-Digital-Multimeter
 manufacturer = []
 price = [ 389,]
 quantity = [ 1,]
-attributes."tariff code" = "9030.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9030.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2266,8 +2436,9 @@ URL = [ "https://www.amazon.com/Siglent-Technologies-SPD3303X-Triple-Output/dp/B
 manufacturer = []
 price = [ 389,]
 quantity = [ 1,]
-attributes."tariff code" = "8504.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2279,8 +2450,9 @@ URL = [ "https://www.amazon.com/Siglent-SPD1305X-Programmable-Supply-Channel/dp/
 manufacturer = []
 price = [ 279,]
 quantity = [ 1,]
-attributes."tariff code" = "8504.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2292,8 +2464,9 @@ URL = [ "https://www.amazon.com/LANCOSC-Magnifying-Stepless-5-Diopter-Magnifier/
 manufacturer = []
 price = [ 41.99,]
 quantity = [ 1,]
-attributes."tariff code" = "9013.8"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9013.8"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2305,8 +2478,9 @@ URL = [ "https://www.amazon.com/dp/B07YB2TNM3",]
 manufacturer = []
 price = [ 109.88,]
 quantity = [ 1,]
-attributes."tariff code" = "9011.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9011.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2318,8 +2492,9 @@ URL = [ "https://www.digikey.com/en/products/detail/apex-tool-group/EROP7SA/1141
 manufacturer = []
 price = [ 4.8,]
 quantity = [ 10,]
-attributes."tariff code" = "8203.2"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8203.2"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2331,8 +2506,9 @@ URL = [ "https://www.digikey.com/en/products/detail/american-hakko-products-inc/
 manufacturer = []
 price = [ 6.33,]
 quantity = [ 5,]
-attributes."tariff code" = "8203.2"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8203.2"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2344,8 +2520,9 @@ URL = [ "https://www.digikey.com/en/products/detail/apex-tool-group/L4GN/373402"
 manufacturer = []
 price = [ 29.5,]
 quantity = [ 5,]
-attributes."tariff code" = "8203.2"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8203.2"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2357,8 +2534,9 @@ URL = [ "https://www.digikey.com/en/products/detail/aven-tools/26034/600975",]
 manufacturer = []
 price = [ 3.15,]
 quantity = [ 10,]
-attributes."tariff code" = "9013.8"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "9013.8"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2370,8 +2548,9 @@ URL = [ "https://www.digikey.com/en/products/detail/panavise/201/166719",]
 manufacturer = []
 price = [ 32.95,]
 quantity = [ 3,]
-attributes."tariff code" = "8205.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8205.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2383,8 +2562,9 @@ URL = [ "https://www.digikey.com/en/products/detail/apex-tool-group/XP600/278953
 manufacturer = []
 price = [ 38.0,]
 quantity = [ 3,]
-attributes."tariff code" = "8205.4"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8205.4"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2396,8 +2576,9 @@ URL = [ "https://www.digikey.com/en/products/detail/tempo-communications/PA70057
 manufacturer = []
 price = [ 16.67,]
 quantity = [ 5,]
-attributes."tariff code" = "8203.2"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8203.2"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2409,8 +2590,9 @@ URL = [ "https://www.digikey.com/en/products/detail/chip-quik-inc/TS391SNL/78022
 manufacturer = []
 price = [ 16.95,]
 quantity = [ 5,]
-attributes."tariff code" = "8311.3"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8311.3"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2422,8 +2604,9 @@ URL = [ "https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSWLF-020-4O
 manufacturer = []
 price = [ 31.57,]
 quantity = [ 5,]
-attributes."tariff code" = "8311.3"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8311.3"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2435,8 +2618,9 @@ URL = [ "https://www.digikey.com/en/products/detail/chip-quik-inc/SMDSWLT-040-10
 manufacturer = []
 price = [ 19.95,]
 quantity = [ 3,]
-attributes."tariff code" = "8311.3"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8311.3"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2448,8 +2632,9 @@ URL = [ "https://www.digikey.com/en/products/detail/menda-easybraid/Q-B-10AS/350
 manufacturer = []
 price = [ 6.836,]
 quantity = [ 10,]
-attributes."tariff code" = "7413.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7413.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2461,8 +2646,9 @@ URL = [ "https://www.digikey.com/en/products/detail/desco/13605/299792",]
 manufacturer = []
 price = [ 0.12,]
 quantity = [ 100,]
-attributes."tariff code" = "3923.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3923.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2474,8 +2660,9 @@ URL = [ "https://www.digikey.com/en/products/detail/desco/13630/299794",]
 manufacturer = []
 price = [ 0.19,]
 quantity = [ 100,]
-attributes."tariff code" = "3923.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3923.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2487,8 +2674,9 @@ URL = [ "https://www.digikey.com/en/products/detail/desco/13660/299796",]
 manufacturer = []
 price = [ 0.3,]
 quantity = [ 100,]
-attributes."tariff code" = "3923.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3923.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2500,8 +2688,9 @@ URL = [ "http://www.carbidedepot.com/00100in-DIA-2FL-SE-MICRO-AlTiN-P183831.aspx
 manufacturer = []
 price = [ 28.8,]
 quantity = [ 10,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2513,8 +2702,9 @@ URL = [ "https://www.carbidedepot.com/Endmills-Carbide/STANDARD-LENGTH-SINGLE-EN
 manufacturer = []
 price = [ 18.79,]
 quantity = [ 25,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2526,8 +2716,9 @@ URL = [ "https://www.carbidedepot.com/Endmills-Carbide/STANDARD-LENGTH-SINGLE-EN
 manufacturer = []
 price = [ 13.42,]
 quantity = [ 25,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2539,8 +2730,9 @@ URL = [ "https://www.carbidedepot.com/Endmills-Carbide/STANDARD-LENGTH-SINGLE-EN
 manufacturer = []
 price = [ 8.98,]
 quantity = [ 10,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Production",]
@@ -2552,8 +2744,9 @@ URL = [ "https://www.carbidedepot.com/Endmills-Carbide/STANDARD-LENGTH-SINGLE-EN
 manufacturer = []
 price = [ 11.35,]
 quantity = [ 10,]
-attributes."tariff code" = "8207.7"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8207.7"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2565,8 +2758,9 @@ URL = [ "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/1139
 manufacturer = [ "",]
 price = [ 4.99,]
 quantity = [ 20,]
-attributes."tariff code" = "8471.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2578,8 +2772,9 @@ URL = [ "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/1020
 manufacturer = [ "",]
 price = [ 5.4,]
 quantity = [ 20,]
-attributes."tariff code" = "8471.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2591,8 +2786,9 @@ URL = [ "https://www.digikey.com/en/products/detail/raspberry-pi/SC0918/16608263
 manufacturer = [ "",]
 price = [ 6.0,]
 quantity = [ 20,]
-attributes."tariff code" = "8471.5"
-attributes."country of origin" = "Taiwan"
+[items.attributes]
+"tariff code" = "8471.5"
+"country of origin" = "Taiwan"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2604,8 +2800,9 @@ URL = [ "https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD1
 manufacturer = []
 price = [ 1.29,]
 quantity = [ 200,]
-attributes."tariff code" = "8542.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8542.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2617,8 +2814,9 @@ URL = [ "https://www.digikey.com/en/products/detail/microchip-technology/ATSAMD2
 manufacturer = []
 price = [ 3.66,]
 quantity = [ 50,]
-attributes."tariff code" = "8542.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8542.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2630,8 +2828,9 @@ URL = [ "https://www.digikey.com/en/products/detail/microchip-technology/ATTINY4
 manufacturer = []
 price = [ 0.48,]
 quantity = [ 200,]
-attributes."tariff code" = "8542.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8542.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2643,8 +2842,9 @@ URL = [ "https://www.digikey.com/en/products/detail/ATTINY1624-SSFR/150-ATTINY16
 manufacturer = []
 price = [ 0.76,]
 quantity = [ 100,]
-attributes."tariff code" = "8542.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8542.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2656,8 +2856,9 @@ URL = [ "https://www.digikey.com/en/products/detail/microchip-technology/ATTINY3
 manufacturer = []
 price = [ 1.29,]
 quantity = [ 100,]
-attributes."tariff code" = "8542.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8542.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2681,8 +2882,9 @@ URL = [ "https://www.digikey.com/en/products/detail/microchip-technology/ATATMEL
 manufacturer = []
 price = [ 180.62,]
 quantity = [ 2,]
-attributes."tariff code" = "8542.31"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.31"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2694,8 +2896,9 @@ URL = [ "https://www.amazon.com/KeeYees-Analyzer-Device-Channel-Arduino/dp/B07K6
 manufacturer = []
 price = [ 13.99,]
 quantity = [ 1,]
-attributes."tariff code" = "9030.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9030.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2707,8 +2910,9 @@ URL = [ "https://www.amazon.com/SainSmart-Handheld-4-Channel-Analyzer-Programmab
 manufacturer = []
 price = [ 119.99,]
 quantity = [ 1,]
-attributes."tariff code" = "9030.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9030.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2720,8 +2924,9 @@ URL = [ "https://www.amazon.com/Logic-Analyzer-Saleae-Black-Easy/dp/B09GDVFTK2",
 manufacturer = []
 price = [ 399,]
 quantity = [ 1,]
-attributes."tariff code" = "9030.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "9030.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2733,8 +2938,9 @@ URL = [ "https://www.amazon.com/SUNGUY-Braided-Charging-Samsung-OnePlus/dp/B0B2D
 manufacturer = []
 price = [ 9.49,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2746,8 +2952,9 @@ URL = [ "https://www.amazon.com/SUNGUY-3-Pack-Braided-Charging-Galaxy/dp/B09P86L
 manufacturer = []
 price = [ 9.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2771,8 +2978,9 @@ URL = [ "https://www.amazon.com/SunFounder-Electronics-breadboard-Resistor-Raspb
 manufacturer = []
 price = [ 19.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Embedded Programming",]
@@ -2784,8 +2992,9 @@ URL = [ "https://www.amazon.com/DEYUE-Solderless-Prototype-Breadboard-breadboard
 manufacturer = []
 price = [ 8.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2797,8 +3006,9 @@ URL = [ "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd
 manufacturer = [ "Everlight Electronics Co Ltd",]
 price = [ 0.0986,]
 quantity = [ 100,]
-attributes."tariff code" = "8541.49"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8541.49"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2810,8 +3020,9 @@ URL = [ "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd
 manufacturer = [ "Everlight Electronics Co Ltd",]
 price = [ 0.0986,]
 quantity = [ 100,]
-attributes."tariff code" = "8541.49"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8541.49"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2823,8 +3034,9 @@ URL = [ "https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-di
 manufacturer = [ "Vishay Semiconductor Opto Division",]
 price = [ 1.8004,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2836,8 +3048,9 @@ URL = [ "https://www.digikey.com/en/products/detail/amphenol-thermometrics/NHQ10
 manufacturer = [ "Amphenol Thermometrics",]
 price = [ 1.8856,]
 quantity = [ 25,]
-attributes."tariff code" = "8533.4"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8533.4"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2849,8 +3062,9 @@ URL = [ "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc
 manufacturer = [ "",]
 price = [ 2.2424,]
 quantity = [ 25,]
-attributes."tariff code" = "8533.4"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8533.4"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2862,8 +3076,9 @@ URL = [ "https://www.digikey.com/en/products/detail/stmicroelectronics/VL53L1CXV
 manufacturer = [ "STMicroelectronics",]
 price = [ 6.386,]
 quantity = [ 10,]
-attributes."tariff code" = "9031.8"
-attributes."country of origin" = "France"
+[items.attributes]
+"tariff code" = "9031.8"
+"country of origin" = "France"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2875,8 +3090,9 @@ URL = [ "https://www.digikey.com/en/products/detail/pololu-corporation/3415/1045
 manufacturer = [ "Pololu Corporation",]
 price = [ 16.95,]
 quantity = [ 10,]
-attributes."tariff code" = "9031.8"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9031.8"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2888,8 +3104,9 @@ URL = [ "https://www.digikey.com/en/products/detail/knowles/SPU0414HR5H-SB-7/242
 manufacturer = [ "Knowles",]
 price = [ 1.1774,]
 quantity = [ 50,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2901,8 +3118,9 @@ URL = [ "https://www.digikey.com/en/products/detail/cui-devices/CMM-4030D-261-I2
 manufacturer = [ "CUI Devices",]
 price = [ 1.9078,]
 quantity = [ 50,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2914,8 +3132,9 @@ URL = [ "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/1139
 manufacturer = [ "",]
 price = [ 13.99,]
 quantity = [ 10,]
-attributes."tariff code" = "8471.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2939,8 +3158,9 @@ URL = [ "https://www.digikey.com/en/products/detail/infineon-technologies/DPS310
 manufacturer = [ "Infineon Technologies",]
 price = [ 2.755,]
 quantity = [ 10,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2952,8 +3172,9 @@ URL = [ "https://www.digikey.com/en/products/detail/infineon-technologies/TLE493
 manufacturer = [ "Infineon Technologies",]
 price = [ 1.9608,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2965,8 +3186,9 @@ URL = [ "https://www.digikey.com/en/products/detail/allegro-microsystems/A1324LL
 manufacturer = [ "Allegro MicroSystems",]
 price = [ 1.4256,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2978,8 +3200,9 @@ URL = [ "https://www.digikey.com/en/products/detail/radial-magnets-inc/8022/5553
 manufacturer = []
 price = [ 0.7276,]
 quantity = [ 50,]
-attributes."tariff code" = "8505.11"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8505.11"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -2991,8 +3214,9 @@ URL = [ "https://www.digikey.com/en/products/detail/radial-magnets-inc/8193/5553
 manufacturer = []
 price = [ 0.234,]
 quantity = [ 100,]
-attributes."tariff code" = "8505.11"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8505.11"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -3004,8 +3228,9 @@ URL = [ "https://www.digikey.com/en/products/detail/analog-devices-inc/ADXL343BC
 manufacturer = [ "",]
 price = [ 2.95,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -3017,8 +3242,9 @@ URL = [ "https://www.digikey.com/en/products/detail/adafruit-industries-llc/4754
 manufacturer = [ "Adafruit Industries LLC",]
 price = [ 24.95,]
 quantity = [ 10,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -3030,8 +3256,9 @@ URL = [ "https://www.amazon.com/HiLetgo-MPU-6050-Accelerometer-Gyroscope-Convert
 manufacturer = [ "",]
 price = [ 9.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8471.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Input Devices",]
@@ -3043,8 +3270,9 @@ URL = [ "https://www.amazon.com/Navigation-Positioning-Microcontroller-Compatibl
 manufacturer = [ "",]
 price = [ 17.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8471.5"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8471.5"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Machine Design",]
@@ -3056,8 +3284,9 @@ URL = [ "https://www.amazon.com/Sabrent-Charging-Individual-Switches-HB-B7C3/dp/
 manufacturer = []
 price = [ 39.98,]
 quantity = [ 3,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Machine Design",]
@@ -3069,8 +3298,9 @@ URL = [ "https://www.amazon.com/Extension-NIMASO-Material-Compatible-Playstation
 manufacturer = []
 price = [ 9.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Machine Design",]
@@ -3082,8 +3312,9 @@ URL = [ "https://www.amazon.com/Extension-AINOPE-Material-Transfer-Compatible/dp
 manufacturer = []
 price = [ 7.95,]
 quantity = [ 10,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3095,8 +3326,9 @@ URL = [ "https://www.amazon.com/XiKe-Pre-Lubricated-Performance-Effective-Bearin
 manufacturer = []
 price = [ 12.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8482.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8482.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3108,8 +3340,9 @@ URL = [ "https://www.amazon.com/XiKe-625ZZ-Pre-Lubricated-Performance-Cost-Effec
 manufacturer = []
 price = [ 9.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8482.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8482.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3121,8 +3354,9 @@ URL = [ "https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp
 manufacturer = []
 price = [ 13.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8482.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8482.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3134,8 +3368,9 @@ URL = [ "https://www.amazon.com/%E3%80%9024pcs-Printer-Plastic-Pulley-Bearing/dp
 manufacturer = []
 price = [ 13.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8482.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8482.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3147,8 +3382,9 @@ URL = [ "https://www.amazon.com/Calamus-Bastion-Braided-Fishing-Strands/dp/B08QY
 manufacturer = []
 price = [ 21.99,]
 quantity = [ 2,]
-attributes."tariff code" = "7312.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7312.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3160,8 +3396,9 @@ URL = [ "https://www.amazon.com/Tork-192125A-Pop-Up-Length-Towels/dp/B01LX67H64"
 manufacturer = []
 price = [ 47.95,]
 quantity = [ 1,]
-attributes."tariff code" = "4802.62"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "4802.62"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3173,8 +3410,9 @@ URL = [ "https://www.amazon.com/Simple-Green-All-Purpose-Cleaner-Original/dp/B08
 manufacturer = []
 price = [ 11.91,]
 quantity = [ 3,]
-attributes."tariff code" = "3401.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3401.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3186,8 +3424,9 @@ URL = [ "https://www.mcmaster.com/2388A57/",]
 manufacturer = []
 price = [ 3.14,]
 quantity = [ 10,]
-attributes."tariff code" = "9017.8"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "9017.8"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3199,8 +3438,9 @@ URL = [ "https://www.mcmaster.com/91292A110/",]
 manufacturer = []
 price = [ 5.19,]
 quantity = [ 1,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3212,8 +3452,9 @@ URL = [ "https://www.mcmaster.com/91292A113/",]
 manufacturer = []
 price = [ 5.19,]
 quantity = [ 1,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3225,8 +3466,9 @@ URL = [ "https://www.mcmaster.com/91292A123/",]
 manufacturer = []
 price = [ 7.08,]
 quantity = [ 1,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3238,8 +3480,9 @@ URL = [ "https://www.mcmaster.com/91292A022/",]
 manufacturer = []
 price = [ 4.48,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3251,8 +3494,9 @@ URL = [ "https://www.mcmaster.com/91292A024/",]
 manufacturer = []
 price = [ 3.42,]
 quantity = [ 4,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3264,8 +3508,9 @@ URL = [ "https://www.mcmaster.com/91292A026/",]
 manufacturer = []
 price = [ 4.13,]
 quantity = [ 4,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3277,8 +3522,9 @@ URL = [ "https://www.mcmaster.com/91292A267/",]
 manufacturer = []
 price = [ 13.24,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3290,8 +3536,9 @@ URL = [ "https://www.mcmaster.com/91292A316/",]
 manufacturer = []
 price = [ 10.89,]
 quantity = [ 4,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3303,8 +3550,9 @@ URL = [ "https://www.mcmaster.com/92015A103/",]
 manufacturer = []
 price = [ 8.68,]
 quantity = [ 1,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3316,8 +3564,9 @@ URL = [ "https://www.mcmaster.com/92015A106/",]
 manufacturer = []
 price = [ 10.16,]
 quantity = [ 1,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3329,8 +3578,9 @@ URL = [ "https://www.mcmaster.com/96016A553/",]
 manufacturer = []
 price = [ 5.25,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3342,8 +3592,9 @@ URL = [ "https://www.mcmaster.com/96016A556/",]
 manufacturer = []
 price = [ 5.5,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.15"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7318.15"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3355,8 +3606,9 @@ URL = [ "https://www.mcmaster.com/91828A211/",]
 manufacturer = []
 price = [ 5.45,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.16"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.16"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3368,8 +3620,9 @@ URL = [ "https://www.mcmaster.com/93625A100/",]
 manufacturer = []
 price = [ 5.31,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.16"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.16"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3381,8 +3634,9 @@ URL = [ "https://www.mcmaster.com/93441A487/",]
 manufacturer = []
 price = [ 6.3,]
 quantity = [ 4,]
-attributes."tariff code" = "7318.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7318.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3394,8 +3648,9 @@ URL = [ "https://www.mcmaster.com/91111A118/",]
 manufacturer = []
 price = [ 2.1,]
 quantity = [ 1,]
-attributes."tariff code" = "7318.21"
-attributes."country of origin" = "Germany"
+[items.attributes]
+"tariff code" = "7318.21"
+"country of origin" = "Germany"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3407,8 +3662,9 @@ URL = [ "https://www.mcmaster.com/95610A130/",]
 manufacturer = []
 price = [ 3.81,]
 quantity = [ 2,]
-attributes."tariff code" = "3926.9"
-attributes."country of origin" = "Mexico"
+[items.attributes]
+"tariff code" = "3926.9"
+"country of origin" = "Mexico"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3420,8 +3676,9 @@ URL = [ "https://www.mcmaster.com/98689A112/",]
 manufacturer = []
 price = [ 2.71,]
 quantity = [ 1,]
-attributes."tariff code" = "7318.16"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.16"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3433,8 +3690,9 @@ URL = [ "https://www.mcmaster.com/93475A210/",]
 manufacturer = []
 price = [ 1.62,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.16"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "7318.16"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3446,8 +3704,9 @@ URL = [ "https://www.mcmaster.com/91145A318/",]
 manufacturer = []
 price = [ 6.8,]
 quantity = [ 1,]
-attributes."tariff code" = "3926.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3926.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3459,8 +3718,9 @@ URL = [ "https://www.mcmaster.com/97163A149/",]
 manufacturer = []
 price = [ 9.02,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.19"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7318.19"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3472,8 +3732,9 @@ URL = [ "https://www.mcmaster.com/97163A161/",]
 manufacturer = []
 price = [ 5.31,]
 quantity = [ 2,]
-attributes."tariff code" = "7318.19"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "7318.19"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3485,8 +3746,9 @@ URL = [ "https://www.mcmaster.com/5503A36/",]
 manufacturer = []
 price = [ 0.8,]
 quantity = [ 10,]
-attributes."tariff code" = "8204.11"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8204.11"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3498,8 +3760,9 @@ URL = [ "https://www.mcmaster.com/57185A34/",]
 manufacturer = []
 price = [ 0.76,]
 quantity = [ 10,]
-attributes."tariff code" = "8204.11"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8204.11"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3511,8 +3774,9 @@ URL = [ "https://www.mcmaster.com/5503A38/",]
 manufacturer = []
 price = [ 0.84,]
 quantity = [ 10,]
-attributes."tariff code" = "8204.11"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8204.11"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3524,8 +3788,9 @@ URL = [ "https://www.mcmaster.com/57185A22/",]
 manufacturer = []
 price = [ 0.87,]
 quantity = [ 10,]
-attributes."tariff code" = "8204.11"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8204.11"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3537,8 +3802,9 @@ URL = [ "https://www.mcmaster.com/8800K44/",]
 manufacturer = []
 price = [ 36.25,]
 quantity = [ 2,]
-attributes."tariff code" = "5401.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "5401.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3550,8 +3816,9 @@ URL = [ "https://www.mcmaster.com/8800K43/",]
 manufacturer = []
 price = [ 34.46,]
 quantity = [ 2,]
-attributes."tariff code" = "5401.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "5401.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3563,8 +3830,9 @@ URL = [ "https://www.mcmaster.com/9619T61/",]
 manufacturer = []
 price = [ 23.23,]
 quantity = [ 10,]
-attributes."tariff code" = "3926.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3926.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Mechanical Design",]
@@ -3576,8 +3844,9 @@ URL = [ "https://www.mcmaster.com/9619T92/",]
 manufacturer = []
 price = [ 6.49,]
 quantity = [ 10,]
-attributes."tariff code" = "3926.9"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3926.9"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3589,8 +3858,9 @@ URL = [ "https://www.shopbottools.com/products/desktop",]
 manufacturer = []
 price = [ 8550,]
 quantity = [ 0,]
-attributes."tariff code" = "8465.92"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8465.92"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3602,8 +3872,9 @@ URL = [ "https://www.amazon.com/Genmitsu-Machine-PROVerXL-Controlled-Engraving/d
 manufacturer = []
 price = [ 999,]
 quantity = [ 1,]
-attributes."tariff code" = "8465.92"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8465.92"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3615,8 +3886,9 @@ URL = [ "https://www.amazon.com/VACUCU3D-A3-297mm%C3%97420mm-16-54x11-69in-Proto
 manufacturer = []
 price = [ 1179.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8477.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8477.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3628,8 +3900,9 @@ URL = [ "https://www.amazon.com/VACUCU3D-Specialized-297mm%C3%97420mm-16-54x11-6
 manufacturer = []
 price = [ 84.99,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3641,8 +3914,9 @@ URL = [ "https://www.amazon.com/VACUCU3D-Specialized-297mm%C3%97420mm-16-54x11-6
 manufacturer = []
 price = [ 79.99,]
 quantity = [ 1,]
-attributes."tariff code" = "3919.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "3919.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3654,8 +3928,9 @@ URL = [ "https://shop.smooth-on.com/oomoo-25",]
 manufacturer = []
 price = [ 27.25,]
 quantity = [ 10,]
-attributes."tariff code" = "3910.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3910.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3667,8 +3942,9 @@ URL = [ "https://shop.smooth-on.com/sorta-clear-37",]
 manufacturer = []
 price = [ 37.3,]
 quantity = [ 5,]
-attributes."tariff code" = "3910.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3910.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3680,8 +3956,9 @@ URL = [ "https://shop.smooth-on.com/pmc-121-30-dry",]
 manufacturer = []
 price = [ 36.6,]
 quantity = [ 5,]
-attributes."tariff code" = "3910.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3910.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3693,8 +3970,9 @@ URL = [ "https://shop.smooth-on.com/smooth-cast-305",]
 manufacturer = []
 price = [ 30.56,]
 quantity = [ 5,]
-attributes."tariff code" = "3910.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3910.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3706,8 +3984,9 @@ URL = [ "https://shop.smooth-on.com/smooth-cast-326",]
 manufacturer = []
 price = [ 34.99,]
 quantity = [ 5,]
-attributes."tariff code" = "3910.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3910.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3719,8 +3998,9 @@ URL = [ "https://shop.smooth-on.com/so-strongtm-colorants",]
 manufacturer = []
 price = [ 33.46,]
 quantity = [ 1,]
-attributes."tariff code" = "3207.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "3207.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3732,8 +4012,9 @@ URL = [ "https://plaster.com/product/usg-hydrostone",]
 manufacturer = []
 price = [ 34,]
 quantity = [ 2,]
-attributes."tariff code" = "2520.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "2520.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3745,8 +4026,9 @@ URL = [ "https://plaster.com/product/usg-drystone",]
 manufacturer = []
 price = [ 37,]
 quantity = [ 2,]
-attributes."tariff code" = "2520.1"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "2520.1"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Molding and Casting",]
@@ -3758,8 +4040,9 @@ URL = [ "https://boltonmetalproducts.com/collections/fusible-alloy-1/products/ce
 manufacturer = []
 price = [ 20,]
 quantity = [ 5,]
-attributes."tariff code" = "8106.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8106.0"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Networking and Communications",]
@@ -3771,8 +4054,9 @@ URL = [ "https://www.digikey.com/product-detail/en/seeed-technology-co-ltd/10999
 manufacturer = []
 price = [ 7.9,]
 quantity = [ 10,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Networking and Communications",]
@@ -3784,8 +4068,9 @@ URL = [ "https://www.digikey.com/en/products/detail/amphenol-icc-commercial-prod
 manufacturer = []
 price = [ 1.2078,]
 quantity = [ 50,]
-attributes."tariff code" = "8536.69"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8536.69"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Networking and Communications",]
@@ -3797,8 +4082,9 @@ URL = [ "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/1129
 manufacturer = []
 price = [ 7.0,]
 quantity = [ 10,]
-attributes."tariff code" = "8523.51"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8523.51"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Networking and Communications",]
@@ -3810,8 +4096,9 @@ URL = [ "https://www.amazon.com/Arduino-NRF24L01-2-4GHz-Wireless-Transceiver/dp/
 manufacturer = []
 price = [ 12.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Networking and Communications",]
@@ -3823,8 +4110,9 @@ URL = [ "https://www.amazon.com/HiLetgo-Wireless-Transceiver-PTR8000-Antenna/dp/
 manufacturer = []
 price = [ 5.59,]
 quantity = [ 10,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Networking and Communications",]
@@ -3836,8 +4124,9 @@ URL = [ "https://www.amazon.com/HiLetgo-3pcs-RFID-Kit-Raspberry/dp/B07VLDSYRW/",
 manufacturer = []
 price = [ 9.99,]
 quantity = [ 10,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Networking and Communications",]
@@ -3849,8 +4138,9 @@ URL = [ "https://www.amazon.com/Comimark-Smallest-SIM800L-Quad-Band-Onboard/dp/B
 manufacturer = []
 price = [ 8.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3862,8 +4152,9 @@ URL = [ "https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-st
 manufacturer = []
 price = [ 1.2728,]
 quantity = [ 50,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3875,8 +4166,9 @@ URL = [ "https://www.digikey.com/en/products/detail/texas-instruments/DRV8428PWP
 manufacturer = []
 price = [ 2.676,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3888,8 +4180,9 @@ URL = [ "https://www.digikey.com/en/products/detail/texas-instruments/DRV8847PWP
 manufacturer = []
 price = [ 1.8948,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3901,8 +4194,9 @@ URL = [ "https://www.digikey.com/en/products/detail/texas-instruments/DRV11873PW
 manufacturer = []
 price = [ 1.8392,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.39"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.39"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3914,8 +4208,9 @@ URL = [ "https://www.digikey.com/en/products/detail/mallory-sonalert-products-in
 manufacturer = [ "Mallory Sonalert Products Inc.",]
 price = [ 0.6258,]
 quantity = [ 50,]
-attributes."tariff code" = "8518.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8518.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3927,8 +4222,9 @@ URL = [ "https://www.digikey.com/en/products/detail/mallory-sonalert-products-in
 manufacturer = [ "Mallory Sonalert Products Inc.",]
 price = [ 2.1872,]
 quantity = [ 25,]
-attributes."tariff code" = "8518.29"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8518.29"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3940,8 +4236,9 @@ URL = [ "https://www.digikey.com/en/products/detail/analog-devices-inc/AD8605ART
 manufacturer = [ "Analog Devices Inc.",]
 price = [ 2.12,]
 quantity = [ 50,]
-attributes."tariff code" = "8542.33"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.33"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3953,8 +4250,9 @@ URL = [ "https://www.digikey.com/en/products/detail/texas-instruments/LM4871M/37
 manufacturer = [ "Texas Instruments",]
 price = [ 1.9028,]
 quantity = [ 25,]
-attributes."tariff code" = "8542.33"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8542.33"
+"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3966,8 +4264,9 @@ URL = [ "https://www.amazon.com/HiLetgo-Backlight-Display-Arduino-MEGA2560/dp/B0
 manufacturer = []
 price = [ 8.59,]
 quantity = [ 10,]
-attributes."tariff code" = "8528.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8528.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3979,8 +4278,9 @@ URL = [ "https://www.amazon.com/Self-Luminous-Display-Compatible-Arduino-Raspber
 manufacturer = []
 price = [ 11.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8528.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8528.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -3992,8 +4292,9 @@ URL = [ "https://www.amazon.com/Display-Screen-Module-ILI9341-320X240/dp/B0BZGY9
 manufacturer = []
 quantity = [ 5,]
 price = [ 11.99,]
-attributes."tariff code" = "8528.0"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8528.0"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4005,8 +4306,9 @@ URL = [ "https://www.amazon.com/Stepper-42x23mm-42BYGH-130mN-m-Printer/dp/B088B7
 manufacturer = []
 price = [ 41.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8501.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8501.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4018,8 +4320,9 @@ URL = [ "https://www.amazon.com/QWinOut-Brushless-Outrunner-Multi-Copter-Quadcop
 manufacturer = []
 price = [ 43.88,]
 quantity = [ 4,]
-attributes."tariff code" = "8501.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8501.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4031,8 +4334,9 @@ URL = [ "https://www.amazon.com/Brushless-Electronic-Controller-Multirotor-Quadc
 manufacturer = []
 price = [ 31.29,]
 quantity = [ 5,]
-attributes."tariff code" = "8501.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8501.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4044,8 +4348,9 @@ URL = [ "https://www.amazon.com/Miuzei-MG996R-Torque-Digital-Helicopter/dp/B0BZ4
 manufacturer = []
 price = [ 26.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8501.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8501.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4057,8 +4362,9 @@ URL = [ "https://www.amazon.com/Miuzei-MG90S-Servo-Helicopter-Arduino/dp/B0BWJ26
 manufacturer = []
 price = [ 27.59,]
 quantity = [ 4,]
-attributes."tariff code" = "8501.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8501.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4070,8 +4376,9 @@ URL = [ "https://www.amazon.com/WWZMDIB-130-DC-Motor-Production/dp/B0BV6SCZ3J",]
 manufacturer = []
 price = [ 13.99,]
 quantity = [ 3,]
-attributes."tariff code" = "8501.1"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8501.1"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4083,8 +4390,9 @@ URL = [ "https://www.amazon.com/MakerHawk-Multimeter-Voltmeter-Capacity-Resistan
 manufacturer = []
 price = [ 20.99,]
 quantity = [ 2,]
-attributes."tariff code" = "9030.31"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "9030.31"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4096,8 +4404,9 @@ URL = [ "https://www.amazon.com/FEMORO-Charging-Splitter-Individual-Switches/dp/
 manufacturer = []
 price = [ 18.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8473.3"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4109,8 +4418,9 @@ URL = [ "https://www.amazon.com/X-Charger-Adapter-Charging-Samsung/dp/B0794WT57Y
 manufacturer = []
 price = [ 9.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8504.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4122,8 +4432,9 @@ URL = [ "https://www.amazon.com/ZMI-Gallium-Compact-Non-Folding-Included/dp/B092
 manufacturer = []
 price = [ 7.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8504.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4135,8 +4446,9 @@ URL = [ "https://www.amazon.com/ZMI-zPower-Turbo-Power-Adapter/dp/B07D64QLQ1",]
 manufacturer = []
 price = [ 27.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8504.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Output Devices",]
@@ -4148,8 +4460,9 @@ URL = [ "https://www.amazon.com/Type-C-Trigger-Polling-Detector-Notebook/dp/B0BC
 manufacturer = []
 price = [ 12.99,]
 quantity = [ 5,]
-attributes."tariff code" = "8504.4"
-attributes."country of origin" = "China"
+[items.attributes]
+"tariff code" = "8504.4"
+"country of origin" = "China"
 
 [[items]]
 purpose = [ "Wildcard Week",]
@@ -4161,8 +4474,9 @@ URL = [ "https://www.amazon.com/Brother-Computerized-Embroidery-SE1900-Combinati
 manufacturer = []
 price = [ 999.99,]
 quantity = [ 1,]
-attributes."tariff code" = "8452.0"
-attributes."country of origin" = "USA"
+[items.attributes]
+"tariff code" = "8452.0"
+"country of origin" = "USA"
 
 [purposes."3D Scanning and Printing"]
 program = [ "Fab Academy",]
