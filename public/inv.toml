@@ -316,6 +316,9 @@ URL = [ "https://github.com/fab-machines/Fabulaser-Mini",]
 manufacturer = []
 price = [ 1500,]
 quantity = [ 1,]
+items.attributes]
+"tariff code" = ""
+"country of origin" = "Germany"
 
 
 [[items]]
@@ -2870,6 +2873,9 @@ URL = [ "https://www.digikey.com/en/products/detail/microchip-technology/AVR128D
 manufacturer = []
 price = [ 1.9,]
 quantity = [ 50,]
+[items.attributes]
+"tariff code" = "8542.31"
+"country of origin" = "China"
 
 
 [[items]]
@@ -2966,6 +2972,9 @@ URL = [ "https://www.amazon.com/AINOPE-Extension-MATERIAL-Transfer-Compatible/dp
 manufacturer = []
 price = [ 11.99,]
 quantity = [ 5,]
+[items.attributes]
+"tariff code" = "8473.3"
+"country of origin" = "China"
 
 
 [[items]]
@@ -3146,6 +3155,9 @@ URL = [ "https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/1149
 manufacturer = [ "",]
 price = [ 11.99,]
 quantity = [ 10,]
+[items.attributes]
+"tariff code" = "8471.5"
+"country of origin" = "China"
 
 
 [[items]]
