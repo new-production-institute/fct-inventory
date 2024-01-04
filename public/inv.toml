@@ -57,30 +57,16 @@ quantity = [ 2,]
 [[items]]
 purpose = [ "3D Scanning and Printing",]
 source = [ "Amazon",]
-category = [ "laser scanning",]
-description = [ "Revopoint 3D Scanner 0.05mm Precision 10 FPS Scan Speed Portable",]
-item = [ "POP2 Premium",]
-URL = [ "https://www.amazon.com/Revopoint-Scanner-Precision-Portable-Printing/dp/B09TDHQ3WX/",]
+category = [ "3D scanning",]
+description = [ "CR Scan Ferret Pro 3D Scanner",]
+item = [ "B0CLV2VJVJ",]
+URL = [ "https://www.amazon.com/Ferret-Pro-Accuracy-Scanning-Enhanced/dp/B0CLV2VJVJ/",]
 manufacturer = []
-price = [ 799,]
+price = [ 404.10,]
 quantity = [ 1,]
 [items.attributes]
-"tariff code" = "8471.0"
-"country of origin" = "China"
-
-[[items]]
-purpose = [ "3D Scanning and Printing",]
-source = [ "Amazon",]
-category = [ "laser scanning",]
-description = [ "AnyBeam Pico Mini Portable Pocket Projector, Focus-Free, Laser Scanning",]
-item = [ "Pico Mini",]
-URL = [ "https://www.amazon.com/AnyBeam-Projector-Focus-Free-Lightweight-Compatible/dp/B088BG59QR/",]
-manufacturer = []
-price = [ 229.99,]
-quantity = [ 1,]
-[items.attributes]
-"tariff code" = "8528.0"
-"country of origin" = "Taiwan"
+"tariff code" = "?"
+"country of origin" = "?"
 
 [[items]]
 purpose = [ "3D Scanning and Printing",]
