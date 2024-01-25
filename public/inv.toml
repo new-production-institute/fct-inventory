@@ -3437,8 +3437,8 @@ manufacturer = []
 price = [ 41.95,]
 quantity = [ 3,]
 [items.attributes]
-"tariff code" = "4802.62"
-"country of origin" = "USA"
+"tariff code" = ""
+"country of origin" = ""
 
 [[items]]
 purpose = [ "Mechanical Design",]
