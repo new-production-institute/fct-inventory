@@ -3428,6 +3428,20 @@ quantity = [ 3,]
 
 [[items]]
 purpose = [ "Mechanical Design",]
+source = [ "Amazon",]
+category = [ "measuring",]
+description = [ "Anytime Tools Dial Caliper Dual Reading Scale inch mm",]
+item = [ "B00B5XJW7I",]
+URL = [ "https://www.amazon.com/Anytime-Tools-Caliper-Reading-Standard/dp/B00B5XJW7I",]
+manufacturer = []
+price = [ 41.95,]
+quantity = [ 3,]
+[items.attributes]
+"tariff code" = "4802.62"
+"country of origin" = "USA"
+
+[[items]]
+purpose = [ "Mechanical Design",]
 source = [ "McMaster-Carr",]
 category = [ "measuring",]
 description = [ "Pocket Ruler, 64ths and Millimeters Graduation Marks",]
