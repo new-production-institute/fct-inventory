@@ -4491,6 +4491,20 @@ quantity = [ 5,]
 "country of origin" = "China"
 
 [[items]]
+purpose = [ "Output Devices",]
+source = [ "Amazon",]
+category = [ "USB power",]
+description = [ "Toptekits 2-Pack USA Outlet Saver Power Extension Cord Cable 125V 10A 2-Prong 2 Outlets for NEMA 5-15P to NEMA 5-15R (1.6ft/50cm)",]
+item = [ "B01N4E8USR",]
+URL = [ "https://www.amazon.com/Tekit-Outlet-Extension-2-prong-Outlets/dp/B01N4E8USR",]
+manufacturer = []
+price = [ 9.99,]
+quantity = [ 5,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
 purpose = [ "Wildcard Week",]
 source = [ "Amazon",]
 category = [ "embroidery",]
