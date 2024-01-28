@@ -2153,15 +2153,29 @@ quantity = [ 0,]
 purpose = [ "Electronics Production",]
 source = [ "Bantam Tools",]
 category = [ "PCB milling stock",]
-description = [ "FR-1 4\"x5\" printed circuit board blanks",]
+description = [ "4\"x5\" Double-sided 25-pack",]
+item = [ "585249129",]
+URL = [ "https://store.bantamtools.com/products/pcb?variant=585249129",]
+manufacturer = []
+price = [ 44.99,]
+quantity = [ 3,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
+purpose = [ "Electronics Production",]
+source = [ "Bantam Tools",]
+category = [ "PCB milling stock",]
+description = [ "4\"x5\" Single-sided 25-pack",]
 item = [ "574277429",]
 URL = [ "https://store.bantamtools.com/products/pcb?variant=574277429",]
 manufacturer = []
-price = [ 36.23,]
+price = [ 39.99,]
 quantity = [ 3,]
 [items.attributes]
-"tariff code" = "7410.0"
-"country of origin" = "USA"
+"tariff code" = ""
+"country of origin" = ""
 
 [[items]]
 purpose = [ "Electronics Production",]
