@@ -22,21 +22,38 @@ var attributes
 //
 fetch("inv.json")
    .then(response => response.json())
-   .then(data => show_inventory(data))
+   .then(data => on_data(data))
 //
 // show the inventory
 //
-function show_inventory(data) {
-   items = data.items
-   sources = data.sources
-   purposes = data.purposes
-   var attributes_found = new Set();
-   items.forEach((x, i) => {
-      if (x.attributes !== undefined)
-         Object.keys(x.attributes).forEach((a, j) => attributes_found.add(a))
-   })
-   attributes = Array.from(attributes_found).sort();
+function on_data(data) {
+  items = data.items
+  sources = data.sources
+  purposes = data.purposes
+  var attributes_found = new Set()
+  items.forEach((x, i) => {
+     if (x.attributes !== undefined)
+        Object.keys(x.attributes).forEach((a, j) => attributes_found.add(a))
+  })
+  attributes = Array.from(attributes_found).sort()
+  show_inventory()
+}
+
+function show_inventory() {
+   source_total = 0
+   purpose_total = 0
+   inventory_total = 0
+
+   var previousElement = document.getElementById("inventory");
+   if (previousElement !== null)
+     previousElement.remove()
+
+   // console.log(document.body.innerHTML)
+   // document.body.innerHTML = "";
+   // console.log("hello")
+   document.write('<div id="inventory">')
    document.write('<font face="bitstream vera sans,arial,helvetica,sans-serif">')
+   // console.log(document.body.innerHTML)
    //
    // get URL parameters
    //
@@ -56,8 +73,8 @@ function show_inventory(data) {
       //
       // loop over items
       //
-      for (index in data.items) {
-         item = data.items[index]
+      for (index in items) {
+         item = items[index]
          if (item.purpose[0] !== purpose) {
             //
             // new purpose?
@@ -96,8 +113,8 @@ function show_inventory(data) {
       //
       source_total = 0
       purpose_total = 0
-      for (index in data.items) {
-         item = data.items[index]
+      for (index in items) {
+         item = items[index]
          //
          // purpose matches?
          //
@@ -127,7 +144,7 @@ function show_inventory(data) {
             category = item.category[0].slice()
             show_category(category)
             }
-         show_item(item)
+         show_item(index)
          }
       var symbol = sources[source].currency_symbol
       document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
@@ -151,8 +168,8 @@ function show_inventory(data) {
       //
       source_total = 0
       purpose_total = 0
-      for (index in data.items) {
-         item = data.items[index]
+      for (index in items) {
+         item = items[index]
          //
          // source matches
          //
@@ -183,7 +200,7 @@ function show_inventory(data) {
             category = item.category[0].slice()
             show_category(category)
             }
-         show_item(item)
+         show_item(index)
          }
       var symbol = sources[source].currency_symbol
       document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
@@ -208,8 +225,8 @@ function show_inventory(data) {
       source_total = 0
       purpose_total = 0
       inventory_total = 0
-      for (index in data.items) {
-         item = data.items[index]
+      for (index in items) {
+         item = items[index]
          if (item.purpose[0] !== purpose) {
             //
             // new purpose?
@@ -252,7 +269,7 @@ function show_inventory(data) {
             category = item.category[0].slice()
             show_category(category)
             }
-         show_item(item)
+         show_item(index)
          }
       var symbol = sources[source].currency_symbol
       document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
@@ -261,6 +278,7 @@ function show_inventory(data) {
       document.write("</table>")
       document.write("<br>")
       }
+   document.write("</div>")
    }
 //
 // show a purpose
@@ -293,12 +311,27 @@ function show_category(category) {
    document.write("<tr align='center'><td><td><i><b>"+category+"</b></i></td></tr>")
    }
 //
+// updated an item's quantity
+//
+function updated_quantity(index, value) {
+   var value_num = parseInt(value)
+   if (!isNaN(value_num) && (value_num >= 0)) {
+     items[index].quantity = value_num
+   } else {
+     // failsafe
+     items[index].quantity = 0
+   }
+   // re-display everything
+   show_inventory();
+}
+//
 // show an item
 //
-function show_item(item) {
+function show_item(index) {
+   item = items[index]
    var symbol = sources[item.source].currency_symbol
    document.write("<tr>")
-   document.write("<td>"+item.quantity+"</td>")
+   document.write(`<td><input value="${item.quantity}" onchange="updated_quantity(${index},this.value)"></td>`)
    document.write("<td><a href="+item.URL+">"+item.item+"</a></td>")
    document.write("<td>"+item.description+"</td>")
    document.write("<td align='right'>"+symbol+parseFloat(item.price).toFixed(2)+"</td>")
