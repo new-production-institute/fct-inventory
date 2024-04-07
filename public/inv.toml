@@ -3135,15 +3135,15 @@ quantity = [ 50,]
 purpose = [ "Input Devices",]
 source = [ "Digi-Key",]
 category = [ "sound",]
-description = [ "MICROPHONE, 4MM X 3MM X1.25MM DE",]
-item = [ "CMM-4030D-261-I2S-TR",]
-URL = [ "https://www.digikey.com/en/products/detail/cui-devices/CMM-4030D-261-I2S-TR/13164051",]
-manufacturer = [ "CUI Devices",]
-price = [ 1.9078,]
+description = [ "MIC MEMS DIGITAL I2S OMNI -26DB",]
+item = [ "SPH0645LM4H-B",]
+URL = [ "https://www.digikey.com/en/products/detail/knowles/SPH0645LM4H-B/5332440",]
+manufacturer = [ "Knowles",]
+price = [ 1.4876,]
 quantity = [ 50,]
 [items.attributes]
-"tariff code" = "8542.39"
-"country of origin" = "China"
+"tariff code" = ""
+"country of origin" = ""
 
 [[items]]
 purpose = [ "Input Devices",]
