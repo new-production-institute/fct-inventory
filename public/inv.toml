@@ -1929,6 +1929,20 @@ quantity = [ 50,]
 purpose = [ "Electronics Design",]
 source = [ "Digi-Key",]
 category = [ "USB connectors, cables, power",]
+description = [ "ADAFRUIT USB C BREAKOUT BOARD -",]
+item = [ "4090",]
+URL = [ "https://www.digikey.com/en/products/detail/adafruit-industries-llc/4090/9951930",]
+manufacturer = ["Adafruit Industries LLC",]
+price = [ 2.95,]
+quantity = [ 25,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
+purpose = [ "Electronics Design",]
+source = [ "Digi-Key",]
+category = [ "USB connectors, cables, power",]
 description = [ "CONN RCPT USB2.0 MICRO B SMD R/A",]
 item = [ "629105136821",]
 URL = [ "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/629105136821/2627271",]
@@ -1938,20 +1952,6 @@ quantity = [ 100,]
 [items.attributes]
 "tariff code" = "8536.69"
 "country of origin" = "Germany"
-
-[[items]]
-purpose = [ "Electronics Design",]
-source = [ "Digi-Key",]
-category = [ "USB connectors, cables, power",]
-description = [ "CONN RCPT USB2.0 MINI B SMD R/A",]
-item = [ "UJ2-MBH-1-SMT-TR",]
-URL = [ "https://www.digikey.com/en/products/detail/cui-devices/UJ2-MBH-1-SMT-TR/6187918",]
-manufacturer = []
-price = [ 0.425,]
-quantity = [ 100,]
-[items.attributes]
-"tariff code" = "8536.69"
-"country of origin" = "USA"
 
 [[items]]
 purpose = [ "Electronics Design",]
