@@ -3274,6 +3274,20 @@ quantity = [ 10,]
 
 [[items]]
 purpose = [ "Input Devices",]
+source = [ "Digi-Key",]
+category = [ "comparator",]
+description = [ "IC COMPARATOR 1 GEN PUR SOT23-5",]
+item = [ "TLV3601DBVR",]
+URL = [ "https://www.digikey.com/en/products/detail/texas-instruments/TLV3601DBVR/16669317",]
+manufacturer = [ "TI",]
+price = [ 4.135,]
+quantity = [ 10,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
+purpose = [ "Input Devices",]
 source = [ "Amazon",]
 category = [ "motion",]
 description = [ "3pcs GY-521 MPU-6050 6-axis Accelerometer Gyroscope Sensor Module",]
