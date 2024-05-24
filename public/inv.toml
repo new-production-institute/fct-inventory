@@ -1845,15 +1845,71 @@ quantity = [ 100,]
 purpose = [ "Electronics Design",]
 source = [ "Digi-Key",]
 category = [ "female 1 row horizontal header",]
-description = [ "6W, 2.54MM PTH SOCKET, SIL, SMT",]
-item = [ "BG300-06-A-L-A",]
+description = [ "2 Position Receptacle Connector 0.100" (2.54mm) Surface Mount, Right Angle Gold",]
+item = [ "2073-BG300-02-A-L-ACT-ND",]
+URL = [ "https://www.digikey.com/en/products/detail/gct/BG300-02-A-L-A/9859593",]
+manufacturer = [ "GCT",]
+price = [ 0.43100,]
+quantity = [ 50,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
+purpose = [ "Electronics Design",]
+source = [ "Digi-Key",]
+category = [ "female 1 row horizontal header",]
+description = [ "3 Position Receptacle Connector 0.100" (2.54mm) Surface Mount, Right Angle Gold",]
+item = [ "2073-BG300-03-A-L-ACT-ND",]
+URL = [ "https://www.digikey.com/en/products/detail/gct/BG300-03-A-L-A/9859594",]
+manufacturer = [ "GCT",]
+price = [ 0.349,]
+quantity = [ 50,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
+purpose = [ "Electronics Design",]
+source = [ "Digi-Key",]
+category = [ "female 1 row horizontal header",]
+description = [ "4 Position Receptacle Connector 0.100" (2.54mm) Surface Mount, Right Angle Gold",]
+item = [ "2073-BG300-04-A-L-ACT-ND",]
+URL = [ "https://www.digikey.com/en/products/detail/gct/BG300-04-A-L-A/9859595",]
+manufacturer = [ "GCT",]
+price = [ 0.662,]
+quantity = [ 50,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
+purpose = [ "Electronics Design",]
+source = [ "Digi-Key",]
+category = [ "female 1 row horizontal header",]
+description = [ "5 Position Receptacle Connector 0.100" (2.54mm) Surface Mount, Right Angle Gold",]
+item = [ "2073-BG300-05-A-L-ACT-ND",]
+URL = [ "https://www.digikey.com/en/products/detail/gct/BG300-05-A-L-A/9859596",]
+manufacturer = [ "GCT",]
+price = [ 0.728,]
+quantity = [ 50,]
+[items.attributes]
+"tariff code" = ""
+"country of origin" = ""
+
+[[items]]
+purpose = [ "Electronics Design",]
+source = [ "Digi-Key",]
+category = [ "female 1 row horizontal header",]
+description = [ "6 Position Receptacle Connector 0.100" (2.54mm) Surface Mount, Right Angle Gold",]
+item = [ "2073-BG300-06-A-L-ACT-ND",]
 URL = [ "https://www.digikey.com/en/products/detail/gct/BG300-06-A-L-A/9859597",]
 manufacturer = [ "GCT",]
-price = [ 0.7044,]
-quantity = [ 100,]
+price = [ 0.784,]
+quantity = [ 50,]
 [items.attributes]
-"tariff code" = "8536.69"
-"country of origin" = "China"
+"tariff code" = ""
+"country of origin" = ""
 
 [[items]]
 purpose = [ "Electronics Design",]
