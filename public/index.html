@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html>
 <head>
-<meta charset=utf-8>
-<title>fab inventory</title>
+<meta charset="utf-8">
+<title>Fab City Technologies</title>
 </head>
 <body link="black" alink="black" vlink="black">
 
@@ -10,342 +10,253 @@
 //
 // global variables
 //
-var items
-var sources
-var purposes
-var source_total
-var purpose_total
-var inventory_total
-var attributes
+let items, sources, purposes;
+let sourceTotal, purposeTotal, inventoryTotal, attributes;
+
 //
 // get the inventory
 //
 fetch("inv.json")
    .then(response => response.json())
-   .then(data => on_data(data))
+   .then(data => onData(data));
+
 //
 // show the inventory
 //
-function on_data(data) {
-  items = data.items
-  sources = data.sources
-  purposes = data.purposes
-  var attributes_found = new Set()
-  items.forEach((x, i) => {
-     if (x.attributes !== undefined)
-        Object.keys(x.attributes).forEach((a, j) => attributes_found.add(a))
-  })
-  attributes = Array.from(attributes_found).sort()
-  show_inventory()
+function onData(data) {
+  items = data.items;
+  sources = data.sources;
+  purposes = data.purposes;
+  attributes = [...new Set(items.flatMap(item => Object.keys(item.attributes || {})))].sort();
+  showInventory();
 }
 
-function show_inventory() {
-   source_total = 0
-   purpose_total = 0
-   inventory_total = 0
+function showInventory() {
+   sourceTotal = 0;
+   purposeTotal = 0;
+   inventoryTotal = 0;
 
-   var previousElement = document.getElementById("inventory");
-   if (previousElement !== null)
-     previousElement.remove()
+   const previousElement = document.getElementById("inventory");
+   if (previousElement) previousElement.remove();
 
-   // console.log(document.body.innerHTML)
-   // document.body.innerHTML = "";
-   // console.log("hello")
-   document.write('<div id="inventory">')
-   document.write('<font face="bitstream vera sans,arial,helvetica,sans-serif">')
-   // console.log(document.body.innerHTML)
-   //
-   // get URL parameters
-   //
-   var params = new URLSearchParams(window.location.search)
-   //
-   // show the index if in URL parameter
-   //
+   document.write('<div id="inventory">');
+   document.write('<font face="bitstream vera sans,arial,helvetica,sans-serif">');
+
+   const params = new URLSearchParams(window.location.search);
+
    if (params.has('index')) {
-      document.write("<center>")
-      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
-      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a></b><br><br>")
-      document.write("</center>")
-      document.write('<div style="margin-left:5%">')
-      document.write('<div style="margin-left:5%">')
-      var purpose = ''
-      var source = ''
-      //
-      // loop over items
-      //
-      for (index in items) {
-         item = items[index]
-         if (item.purpose[0] !== purpose) {
-            //
-            // new purpose?
-            //
-            document.write('</div></i>')
-            purpose = item.purpose[0].slice()
-            document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+'?purpose='+encodeURI(purpose)+'>'+purpose+'</a></b><br>')
-            document.write('<div style="margin-left:5%"><i>')
-            source = item.source[0].slice()
-            document.write("<i><a href=http://"+window.location.hostname+window.location.pathname+'?source='+encodeURI(source)+'>'+source+'</a></i><br>')
-            }
-         //
-         // new source?
-         //
-         else if (item.source[0] !== source) {
-            source = item.source[0].slice()
-            document.write("<i><a href=http://"+window.location.hostname+window.location.pathname+'?source='+encodeURI(source)+'>'+source+'</a></i><br>')
-            }
-         }
-      document.write("<br>")
-      }
-   //
-   // show a purpose if in URL parameter
-   //
-   else if (params.has('purpose')) {
-      var purpose = params.get('purpose')
-      document.write("<center>")
-      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
-      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a></b><br><br>")
-      var source = ''
-      var category = ''
-      document.write("<table border=1>")
-      show_purpose(purpose)
-      //
-      // loop over items
-      //
-      source_total = 0
-      purpose_total = 0
-      for (index in items) {
-         item = items[index]
-         //
-         // purpose matches?
-         //
-         if (item.purpose[0] !== purpose)
-            continue
-         //
-         // new source?
-         //
-         else if (item.source[0] !== source) {
-            if (!(source === '')) {
-               var symbol = sources[source].currency_symbol
-               document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
-               source_total = 0
-               }
-            source = item.source[0].slice()
-            show_source(source)
-            category = item.category[0].slice()
-            show_category(category)
-            }
-         //
-         // new category?
-         //
-         else if (item.category[0] !== category) {
-            if (category != '') {
-               document.write("<tr></tr>")
-               }
-            category = item.category[0].slice()
-            show_category(category)
-            }
-         show_item(index)
-         }
-      var symbol = sources[source].currency_symbol
-      document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
-      document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
-      document.write("</table>")
-      document.write("<br>")
-      }
-   //
-   // show a source if in URL parameter
-   //
-   else if (params.has('source')) {
-      var source = params.get('source')
-      document.write("<center>")
-      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
-      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=http://"+window.location.hostname+window.location.pathname+">Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a></b><br><br>")
-      var purpose = ''
-      var category = ''
-      document.write("<table border=1>")
-      //
-      // loop over items
-      //
-      source_total = 0
-      purpose_total = 0
-      for (index in items) {
-         item = items[index]
-         //
-         // source matches
-         //
-         if (item.source[0] !== source)
-            continue
-         if (item.purpose[0] !== purpose) {
-            //
-            // new purpose?
-            //
-            if (purpose != '') {
-               var symbol = sources[source].currency_symbol
-               document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
-               purpose_total = 0
-               }
-            purpose = item.purpose[0].slice()
-            show_purpose(purpose)
-            show_source(source)
-            category = item.category[0].slice()
-            show_category(category)
-            }
-         //
-         // new category?
-         //
-         else if (item.category[0] !== category) {
-            if (category != '') {
-               document.write("<tr></tr>")
-               }
-            category = item.category[0].slice()
-            show_category(category)
-            }
-         show_item(index)
-         }
-      var symbol = sources[source].currency_symbol
-      document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
-      document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
-      document.write("</table>")
-      document.write("<br>")
-      }
-   //
-   // show all the purposes if no parameters
-   //
-   else {
-      document.write("<center>")
-      document.write("<b><font size=+1>Fab Lab/Class Inventory (incomplete migration)</font></b><br>")
-      document.write("<b><a href=http://"+window.location.hostname+window.location.pathname+"?index>Index</a>&nbsp;<a href=https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/edit?usp=sharing>Original Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a>&nbsp;<a href=http://"+window.location.hostname+window.location.pathname+"inv.xlsx>Download as .xlsx</a></b><br><br>")
-      var purpose = ''
-      var source = ''
-      var category = ''
-      document.write("<table border=1>")
-      //
-      // loop over items
-      //
-      source_total = 0
-      purpose_total = 0
-      inventory_total = 0
-      for (index in items) {
-         item = items[index]
-         if (item.purpose[0] !== purpose) {
-            //
-            // new purpose?
-            //
-            if (purpose != '') {
-               var symbol = sources[source].currency_symbol
-               document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
-               document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
-               purpose_total = 0
-               source_total = 0
-               }
-            purpose = item.purpose[0].slice()
-            show_purpose(purpose)
-            source = item.source[0].slice()
-            show_source(source)
-            category = item.category[0].slice()
-            show_category(category)
-            }
-         //
-         // new source?
-         //
-         else if (item.source[0] !== source) {
-            if (!(source === '')) {
-               var symbol = sources[source].currency_symbol
-               document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
-               source_total = 0
-               }
-            source = item.source[0].slice()
-            show_source(source)
-            category = item.category[0].slice()
-            show_category(category)
-            }
-         //
-         // new category?
-         //
-         else if (item.category[0] !== category) {
-            if (category != '') {
-               document.write("<tr></tr>")
-               }
-            category = item.category[0].slice()
-            show_category(category)
-            }
-         show_item(index)
-         }
-      var symbol = sources[source].currency_symbol
-      document.write("<tr align=right><td><td><td><td><b>"+source+" total</b><td>"+symbol+source_total.toFixed(2)+"</td></tr>")
-      document.write("<tr align=right><td><td><td><td><b>"+purpose+" total</b><td>"+symbol+purpose_total.toFixed(2)+"</td></tr>")
-      document.write("<tr align=right><td><td><td><td><b>Inventory total</b><td>"+symbol+inventory_total.toFixed(2)+"</td></tr>")
-      document.write("</table>")
-      document.write("<br>")
-      }
-   document.write("</div>")
-   }
-//
-// show a purpose
-//
-function show_purpose(purpose) {
-   document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>")
-   document.write("<tr align='center'><td style='border:none'><td style='border:none'><td style='border:none'><font size=+1><b><a href='"+purposes[purpose].URL+"'>"+purpose+"</a></b></td></tr>")
-   document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>")
-      document.write("<tr>")
-      document.write("<th>quantity</th>")
-      document.write("<th>item</th>")
-      document.write("<th>description</th>")
-      document.write("<th>unit price</th>")
-      document.write("<th>extended price</th>")
-      attributes.forEach((a, i) => {
-         document.write(`<th>${a}</th>`)
-      })
-      document.write("</tr>")
-   }
-//
-// show a source
-//
-function show_source(source) {
-   document.write("<tr align='center'><td><b><a href=''>"+source+"</a></b></td></tr>")
-   }
-//
-// show a category
-//
-function show_category(category) {
-   document.write("<tr align='center'><td><td><i><b>"+category+"</b></i></td></tr>")
-   }
-//
-// updated an item's quantity
-//
-function updated_quantity(index, value) {
-   var value_num = parseInt(value)
-   if (!isNaN(value_num) && (value_num >= 0)) {
-     items[index].quantity = value_num
+      renderIndex();
+   } else if (params.has('purpose')) {
+      renderPurpose(params.get('purpose'));
+   } else if (params.has('source')) {
+      renderSource(params.get('source'));
    } else {
-     // failsafe
-     items[index].quantity = 0
+      renderFullInventory();
    }
-   // re-display everything
-   show_inventory();
+
+   document.write("</div>");
 }
-//
-// show an item
-//
-function show_item(index) {
-   item = items[index]
-   var symbol = sources[item.source].currency_symbol
-   document.write("<tr>")
-   document.write(`<td><input value="${item.quantity}" onchange="updated_quantity(${index},this.value)"></td>`)
-   document.write("<td><a href="+item.URL+">"+item.item+"</a></td>")
-   document.write("<td>"+item.description+"</td>")
-   document.write("<td align='right'>"+symbol+parseFloat(item.price).toFixed(2)+"</td>")
-   var extended_price = parseFloat(item.quantity)*parseFloat(item.price)
-   document.write("<td align='right'>"+symbol+extended_price.toFixed(2)+"</td>")
-   attributes.forEach((a, i) => {
-      if (item.attributes !== undefined && item.attributes[a] !== undefined)
-         document.write(`<td align='right'>${item.attributes[a]}</td>`)
-      else
-         document.write(`<td align='right'></td>`)
-   })
-   source_total += extended_price
-   purpose_total += extended_price
-   inventory_total += extended_price
-   document.write("</tr>")
-   }
+
+function renderIndex() {
+   document.write("<center>");
+   document.write("<b><font size=+1>Fab City Technologies</font></b><br>");
+   document.write(`<b><a href=http://${window.location.hostname}${window.location.pathname}>Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a></b><br><br>`);
+   document.write("</center>");
+   document.write('<div style="margin-left:5%">');
+   document.write('<div style="margin-left:5%">');
+
+   let currentPurpose = '', currentSource = '';
+   items.forEach(item => {
+      if (item.purpose[0] !== currentPurpose) {
+         document.write('</div></i>');
+         currentPurpose = item.purpose[0];
+         document.write(`<b><a href=http://${window.location.hostname}${window.location.pathname}?purpose=${encodeURI(currentPurpose)}>${currentPurpose}</a></b><br>`);
+         document.write('<div style="margin-left:5%"><i>');
+         currentSource = item.source[0];
+         document.write(`<i><a href=http://${window.location.hostname}${window.location.pathname}?source=${encodeURI(currentSource)}>${currentSource}</a></i><br>`);
+      } else if (item.source[0] !== currentSource) {
+         currentSource = item.source[0];
+         document.write(`<i><a href=http://${window.location.hostname}${window.location.pathname}?source=${encodeURI(currentSource)}>${currentSource}</a></i><br>`);
+      }
+   });
+   document.write("<br>");
+}
+
+function renderPurpose(purpose) {
+   document.write("<center>");
+   document.write("<b><font size=+1>Fab City Technologies</font></b><br>");
+   document.write(`<b><a href=http://${window.location.hostname}${window.location.pathname}?index>Index</a>&nbsp;<a href=http://${window.location.hostname}${window.location.pathname}>Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a></b><br><br>`);
+   document.write("<table border=1>");
+   showPurpose(purpose);
+
+   sourceTotal = 0;
+   purposeTotal = 0;
+   let currentSource = '', currentCategory = '';
+
+   items.forEach((item, index) => {
+      if (item.purpose[0] !== purpose) return;
+
+      if (item.source[0] !== currentSource) {
+         if (currentSource) {
+            document.write(`<tr align=right><td><td><td><td><b>${currentSource} total</b><td>${sources[currentSource].currency_symbol}${sourceTotal.toFixed(2)}</td></tr>`);
+            sourceTotal = 0;
+         }
+         currentSource = item.source[0];
+         showSource(currentSource);
+         currentCategory = item.category[0];
+         showCategory(currentCategory);
+      } else if (item.category[0] !== currentCategory) {
+         if (currentCategory) document.write("<tr></tr>");
+         currentCategory = item.category[0];
+         showCategory(currentCategory);
+      }
+      showItem(index);
+   });
+
+   const symbol = sources[currentSource].currency_symbol;
+   document.write(`<tr align=right><td><td><td><td><b>${currentSource} total</b><td>${symbol}${sourceTotal.toFixed(2)}</td></tr>`);
+   document.write(`<tr align=right><td><td><td><td><b>${purpose} total</b><td>${symbol}${purposeTotal.toFixed(2)}</td></tr>`);
+   document.write("</table><br>");
+}
+
+function renderSource(source) {
+   document.write("<center>");
+   document.write("<b><font size=+1>Fab City Technologies</font></b><br>");
+   document.write(`<b><a href=http://${window.location.hostname}${window.location.pathname}?index>Index</a>&nbsp;<a href=http://${window.location.hostname}${window.location.pathname}>Full Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a></b><br><br>`);
+   document.write("<table border=1>");
+
+   sourceTotal = 0;
+   purposeTotal = 0;
+   let currentPurpose = '', currentCategory = '';
+
+   items.forEach((item, index) => {
+      if (item.source[0] !== source) return;
+
+      if (item.purpose[0] !== currentPurpose) {
+         if (currentPurpose) {
+            document.write(`<tr align=right><td><td><td><td><b>${currentPurpose} total</b><td>${sources[source].currency_symbol}${purposeTotal.toFixed(2)}</td></tr>`);
+            purposeTotal = 0;
+         }
+         currentPurpose = item.purpose[0];
+         showPurpose(currentPurpose);
+         showSource(source);
+         currentCategory = item.category[0];
+         showCategory(currentCategory);
+      } else if (item.category[0] !== currentCategory) {
+         if (currentCategory) document.write("<tr></tr>");
+         currentCategory = item.category[0];
+         showCategory(currentCategory);
+      }
+      showItem(index);
+   });
+
+   const symbol = sources[source].currency_symbol;
+   document.write(`<tr align=right><td><td><td><td><b>${currentPurpose} total</b><td>${symbol}${purposeTotal.toFixed(2)}</td></tr>`);
+   document.write(`<tr align=right><td><td><td><td><b>${source} total</b><td>${symbol}${sourceTotal.toFixed(2)}</td></tr>`);
+   document.write("</table><br>");
+}
+
+function renderFullInventory() {
+   document.write("<center>");
+   document.write("<b><font size=+1>Fab City Technologies</font></b><br>");
+   // document.write(`<b><a href=http: //${window.location.hostname}${window.location.pathname}?index>Index</a>&nbsp;<a href=https://docs.google.com/spreadsheets/d/1U-jcBWOJEjBT5A0N84IUubtcHKMEMtndQPLCkZCkVsU/edit?usp=sharing>Original Inventory</a>&nbsp;<a href=https://gitlab.fabcloud.org/inventory/inventory.fabcloud.io>Inventory Project</a>&nbsp;<a href=http://${window.location.hostname}${window.location.pathname}inv.xlsx>Download as .xlsx</a></b><br><br>`);
+   document.write("<table border=1>");
+
+   sourceTotal = 0;
+   purposeTotal = 0;
+   inventoryTotal = 0;
+   let currentPurpose = '', currentSource = '', currentCategory = '';
+
+   items.forEach((item, index) => {
+      if (item.purpose[0] !== currentPurpose) {
+         if (currentPurpose) {
+            document.write(`<tr align=right><td><td><td><td><b>${currentSource} total</b><td>${sources[currentSource].currency_symbol}${sourceTotal.toFixed(2)}</td></tr>`);
+            document.write(`<tr align=right><td><td><td><td><b>${currentPurpose} total</b><td>${sources[currentSource].currency_symbol}${purposeTotal.toFixed(2)}</td></tr>`);
+            purposeTotal = 0;
+            sourceTotal = 0;
+         }
+         currentPurpose = item.purpose[0];
+         showPurpose(currentPurpose);
+         currentSource = item.source[0];
+         showSource(currentSource);
+         currentCategory = item.category[0];
+         showCategory(currentCategory);
+      } else if (item.source[0] !== currentSource) {
+         if (currentSource) {
+            document.write(`<tr align=right><td><td><td><td><b>${currentSource} total</b><td>${sources[currentSource].currency_symbol}${sourceTotal.toFixed(2)}</td></tr>`);
+            sourceTotal = 0;
+         }
+         currentSource = item.source[0];
+         showSource(currentSource);
+         currentCategory = item.category[0];
+         showCategory(currentCategory);
+      } else if (item.category[0] !== currentCategory) {
+         if (currentCategory) document.write("<tr></tr>");
+         currentCategory = item.category[0];
+         showCategory(currentCategory);
+      }
+      showItem(index);
+   });
+
+   const symbol = sources[currentSource].currency_symbol;
+   document.write(`<tr align=right><td><td><td><td><b>${currentSource} total</b><td>${symbol}${sourceTotal.toFixed(2)}</td></tr>`);
+   document.write(`<tr align=right><td><td><td><td><b>${currentPurpose} total</b><td>${symbol}${purposeTotal.toFixed(2)}</td></tr>`);
+   document.write(`<tr align=right><td><td><td><td><b>Inventory total</b><td>${symbol}${inventoryTotal.toFixed(2)}</td></tr>`);
+   document.write("</table><br>");
+}
+
+function showPurpose(purpose) {
+   document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>");
+   document.write(`<tr align='center'><td style='border:none'><td style='border:none'><td style='border:none'><font size=+1><b><a href='${purposes[purpose].URL}'>${purpose}</a></b></td></tr>`);
+   document.write("<tr align='center'><td style='border:none'>&nbsp;</td></tr>");
+   document.write("<tr>");
+   document.write("<th>quantity</th>");
+   document.write("<th>item</th>");
+   document.write("<th>description</th>");
+   document.write("<th>unit price</th>");
+   document.write("<th>extended price</th>");
+   attributes.forEach(attribute => {
+      document.write(`<th>${attribute}</th>`);
+   });
+   document.write("</tr>");
+}
+
+function showSource(source) {
+   document.write(`<tr align='center'><td><b><a href=''>${source}</a></b></td></tr>`);
+}
+
+function showCategory(category) {
+   document.write(`<tr align='center'><td><td><i><b>${category}</b></i></td></tr>`);
+}
+
+function updateQuantity(index, value) {
+   const valueNum = parseInt(value, 10);
+   items[index].quantity = isNaN(valueNum) || valueNum < 0 ? 0 : valueNum;
+   showInventory();
+}
+
+function showItem(index) {
+   const item = items[index];
+   const symbol = sources[item.source].currency_symbol;
+   const extendedPrice = parseFloat(item.quantity) * parseFloat(item.price);
+
+   document.write("<tr>");
+   document.write(`<td><input value="${item.quantity}" onchange="updateQuantity(${index},this.value)"></td>`);
+   document.write(`<td><a href=${item.URL}>${item.item}</a></td>`);
+   document.write(`<td>${item.description}</td>`);
+   document.write(`<td align='right'>${symbol}${parseFloat(item.price).toFixed(2)}</td>`);
+   document.write(`<td align='right'>${symbol}${extendedPrice.toFixed(2)}</td>`);
+
+   attributes.forEach(attribute => {
+      document.write(`<td align='right'>${item.attributes?.[attribute] || ''}</td>`);
+   });
+
+   sourceTotal += extendedPrice;
+   purposeTotal += extendedPrice;
+   inventoryTotal += extendedPrice;
+   document.write("</tr>");
+}
 </script>
+
+</body>
+</html>
