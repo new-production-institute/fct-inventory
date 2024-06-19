@@ -105,7 +105,7 @@ quantity = [ 0,]
 [items.attributes]
 "tariff code" = ""
 "country of origin" = ""
-"license" = ""
+"license" = "CERN-OHL-P v2"
 
 [[items]]
 purpose = [ "Medical",]
@@ -120,7 +120,7 @@ quantity = [ 0,]
 [items.attributes]
 "tariff code" = ""
 "country of origin" = ""
-"license" = ""
+"license" = "CC-BY-SA-4.0"
 
 [[items]]
 purpose = [ "Medical",]
@@ -135,22 +135,22 @@ quantity = [ 0,]
 [items.attributes]
 "tariff code" = ""
 "country of origin" = ""
-"license" = ""
+"license" = "CC-BY-SA-3.0"
 
 [[items]]
 purpose = [ "Medical",]
 source = [ "Appropedia",]
-category = [ "Imaging",]
-description = [ "Free and open-source automated 3-D microscope",]
+category = [ "MedTech",]
+description = [ "Surgical fracture table",]
 item = [ "Automated 3D microscope",]
-URL = [ "https://www.appropedia.org/Conversion_of_Self-Contained_Breathing_Apparatus_Mask_to_Open_Source_Powered_Air-Purifying_Particulate_Respirator_for_Fire_Fighter_COVID-19_Response",]
+URL = [ "https://www.appropedia.org/Open_source_surgical_fracture_table_for_digitally_distributed_manufacturing",]
 manufacturer = []
 price = [ 0 ]
 quantity = [ 0,]
 [items.attributes]
 "tariff code" = ""
 "country of origin" = ""
-"license" = ""
+"license" = "CC-BY-SA-4.0"
 
 # purposes
 [purposes."Food"]
